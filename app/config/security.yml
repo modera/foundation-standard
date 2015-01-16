@@ -1,0 +1,2 @@
+imports:
+    - { resource: "@ModeraSecurityBundle/Resources/config/security.yml" }

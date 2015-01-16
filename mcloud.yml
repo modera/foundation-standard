@@ -1,0 +1,32 @@
+
+mysql:
+    image: mysql:5
+    env:
+        MYSQL_ROOT_PASSWORD: '123123'
+    volumes:
+        .mcloud/mysql/my.cnf: /etc/my.cnf
+#        .mcloud/volumes/mysql: /var/lib/mysql
+
+postfix:
+    image: previousnext/postfix
+
+php:
+    wait: 1800
+    image: modera/php5-fpm:1.0
+    volumes:
+        .: /var/www
+        .mcloud/volumes/composer: /.composer
+    cmd: .mcloud/php/run.sh
+
+module-service:
+    extend: php
+    cmd: .mcloud/module-service/run.sh
+    ~dev:
+        cmd: .mcloud/module-service/run.sh --ui=true
+
+nginx:
+    image: nginx:1.7.7
+    volumes:
+        .: /var/www
+        .mcloud/nginx/nginx.conf: /etc/nginx/nginx.conf
+    cmd: nginx

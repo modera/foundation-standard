@@ -1,0 +1,5 @@
+{
+    "_comment": "this file is used by web\/app.php to control with what configuration AppKernel should be created with",
+    "env": "prod",
+    "debug": false
+}

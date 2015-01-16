@@ -1,0 +1,113 @@
+{
+    "name": "modera/foundation",
+    "license": "MIT",
+    "type": "project",
+    "description": "Modera Foundation",
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": "~2.4,<2.6",
+        "doctrine/orm": "~2.2,>=2.2.3",
+        "doctrine/doctrine-bundle": "~1.2",
+        "doctrine/doctrine-fixtures-bundle": "~2.2",
+        "twig/extensions": "~1.0",
+        "symfony/assetic-bundle": "~2.3",
+        "symfony/swiftmailer-bundle": "~2.3",
+        "symfony/monolog-bundle": "~2.4",
+        "sensio/distribution-bundle": "~2.3",
+        "sensio/framework-extra-bundle": "~3.0",
+        "sensio/generator-bundle": "~2.3",
+        "incenteev/composer-parameter-handler": "~2.0",
+
+        "sergeil/aux-bundle": "~1.0",
+        "sergeil/expander-bundle": "~1.0",
+        "amazonwebservices/aws-sdk-for-php": "1.6.2",
+        "modera/composer-symfony-web-asset-installer-plugin": "~1.0",
+        "modera/foundation-bundle": "~1.0",
+        "modera/upgrade-bundle": "~1.0",
+        "modera/module-bundle": "~1.0",
+        "modera/routing-bundle": "~1.0",
+        "modera/security-bundle": "~1.0",
+        "modera/languages-bundle": "~1.0",
+        "modera/translations-bundle": "~1.0",
+        "modera/activity-logger-bundle": "~1.0",
+        "modera/config-bundle": "~1.0",
+        "modera/dynamically-configurable-app-bundle": "~1.0",
+        "modera/file-repository-bundle": "~1.0",
+        "modera/file-uploader-bundle": "~1.0",
+
+        "sergeil/extjsintegration-bundle": "~1.0",
+        "modera/mjr-integration-bundle": "~1.0",
+        "modera/mjr-theme-integration-bundle": "~1.0",
+        "modera/mjr-security-integration-bundle": "~1.0",
+        "modera/mjr-cache-aware-class-loader": "~1.0",
+        "modera/dynamically-configurable-mjr-bundle": "~1.0",
+        "modera/server-crud-bundle": "~1.1",
+        "modera/backend-tools-bundle": "~1.0",
+        "modera/backend-module-bundle": "~1.0",
+        "modera/backend-security-bundle": "~1.0",
+        "modera/backend-languages-bundle": "~1.0",
+        "modera/backend-translations-tool-bundle": "~1.0",
+        "modera/backend-tools-activity-log-bundle": "~1.0",
+        "modera/backend-tools-settings-bundle": "~1.0",
+        "modera/backend-config-utils-bundle": "~1.0",
+        "modera/backend-dashboard-bundle": "~1.0"
+    },
+    "require-dev": {
+        "phake/phake": "2.0.x-dev"
+    },
+    "scripts": {
+        "pre-install-cmd": "Modera\\ModuleBundle\\Composer\\ScriptHandler::enableMaintenance",
+        "pre-update-cmd": "Modera\\ModuleBundle\\Composer\\ScriptHandler::enableMaintenance",
+        "post-package-install": "Modera\\ModuleBundle\\Composer\\ScriptHandler::eventDispatcher",
+        "post-package-update": "Modera\\ModuleBundle\\Composer\\ScriptHandler::eventDispatcher",
+        "pre-package-uninstall": "Modera\\ModuleBundle\\Composer\\ScriptHandler::eventDispatcher",
+        "post-install-cmd": [
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+            "Modera\\ModuleBundle\\Composer\\ScriptHandler::registerBundles",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+            "Modera\\ModuleBundle\\Composer\\ScriptHandler::initDatabase",
+            "Modera\\ModuleBundle\\Composer\\ScriptHandler::eventDispatcher",
+            "Modera\\SecurityBundle\\Composer\\ScriptHandler::installPermissions",
+            "Modera\\ConfigBundle\\Composer\\ScriptHandler::installConfigEntries",
+            "Modera\\LanguagesBundle\\Composer\\ScriptHandler::configSync",
+            "Modera\\ModuleBundle\\Composer\\ScriptHandler::disableMaintenance"
+        ],
+        "post-update-cmd": [
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+            "Modera\\ModuleBundle\\Composer\\ScriptHandler::registerBundles",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+            "Modera\\ModuleBundle\\Composer\\ScriptHandler::initDatabase",
+            "Modera\\ModuleBundle\\Composer\\ScriptHandler::eventDispatcher",
+            "Modera\\SecurityBundle\\Composer\\ScriptHandler::installPermissions",
+            "Modera\\ConfigBundle\\Composer\\ScriptHandler::installConfigEntries",
+            "Modera\\LanguagesBundle\\Composer\\ScriptHandler::configSync",
+            "Modera\\ModuleBundle\\Composer\\ScriptHandler::disableMaintenance"
+        ]
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "symfony-app-dir": "app",
+        "symfony-web-dir": "web",
+        "symfony-assets-install": "symlink",
+        "incenteev-parameters": {
+            "file": "app/config/parameters.yml"
+        },
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
