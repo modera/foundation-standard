@@ -11,6 +11,7 @@ cd $MY_PATH
 if [[ ! -d app ]]; then
 
     composer create-project --no-interaction modera/module-service app/ 1.0.*
+    chmod +x app/console
 
 fi
 
