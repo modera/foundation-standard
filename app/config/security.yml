@@ -1,2 +1,6 @@
 imports:
     - { resource: "@ModeraSecurityBundle/Resources/config/security.yml" }
+
+modera_security:
+    access_control:
+        - { path: ^/backend/.+, roles: ROLE_BACKEND_USER }

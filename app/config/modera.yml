@@ -22,4 +22,4 @@ modera_mjr_theme_integration:
 modera_mjr_security_integration:
     login_url: _security_check
     logout_url: _security_logout
-    is_authenticated_url: _security_is_authenticated
+    is_authenticated_url: modera_mjr_security_integration.index.is_authenticated

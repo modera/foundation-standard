@@ -10,7 +10,7 @@
     },
     "require": {
         "php": ">=5.3.3",
-        "symfony/symfony": "~2.4,<2.6",
+        "symfony/symfony": "2.6.*",
         "doctrine/orm": "~2.2,>=2.2.3",
         "doctrine/doctrine-bundle": "~1.2",
         "doctrine/doctrine-fixtures-bundle": "~2.2",
@@ -18,9 +18,8 @@
         "symfony/assetic-bundle": "~2.3",
         "symfony/swiftmailer-bundle": "~2.3",
         "symfony/monolog-bundle": "~2.4",
-        "sensio/distribution-bundle": "~2.3",
-        "sensio/framework-extra-bundle": "~3.0",
-        "sensio/generator-bundle": "~2.3",
+        "sensio/distribution-bundle": "~3.0,>=3.0.12",
+        "sensio/framework-extra-bundle": "~3.0,>=3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
 
         "sergeil/aux-bundle": "~1.0",
@@ -31,7 +30,7 @@
         "modera/upgrade-bundle": "~1.0",
         "modera/module-bundle": "~1.0",
         "modera/routing-bundle": "~1.0",
-        "modera/security-bundle": "~1.0",
+        "modera/security-bundle": "~1.2",
         "modera/languages-bundle": "~1.0",
         "modera/translations-bundle": "~1.0",
         "modera/activity-logger-bundle": "~1.0",
@@ -41,9 +40,9 @@
         "modera/file-uploader-bundle": "~1.0",
 
         "sergeil/extjsintegration-bundle": "~1.0",
-        "modera/mjr-integration-bundle": "~1.0",
+        "modera/mjr-integration-bundle": "~1.1",
         "modera/mjr-theme-integration-bundle": "~1.0",
-        "modera/mjr-security-integration-bundle": "~1.0",
+        "modera/mjr-security-integration-bundle": "~1.1",
         "modera/mjr-cache-aware-class-loader": "~1.0",
         "modera/dynamically-configurable-mjr-bundle": "~1.0",
         "modera/server-crud-bundle": "~1.1",
@@ -58,7 +57,7 @@
         "modera/backend-dashboard-bundle": "~1.0"
     },
     "require-dev": {
-        "phake/phake": "2.0.x-dev"
+        "sensio/generator-bundle": "~2.3"
     },
     "scripts": {
         "pre-install-cmd": "Modera\\ModuleBundle\\Composer\\ScriptHandler::enableMaintenance",
@@ -102,7 +101,7 @@
     "extra": {
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
-        "symfony-assets-install": "symlink",
+        "symfony-assets-install": "relative",
         "incenteev-parameters": {
             "file": "app/config/parameters.yml"
         },
