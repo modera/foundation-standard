@@ -2,9 +2,15 @@
 
 ## Installation
 
-If you are working under Debian-like operating system ( like Ubuntu ):
+If you are working under Debian-like operating system (like Ubuntu):
 
 * Install [MCloud](https://mcloud.io)
+* Add [GitHub personal access token](https://github.com/settings/applications) (optional)
+
+``` bash
+$ mcloud set COMPOSER_GITHUB_OAUTH YOUR-TOKEN-HASH-GOES-HERE
+```
+
 * Execute these commands:
 
 ``` bash
