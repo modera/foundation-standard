@@ -11,10 +11,12 @@ modera_server_crud:
     exception_handler: modera_server_crud.exception_handling.bypass_handler
 
 modera_mjr_integration:
-    extjs_path: "/extjs"
     runtime_path: "/modera/mjr"
     viewport_class: "MF.theme.authenticationaware.Viewport"
     main_config_provider: "modera_dynamically_configurable_mjr.mjr.main_config"
+    # If you don't have a local copy of ExtJs 4.2 at hand you can use a CDN instead
+    # by uncommenting the following line:
+    # extjs_path: https://cdnjs.cloudflare.com/ajax/libs/extjs/4.2.1/
 
 modera_mjr_theme_integration:
     theme_path: "/modera/theme"
