@@ -30,3 +30,4 @@ nginx:
         .: /var/www
         .mcloud/nginx/nginx.conf: /etc/nginx/nginx.conf
     cmd: nginx
+    web: 80
