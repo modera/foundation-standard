@@ -4,19 +4,18 @@
 
 If you are working under Debian-like operating system (like Ubuntu):
 
-* Install [MCloud](https://mcloud.io)
+* Install [mcloud](https://mcloud.io)
 * Add [GitHub personal access token](https://github.com/settings/applications) (optional)
 
 ``` bash
 $ mcloud set COMPOSER_GITHUB_OAUTH YOUR-TOKEN-HASH-GOES-HERE
 ```
 
-* Execute these commands:
+* Go to directory where you cloned this repository and execute these commands:
 
 ``` bash
-$ mcloud init mf [path_to_mf]
-$ mcloud start mf
-$ mcloud run php.mf "app/console modera:security:create-user"
+$ mcloud start --init
+$ mcloud run php. "app/console modera:security:create-user"
 ```
 
 ## Manual installation

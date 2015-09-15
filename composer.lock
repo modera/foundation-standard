@@ -1,0 +1,4094 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e219ad1e17b2df6d401278e656168090",
+    "packages": [
+        {
+            "name": "amazonwebservices/aws-sdk-for-php",
+            "version": "1.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/amazonwebservices/aws-sdk-for-php.git",
+                "reference": "65d6bc82d6e0cd095709c342a23c749dc2f3a012"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/amazonwebservices/aws-sdk-for-php/zipball/65d6bc82d6e0cd095709c342a23c749dc2f3a012",
+                "reference": "65d6bc82d6e0cd095709c342a23c749dc2f3a012",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "You should consider upgrading to version 2 of the AWS SDK for PHP"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "authentication/",
+                    "extensions/",
+                    "lib/",
+                    "services/",
+                    "utilities/",
+                    "sdk.class.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Amazon Web Services",
+                    "homepage": "http://aws.amazon.com"
+                }
+            ],
+            "description": "AWS SDK for PHP",
+            "homepage": "http://aws.amazon.com/sdkforphp/",
+            "keywords": [
+                "amazon",
+                "aws",
+                "dynamodb",
+                "ec2",
+                "s3",
+                "sdk"
+            ],
+            "abandoned": "aws/aws-sdk-php",
+            "time": "2013-03-15 19:43:06"
+        },
+        {
+            "name": "doctrine/annotations",
+            "version": "v1.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/annotations.git",
+                "reference": "f25c8aab83e0c3e976fd7d19875f198ccf2f7535"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/f25c8aab83e0c3e976fd7d19875f198ccf2f7535",
+                "reference": "f25c8aab83e0c3e976fd7d19875f198ccf2f7535",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/lexer": "1.*",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "doctrine/cache": "1.*",
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Annotations\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Docblock Annotations Parser",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "annotations",
+                "docblock",
+                "parser"
+            ],
+            "time": "2015-08-31 12:32:49"
+        },
+        {
+            "name": "doctrine/cache",
+            "version": "v1.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/cache.git",
+                "reference": "8c434000f420ade76a07c64cbe08ca47e5c101ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/8c434000f420ade76a07c64cbe08ca47e5c101ca",
+                "reference": "8c434000f420ade76a07c64cbe08ca47e5c101ca",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "conflict": {
+                "doctrine/common": ">2.2,<2.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=3.7",
+                "predis/predis": "~1.0",
+                "satooshi/php-coveralls": "~0.6"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Cache\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Caching library offering an object-oriented API for many cache backends",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "cache",
+                "caching"
+            ],
+            "time": "2015-08-31 12:36:41"
+        },
+        {
+            "name": "doctrine/collections",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/collections.git",
+                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
+                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Collections\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Collections Abstraction library",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "array",
+                "collections",
+                "iterator"
+            ],
+            "time": "2015-04-14 22:21:58"
+        },
+        {
+            "name": "doctrine/common",
+            "version": "v2.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/common.git",
+                "reference": "0009b8f0d4a917aabc971fb089eba80e872f83f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/0009b8f0d4a917aabc971fb089eba80e872f83f9",
+                "reference": "0009b8f0d4a917aabc971fb089eba80e872f83f9",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/annotations": "1.*",
+                "doctrine/cache": "1.*",
+                "doctrine/collections": "1.*",
+                "doctrine/inflector": "1.*",
+                "doctrine/lexer": "1.*",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Common Library for Doctrine projects",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "annotations",
+                "collections",
+                "eventmanager",
+                "persistence",
+                "spl"
+            ],
+            "time": "2015-08-31 13:00:22"
+        },
+        {
+            "name": "doctrine/data-fixtures",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/data-fixtures.git",
+                "reference": "bd44f6b6e40247b6530bc8abe802e4e4d914976a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/data-fixtures/zipball/bd44f6b6e40247b6530bc8abe802e4e4d914976a",
+                "reference": "bd44f6b6e40247b6530bc8abe802e4e4d914976a",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/common": "~2.2",
+                "php": ">=5.3.2"
+            },
+            "conflict": {
+                "doctrine/orm": "< 2.4"
+            },
+            "require-dev": {
+                "doctrine/orm": "~2.4"
+            },
+            "suggest": {
+                "doctrine/mongodb-odm": "For loading MongoDB ODM fixtures",
+                "doctrine/orm": "For loading ORM fixtures",
+                "doctrine/phpcr-odm": "For loading PHPCR ODM fixtures"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\DataFixtures": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                }
+            ],
+            "description": "Data Fixtures for all Doctrine Object Managers",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "database"
+            ],
+            "time": "2015-03-30 12:14:13"
+        },
+        {
+            "name": "doctrine/dbal",
+            "version": "v2.4.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/dbal.git",
+                "reference": "a370e5b95e509a7809d11f3d280acfc9310d464b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/a370e5b95e509a7809d11f3d280acfc9310d464b",
+                "reference": "a370e5b95e509a7809d11f3d280acfc9310d464b",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/common": "~2.4",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "symfony/console": "~2.0"
+            },
+            "suggest": {
+                "symfony/console": "For helpful console commands such as SQL execution and import of files."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\DBAL\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                }
+            ],
+            "description": "Database Abstraction Layer",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "database",
+                "dbal",
+                "persistence",
+                "queryobject"
+            ],
+            "time": "2015-01-12 21:57:01"
+        },
+        {
+            "name": "doctrine/doctrine-bundle",
+            "version": "v1.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/DoctrineBundle.git",
+                "reference": "8c5cedb4f2f7ebb66a963ae46ad9daa1e31cee01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/8c5cedb4f2f7ebb66a963ae46ad9daa1e31cee01",
+                "reference": "8c5cedb4f2f7ebb66a963ae46ad9daa1e31cee01",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/dbal": "~2.3",
+                "doctrine/doctrine-cache-bundle": "~1.0",
+                "jdorn/sql-formatter": "~1.1",
+                "php": ">=5.3.2",
+                "symfony/console": "~2.3|~3.0",
+                "symfony/doctrine-bridge": "~2.2|~3.0",
+                "symfony/framework-bundle": "~2.3|~3.0"
+            },
+            "require-dev": {
+                "doctrine/orm": "~2.3",
+                "phpunit/phpunit": "~4",
+                "satooshi/php-coveralls": "~0.6.1",
+                "symfony/validator": "~2.2|~3.0",
+                "symfony/yaml": "~2.2|~3.0",
+                "twig/twig": "~1.10"
+            },
+            "suggest": {
+                "doctrine/orm": "The Doctrine ORM integration is optional in the bundle.",
+                "symfony/web-profiler-bundle": "to use the data collector"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Bundle\\DoctrineBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Doctrine Project",
+                    "homepage": "http://www.doctrine-project.org/"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony DoctrineBundle",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "database",
+                "dbal",
+                "orm",
+                "persistence"
+            ],
+            "time": "2015-08-12 15:52:00"
+        },
+        {
+            "name": "doctrine/doctrine-cache-bundle",
+            "version": "v1.0.1",
+            "target-dir": "Doctrine/Bundle/DoctrineCacheBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/DoctrineCacheBundle.git",
+                "reference": "e4b6f810aa047f9cbfe41c3d6a3d7e83d7477a9d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/DoctrineCacheBundle/zipball/e4b6f810aa047f9cbfe41c3d6a3d7e83d7477a9d",
+                "reference": "e4b6f810aa047f9cbfe41c3d6a3d7e83d7477a9d",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/cache": "~1.3",
+                "doctrine/inflector": "~1.0",
+                "php": ">=5.3.2",
+                "symfony/doctrine-bridge": "~2.2",
+                "symfony/framework-bundle": "~2.2",
+                "symfony/security": "~2.2"
+            },
+            "require-dev": {
+                "instaclick/coding-standard": "~1.1",
+                "instaclick/object-calisthenics-sniffs": "dev-master",
+                "instaclick/symfony2-coding-standard": "dev-remaster",
+                "phpunit/phpunit": "~3.7",
+                "satooshi/php-coveralls": "~0.6.1",
+                "squizlabs/php_codesniffer": "dev-master",
+                "symfony/console": "~2.2",
+                "symfony/finder": "~2.2",
+                "symfony/validator": "~2.2",
+                "symfony/yaml": "~2.2"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Bundle\\DoctrineCacheBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Fabio B. Silva",
+                    "email": "fabio.bat.silva@gmail.com"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@hotmail.com"
+                },
+                {
+                    "name": "Doctrine Project",
+                    "homepage": "http://www.doctrine-project.org/"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony2 Bundle for Doctrine Cache",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "cache",
+                "caching"
+            ],
+            "time": "2014-11-28 09:43:36"
+        },
+        {
+            "name": "doctrine/doctrine-fixtures-bundle",
+            "version": "v2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/DoctrineFixturesBundle.git",
+                "reference": "817c2d233fde0fe85cb7e4d25d43fbfcd028aef8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/817c2d233fde0fe85cb7e4d25d43fbfcd028aef8",
+                "reference": "817c2d233fde0fe85cb7e4d25d43fbfcd028aef8",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/data-fixtures": "~1.0",
+                "doctrine/doctrine-bundle": "~1.0",
+                "php": ">=5.3.2",
+                "symfony/doctrine-bridge": "~2.1"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Bundle\\FixturesBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Doctrine Project",
+                    "homepage": "http://www.doctrine-project.org"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony DoctrineFixturesBundle",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "Fixture",
+                "persistence"
+            ],
+            "time": "2015-08-04 22:43:14"
+        },
+        {
+            "name": "doctrine/inflector",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/inflector.git",
+                "reference": "0bcb2e79d8571787f18b7eb036ed3d004908e604"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/0bcb2e79d8571787f18b7eb036ed3d004908e604",
+                "reference": "0bcb2e79d8571787f18b7eb036ed3d004908e604",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Inflector\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Common String Manipulations with regard to casing and singular/plural rules.",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "inflection",
+                "pluralize",
+                "singularize",
+                "string"
+            ],
+            "time": "2014-12-20 21:24:13"
+        },
+        {
+            "name": "doctrine/lexer",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/lexer.git",
+                "reference": "83893c552fd2045dd78aef794c31e694c37c0b8c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/lexer/zipball/83893c552fd2045dd78aef794c31e694c37c0b8c",
+                "reference": "83893c552fd2045dd78aef794c31e694c37c0b8c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Lexer\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Base library for a lexer that can be used in Top-Down, Recursive Descent Parsers.",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "lexer",
+                "parser"
+            ],
+            "time": "2014-09-09 13:34:57"
+        },
+        {
+            "name": "doctrine/orm",
+            "version": "v2.4.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/doctrine2.git",
+                "reference": "5aedac1e5c5caaeac14798822c70325dc242d467"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/5aedac1e5c5caaeac14798822c70325dc242d467",
+                "reference": "5aedac1e5c5caaeac14798822c70325dc242d467",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/collections": "~1.1",
+                "doctrine/dbal": "~2.4",
+                "ext-pdo": "*",
+                "php": ">=5.3.2",
+                "symfony/console": "~2.0"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "dev-master",
+                "symfony/yaml": "~2.1"
+            },
+            "suggest": {
+                "symfony/yaml": "If you want to use YAML Metadata Mapping Driver"
+            },
+            "bin": [
+                "bin/doctrine",
+                "bin/doctrine.php"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\ORM\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                }
+            ],
+            "description": "Object-Relational-Mapper for PHP",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "database",
+                "orm"
+            ],
+            "time": "2015-08-31 13:19:01"
+        },
+        {
+            "name": "evenement/evenement",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/igorw/evenement.git",
+                "reference": "fa966683e7df3e5dd5929d984a44abfbd6bafe8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/igorw/evenement/zipball/fa966683e7df3e5dd5929d984a44abfbd6bafe8d",
+                "reference": "fa966683e7df3e5dd5929d984a44abfbd6bafe8d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Evenement": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch",
+                    "homepage": "http://wiedler.ch/igor/"
+                }
+            ],
+            "description": "Événement is a very simple event dispatching library for PHP 5.3",
+            "keywords": [
+                "event-dispatcher"
+            ],
+            "time": "2012-05-30 15:01:08"
+        },
+        {
+            "name": "guzzle/common",
+            "version": "v3.0.7",
+            "target-dir": "Guzzle/Common",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Guzzle3/common.git",
+                "reference": "b7c6ec11fb5f141c31fea22844aac2343db853f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Guzzle3/common/zipball/b7c6ec11fb5f141c31fea22844aac2343db853f4",
+                "reference": "b7c6ec11fb5f141c31fea22844aac2343db853f4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/event-dispatcher": ">=2.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Guzzle\\Common": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Common libraries used by Guzzle",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "collection",
+                "common",
+                "event",
+                "exception"
+            ],
+            "abandoned": "guzzle/guzzle",
+            "time": "2012-12-19 23:06:35"
+        },
+        {
+            "name": "guzzle/http",
+            "version": "v3.0.7",
+            "target-dir": "Guzzle/Http",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Guzzle3/http.git",
+                "reference": "eea92ef701a69b48d1e37fc9dd79058d41aeec93"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Guzzle3/http/zipball/eea92ef701a69b48d1e37fc9dd79058d41aeec93",
+                "reference": "eea92ef701a69b48d1e37fc9dd79058d41aeec93",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "guzzle/common": "self.version",
+                "guzzle/parser": "self.version",
+                "guzzle/stream": "self.version",
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Guzzle\\Http": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "HTTP libraries used by Guzzle",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "Guzzle",
+                "client",
+                "curl",
+                "http",
+                "http client"
+            ],
+            "abandoned": "guzzle/guzzle",
+            "time": "2012-12-14 00:49:17"
+        },
+        {
+            "name": "guzzle/parser",
+            "version": "v3.0.7",
+            "target-dir": "Guzzle/Parser",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Guzzle3/parser.git",
+                "reference": "8a1f6829d75274de16232cb327597db3067a2074"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Guzzle3/parser/zipball/8a1f6829d75274de16232cb327597db3067a2074",
+                "reference": "8a1f6829d75274de16232cb327597db3067a2074",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Guzzle\\Parser": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Interchangeable parsers used by Guzzle",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "URI Template",
+                "cookie",
+                "http",
+                "message",
+                "url"
+            ],
+            "abandoned": "guzzle/guzzle",
+            "time": "2012-12-07 16:45:11"
+        },
+        {
+            "name": "guzzle/plugin",
+            "version": "v3.0.7",
+            "target-dir": "Guzzle/Plugin",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Guzzle3/plugin.git",
+                "reference": "fab9f052ffd6bdfa0c9777a99d5d551647c07ba0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Guzzle3/plugin/zipball/fab9f052ffd6bdfa0c9777a99d5d551647c07ba0",
+                "reference": "fab9f052ffd6bdfa0c9777a99d5d551647c07ba0",
+                "shasum": ""
+            },
+            "require": {
+                "guzzle/http": "self.version",
+                "php": ">=5.3.2"
+            },
+            "replace": {
+                "guzzle/plugin-async": "self.version",
+                "guzzle/plugin-backoff": "self.version",
+                "guzzle/plugin-cache": "self.version",
+                "guzzle/plugin-cookie": "self.version",
+                "guzzle/plugin-curlauth": "self.version",
+                "guzzle/plugin-history": "self.version",
+                "guzzle/plugin-log": "self.version",
+                "guzzle/plugin-md5": "self.version",
+                "guzzle/plugin-mock": "self.version",
+                "guzzle/plugin-oauth": "self.version"
+            },
+            "suggest": {
+                "guzzle/cache": "v3.0.7",
+                "guzzle/log": "v3.0.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Guzzle\\Plugin": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle plugin component containing all Guzzle HTTP plugins",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "Guzzle",
+                "client",
+                "extension",
+                "http",
+                "plugin"
+            ],
+            "abandoned": "guzzle/guzzle",
+            "time": "2012-12-07 16:45:11"
+        },
+        {
+            "name": "guzzle/stream",
+            "version": "v3.0.7",
+            "target-dir": "Guzzle/Stream",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Guzzle3/stream.git",
+                "reference": "c499757c760159188a9573362b8086ef25e6734e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Guzzle3/stream/zipball/c499757c760159188a9573362b8086ef25e6734e",
+                "reference": "c499757c760159188a9573362b8086ef25e6734e",
+                "shasum": ""
+            },
+            "require": {
+                "guzzle/common": "self.version",
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Guzzle\\Stream": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle stream wrapper component",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "Guzzle",
+                "component",
+                "stream"
+            ],
+            "abandoned": "guzzle/guzzle",
+            "time": "2012-12-07 16:45:11"
+        },
+        {
+            "name": "incenteev/composer-parameter-handler",
+            "version": "v2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Incenteev/ParameterHandler.git",
+                "reference": "84a205fe80a46101607bafbc423019527893ddd0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Incenteev/ParameterHandler/zipball/84a205fe80a46101607bafbc423019527893ddd0",
+                "reference": "84a205fe80a46101607bafbc423019527893ddd0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/yaml": "~2.0"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpspec/prophecy-phpunit": "~1.0",
+                "symfony/filesystem": "~2.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Incenteev\\ParameterHandler\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christophe Coevoet",
+                    "email": "stof@notk.org"
+                }
+            ],
+            "description": "Composer script handling your ignored parameter file",
+            "homepage": "https://github.com/Incenteev/ParameterHandler",
+            "keywords": [
+                "parameters management"
+            ],
+            "time": "2015-06-03 08:27:03"
+        },
+        {
+            "name": "jdorn/sql-formatter",
+            "version": "v1.2.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jdorn/sql-formatter.git",
+                "reference": "64990d96e0959dff8e059dfcdc1af130728d92bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jdorn/sql-formatter/zipball/64990d96e0959dff8e059dfcdc1af130728d92bc",
+                "reference": "64990d96e0959dff8e059dfcdc1af130728d92bc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Dorn",
+                    "email": "jeremy@jeremydorn.com",
+                    "homepage": "http://jeremydorn.com/"
+                }
+            ],
+            "description": "a PHP SQL highlighting library",
+            "homepage": "https://github.com/jdorn/sql-formatter/",
+            "keywords": [
+                "highlight",
+                "sql"
+            ],
+            "time": "2014-01-12 16:20:24"
+        },
+        {
+            "name": "knplabs/gaufrette",
+            "version": "v0.1.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KnpLabs/Gaufrette.git",
+                "reference": "4c73bb66ff41d7c9beb57372a82047cf5dcc6d1c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KnpLabs/Gaufrette/zipball/4c73bb66ff41d7c9beb57372a82047cf5dcc6d1c",
+                "reference": "4c73bb66ff41d7c9beb57372a82047cf5dcc6d1c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "amazonwebservices/aws-sdk-for-php": "1.5.*",
+                "aws/aws-sdk-php": "~2",
+                "doctrine/dbal": ">=2.3",
+                "dropbox-php/dropbox-php": "*",
+                "google/apiclient": "~1.1",
+                "herzult/php-ssh": "*",
+                "microsoft/windowsazure": "dev-master",
+                "mikey179/vfsstream": "~1.2.0",
+                "phpseclib/phpseclib": "dev-master",
+                "phpspec/phpspec": "2.0.*",
+                "phpunit/phpunit": "3.7.*",
+                "rackspace/php-opencloud": "1.9.*"
+            },
+            "suggest": {
+                "amazonwebservices/aws-sdk-for-php": "to use the legacy Amazon S3 adapters",
+                "aws/aws-sdk-php": "to use the Amazon S3 adapter",
+                "doctrine/dbal": "to use the Doctrine DBAL adapter",
+                "dropbox-php/dropbox-php": "to use the Dropbox adapter",
+                "ext-apc": "to use the APC adapter",
+                "ext-curl": "*",
+                "ext-fileinfo": "This extension is used to automatically detect the content-type of a file in the AwsS3, OpenCloud, AzureBlogStorage and GoogleCloudStorage adapters",
+                "ext-mbstring": "*",
+                "ext-mongo": "*",
+                "ext-zip": "to use the Zip adapter",
+                "google/apiclient": "to use GoogleCloudStorage adapter",
+                "herzult/php-ssh": "to use SFtp adapter",
+                "knplabs/knp-gaufrette-bundle": "to use with Symfony2",
+                "microsoft/windowsazure": "to use Microsoft Azure Blob Storage adapter",
+                "phpseclib/phpseclib": "to use PhpseclibSftp adapter",
+                "rackspace/php-opencloud": "to use Opencloud adapter"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Gaufrette": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "The contributors",
+                    "homepage": "http://github.com/knplabs/Gaufrette/contributors"
+                },
+                {
+                    "name": "KnpLabs Team",
+                    "homepage": "http://knplabs.com"
+                }
+            ],
+            "description": "PHP5 library that provides a filesystem abstraction layer",
+            "homepage": "http://knplabs.com",
+            "keywords": [
+                "abstraction",
+                "file",
+                "filesystem",
+                "media"
+            ],
+            "time": "2015-03-09 08:06:57"
+        },
+        {
+            "name": "knplabs/knp-gaufrette-bundle",
+            "version": "v0.1.7",
+            "target-dir": "Knp/Bundle/GaufretteBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KnpLabs/KnpGaufretteBundle.git",
+                "reference": "f33008584345452c3122bb4eaac0ded1d6084c51"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KnpLabs/KnpGaufretteBundle/zipball/f33008584345452c3122bb4eaac0ded1d6084c51",
+                "reference": "f33008584345452c3122bb4eaac0ded1d6084c51",
+                "shasum": ""
+            },
+            "require": {
+                "knplabs/gaufrette": "~0.1.7",
+                "symfony/framework-bundle": "2.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "symfony/console": "2.*",
+                "symfony/yaml": "2.*"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Knp\\Bundle\\GaufretteBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Antoine Hérault",
+                    "email": "antoine.herault@gmail.com",
+                    "homepage": "https://github.com/Herzult"
+                },
+                {
+                    "name": "The contributors",
+                    "homepage": "https://github.com/knplabs/KnpGaufretteBundle/contributors"
+                }
+            ],
+            "description": "Allows to easily use the Gaufrette library in a Symfony project",
+            "homepage": "http://knplabs.com",
+            "keywords": [
+                "abstraction",
+                "file",
+                "filesystem",
+                "media"
+            ],
+            "time": "2014-03-24 22:15:03"
+        },
+        {
+            "name": "knplabs/packagist-api",
+            "version": "v1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KnpLabs/packagist-api.git",
+                "reference": "22eef9dfc163da33e78af2ae1487966774b54db5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KnpLabs/packagist-api/zipball/22eef9dfc163da33e78af2ae1487966774b54db5",
+                "reference": "22eef9dfc163da33e78af2ae1487966774b54db5",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/inflector": "~1.0",
+                "guzzle/http": "~3.0",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpspec/php-diff": "*@dev",
+                "phpspec/phpspec": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Packagist\\Api\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "KnpLabs Team",
+                    "homepage": "http://knplabs.com"
+                }
+            ],
+            "description": "Packagist API client.",
+            "homepage": "http://knplabs.com",
+            "keywords": [
+                "api",
+                "composer",
+                "packagist"
+            ],
+            "time": "2014-09-17 13:49:46"
+        },
+        {
+            "name": "kriswallsmith/assetic",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kriswallsmith/assetic.git",
+                "reference": "56cb5d6dec9e7a68a4da2fa89844f39d41092f31"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/56cb5d6dec9e7a68a4da2fa89844f39d41092f31",
+                "reference": "56cb5d6dec9e7a68a4da2fa89844f39d41092f31",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.1",
+                "symfony/process": "~2.1"
+            },
+            "conflict": {
+                "twig/twig": "<1.12"
+            },
+            "require-dev": {
+                "cssmin/cssmin": "*",
+                "joliclic/javascript-packer": "*",
+                "kamicane/packager": "*",
+                "leafo/lessphp": "^0.3.7",
+                "leafo/scssphp": "*@dev",
+                "leafo/scssphp-compass": "*@dev",
+                "mrclay/minify": "*",
+                "patchwork/jsqueeze": "~1.0|~2.0",
+                "phpunit/phpunit": "~4.8",
+                "psr/log": "~1.0",
+                "ptachoire/cssembed": "*",
+                "symfony/phpunit-bridge": "~2.7",
+                "twig/twig": "~1.8|~2.0"
+            },
+            "suggest": {
+                "leafo/lessphp": "Assetic provides the integration with the lessphp LESS compiler",
+                "leafo/scssphp": "Assetic provides the integration with the scssphp SCSS compiler",
+                "leafo/scssphp-compass": "Assetic provides the integration with the SCSS compass plugin",
+                "patchwork/jsqueeze": "Assetic provides the integration with the JSqueeze JavaScript compressor",
+                "ptachoire/cssembed": "Assetic provides the integration with phpcssembed to embed data uris",
+                "twig/twig": "Assetic provides the integration with the Twig templating engine"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Assetic": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kris Wallsmith",
+                    "email": "kris.wallsmith@gmail.com",
+                    "homepage": "http://kriswallsmith.net/"
+                }
+            ],
+            "description": "Asset Management for PHP",
+            "homepage": "https://github.com/kriswallsmith/assetic",
+            "keywords": [
+                "assets",
+                "compression",
+                "minification"
+            ],
+            "time": "2015-08-31 19:07:16"
+        },
+        {
+            "name": "modera/activity-logger-bundle",
+            "version": "v1.0.0",
+            "target-dir": "Modera/ActivityLoggerBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraActivityLoggerBundle.git",
+                "reference": "dac3c68756df87577a5701e11f640516c02d5a4d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraActivityLoggerBundle/zipball/dac3c68756df87577a5701e11f640516c02d5a4d",
+                "reference": "dac3c68756df87577a5701e11f640516c02d5a4d",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.2",
+                "doctrine/orm": "~2.2,>=2.2.3",
+                "php": ">=5.4.0",
+                "sergeil/extjsintegration-bundle": "~1.0",
+                "symfony/framework-bundle": "~2.0",
+                "symfony/symfony": "~2.0"
+            },
+            "require-dev": {
+                "modera/foundation-bundle": "~1.0",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\ActivityLoggerBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "time": "2015-01-08 12:43:31"
+        },
+        {
+            "name": "modera/backend-config-utils-bundle",
+            "version": "v1.0.0",
+            "target-dir": "Modera/BackendConfigUtilsBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraBackendConfigUtilsBundle.git",
+                "reference": "924419343e562b484b92100f0dc5c3fca6db25a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraBackendConfigUtilsBundle/zipball/924419343e562b484b92100f0dc5c3fca6db25a0",
+                "reference": "924419343e562b484b92100f0dc5c3fca6db25a0",
+                "shasum": ""
+            },
+            "require": {
+                "modera/dynamically-configurable-mjr-bundle": "~1.0",
+                "php": ">=5.3.0",
+                "symfony/framework-bundle": "~2.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\BackendConfigUtilsBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "time": "2015-01-09 10:43:43"
+        },
+        {
+            "name": "modera/backend-dashboard-bundle",
+            "version": "v2.0.0",
+            "target-dir": "Modera/BackendDashboardBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraBackendDashboardBundle.git",
+                "reference": "9fa9837d31f623515e11669e23e1a81f5e9231da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraBackendDashboardBundle/zipball/9fa9837d31f623515e11669e23e1a81f5e9231da",
+                "reference": "9fa9837d31f623515e11669e23e1a81f5e9231da",
+                "shasum": ""
+            },
+            "require": {
+                "modera/foundation-bundle": "~1.0",
+                "modera/mjr-integration-bundle": "~1.0",
+                "php": ">=5.4.0",
+                "sergeil/expander-bundle": "~1.0"
+            },
+            "require-dev": {
+                "phake/phake": "2.0.*@dev",
+                "phpunit/phpunit": "3.*"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\BackendDashboardBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aleksandr Rudakov",
+                    "email": "alexandr.rudakov@modera.org"
+                }
+            ],
+            "time": "2015-08-19 10:58:10"
+        },
+        {
+            "name": "modera/backend-languages-bundle",
+            "version": "v2.0.0",
+            "target-dir": "Modera/BackendLanguagesBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraBackendLanguagesBundle.git",
+                "reference": "a8e86b9446375c94917a3a4d247de43d3237de5d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraBackendLanguagesBundle/zipball/a8e86b9446375c94917a3a4d247de43d3237de5d",
+                "reference": "a8e86b9446375c94917a3a4d247de43d3237de5d",
+                "shasum": ""
+            },
+            "require": {
+                "modera/languages-bundle": "~1.0",
+                "modera/mjr-integration-bundle": "~1.0",
+                "php": ">=5.4.0",
+                "sergeil/extjslocalization-bundle": "~1.0",
+                "symfony/framework-bundle": "~2.6"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\BackendLanguagesBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Vizel",
+                    "email": "sergei.vizel@modera.org"
+                }
+            ],
+            "time": "2015-02-09 11:05:44"
+        },
+        {
+            "name": "modera/backend-module-bundle",
+            "version": "v2.0.0",
+            "target-dir": "Modera/BackendModuleBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraBackendModuleBundle.git",
+                "reference": "5e2de6e4e2809e3159eb614a63d251aa5c9eab42"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraBackendModuleBundle/zipball/5e2de6e4e2809e3159eb614a63d251aa5c9eab42",
+                "reference": "5e2de6e4e2809e3159eb614a63d251aa5c9eab42",
+                "shasum": ""
+            },
+            "require": {
+                "modera/backend-tools-bundle": "~2.0",
+                "modera/mjr-integration-bundle": "~1.1",
+                "modera/module-bundle": "~1.0",
+                "php": ">=5.3.0",
+                "symfony/framework-bundle": "~2.6"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\BackendModuleBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org",
+                    "homepage": "http://sergei.lissovski.org/"
+                },
+                {
+                    "name": "Sergei Vizel",
+                    "email": "sergei.vizel@modera.org"
+                }
+            ],
+            "time": "2015-02-09 11:50:43"
+        },
+        {
+            "name": "modera/backend-security-bundle",
+            "version": "v2.0.0",
+            "target-dir": "Modera/BackendSecurityBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraBackendSecurityBundle.git",
+                "reference": "1e5c9d447db98f43c5db89f51b839cec6fba466f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraBackendSecurityBundle/zipball/1e5c9d447db98f43c5db89f51b839cec6fba466f",
+                "reference": "1e5c9d447db98f43c5db89f51b839cec6fba466f",
+                "shasum": ""
+            },
+            "require": {
+                "modera/backend-languages-bundle": "~2.0",
+                "modera/backend-tools-bundle": "~2.0",
+                "modera/mjr-integration-bundle": "~1.1",
+                "modera/security-bundle": "~2.0",
+                "modera/translations-bundle": "~1.0",
+                "php": ">=5.3.0",
+                "symfony/framework-bundle": "~2.6"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\BackendSecurityBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org",
+                    "homepage": "http://sergei.lissovski.org/"
+                },
+                {
+                    "name": "Sergei Vizel",
+                    "email": "sergei.vizel@modera.org"
+                }
+            ],
+            "time": "2015-08-19 10:55:19"
+        },
+        {
+            "name": "modera/backend-tools-activity-log-bundle",
+            "version": "v1.1.0",
+            "target-dir": "Modera/BackendToolsActivityLogBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraBackendToolsActivityLogBundle.git",
+                "reference": "ed2f7d76f114511658921417b167720819daaaa2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraBackendToolsActivityLogBundle/zipball/ed2f7d76f114511658921417b167720819daaaa2",
+                "reference": "ed2f7d76f114511658921417b167720819daaaa2",
+                "shasum": ""
+            },
+            "require": {
+                "modera/foundation-bundle": "~1.0",
+                "php": ">=5.4.0",
+                "sergeil/expander-bundle": "~1.0",
+                "symfony/framework-bundle": "~2.0",
+                "symfony/symfony": "~2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\BackendToolsActivityLogBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "time": "2015-04-02 07:43:15"
+        },
+        {
+            "name": "modera/backend-tools-bundle",
+            "version": "v2.0.0",
+            "target-dir": "Modera/BackendToolsBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraBackendToolsBundle.git",
+                "reference": "55360302d492dcf6689aff74445fd362d0414859"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraBackendToolsBundle/zipball/55360302d492dcf6689aff74445fd362d0414859",
+                "reference": "55360302d492dcf6689aff74445fd362d0414859",
+                "shasum": ""
+            },
+            "require": {
+                "modera/mjr-integration-bundle": "~1.0",
+                "php": ">=5.3.3",
+                "symfony/framework-bundle": "~2.6"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\BackendToolsBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "time": "2015-08-19 11:22:39"
+        },
+        {
+            "name": "modera/backend-tools-settings-bundle",
+            "version": "v1.0.0",
+            "target-dir": "Modera/BackendToolsSettingsBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraBackendToolsSettingsBundle.git",
+                "reference": "6304b2d1ba656bfef17843f44ff0daab4a6b6b7e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraBackendToolsSettingsBundle/zipball/6304b2d1ba656bfef17843f44ff0daab4a6b6b7e",
+                "reference": "6304b2d1ba656bfef17843f44ff0daab4a6b6b7e",
+                "shasum": ""
+            },
+            "require": {
+                "modera/foundation-bundle": "~1.0",
+                "php": ">=5.4.0",
+                "symfony/framework-bundle": "~2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.*"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\BackendToolsSettingsBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org"
+                }
+            ],
+            "time": "2015-01-12 10:22:42"
+        },
+        {
+            "name": "modera/backend-translations-tool-bundle",
+            "version": "v2.0.0",
+            "target-dir": "Modera/BackendTranslationsToolBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraBackendTranslationsToolBundle.git",
+                "reference": "db95b529bd1a86be3ad745d4bf6debe88a36f79c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraBackendTranslationsToolBundle/zipball/db95b529bd1a86be3ad745d4bf6debe88a36f79c",
+                "reference": "db95b529bd1a86be3ad745d4bf6debe88a36f79c",
+                "shasum": ""
+            },
+            "require": {
+                "modera/backend-tools-bundle": "~2.0",
+                "modera/mjr-integration-bundle": "~1.1",
+                "modera/translations-bundle": "~1.0",
+                "php": ">=5.3.0",
+                "sergeil/extjslocalization-bundle": "~1.0",
+                "symfony/framework-bundle": "~2.6"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\BackendTranslationsToolBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Vizel",
+                    "email": "sergei.vizel@modera.org"
+                }
+            ],
+            "time": "2015-02-09 11:53:50"
+        },
+        {
+            "name": "modera/composer-symfony-web-asset-installer-plugin",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/composer-symfony-web-asset-installer-plugin.git",
+                "reference": "0f9d1652969d995d0199a989b209349e065d37e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/composer-symfony-web-asset-installer-plugin/zipball/0f9d1652969d995d0199a989b209349e065d37e1",
+                "reference": "0f9d1652969d995d0199a989b209349e065d37e1",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Modera\\Composer\\SymfonyWebAssetInstallerPlugin\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\Composer\\SymfonyWebAssetInstallerPlugin": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "time": "2015-06-14 10:32:58"
+        },
+        {
+            "name": "modera/config-bundle",
+            "version": "v1.0.0",
+            "target-dir": "Modera/ConfigBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraConfigBundle.git",
+                "reference": "b4549ef9da370b3f59fc4db2d7ff1fd981759c58"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraConfigBundle/zipball/b4549ef9da370b3f59fc4db2d7ff1fd981759c58",
+                "reference": "b4549ef9da370b3f59fc4db2d7ff1fd981759c58",
+                "shasum": ""
+            },
+            "require": {
+                "modera/foundation-bundle": "~1.0",
+                "php": ">=5.3.0",
+                "symfony/framework-bundle": "~2.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\ConfigBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "time": "2015-01-12 10:36:51"
+        },
+        {
+            "name": "modera/direct-bundle",
+            "version": "v1.0.1",
+            "target-dir": "Modera/DirectBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraDirectBundle.git",
+                "reference": "384ccab19b08fd4c0f244c1766848f0b3e20c9fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraDirectBundle/zipball/384ccab19b08fd4c0f244c1766848f0b3e20c9fb",
+                "reference": "384ccab19b08fd4c0f244c1766848f0b3e20c9fb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/finder": "~2.3",
+                "symfony/framework-bundle": "~2.3"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "modera-module": {
+                    "register-bundle": "Modera\\DirectBundle\\ModeraDirectBundle"
+                },
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\DirectBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Vizel",
+                    "email": "sergei.vizel@modera.org"
+                }
+            ],
+            "description": "Symfony 2 ExtDirect Bundle",
+            "homepage": "https://github.com/modera/direct-bundle",
+            "keywords": [
+                "extdirect",
+                "extjs"
+            ],
+            "time": "2015-07-03 07:32:28"
+        },
+        {
+            "name": "modera/dynamically-configurable-app-bundle",
+            "version": "v1.0.0",
+            "target-dir": "Modera/DynamicallyConfigurableAppBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraDynamicallyConfigurableAppBundle.git",
+                "reference": "e37637b1cde26307ccb5ed0df73d4a3f1fb8f7ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraDynamicallyConfigurableAppBundle/zipball/e37637b1cde26307ccb5ed0df73d4a3f1fb8f7ff",
+                "reference": "e37637b1cde26307ccb5ed0df73d4a3f1fb8f7ff",
+                "shasum": ""
+            },
+            "require": {
+                "modera/config-bundle": "~1.0",
+                "modera/foundation-bundle": "~1.0",
+                "modera/translations-bundle": "~1.0",
+                "php": ">=5.3.0",
+                "symfony/framework-bundle": "~2.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\DynamicallyConfigurableAppBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "time": "2015-01-12 10:39:39"
+        },
+        {
+            "name": "modera/dynamically-configurable-mjr-bundle",
+            "version": "v1.0.1",
+            "target-dir": "Modera/DynamicallyConfigurableMJRBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraDynamicallyConfigurableMJRBundle.git",
+                "reference": "3e07770efb57b0356bd1f8d07cdad03807c6ea10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraDynamicallyConfigurableMJRBundle/zipball/3e07770efb57b0356bd1f8d07cdad03807c6ea10",
+                "reference": "3e07770efb57b0356bd1f8d07cdad03807c6ea10",
+                "shasum": ""
+            },
+            "require": {
+                "modera/config-bundle": "~1.0",
+                "modera/mjr-integration-bundle": "~1.0",
+                "php": ">=5.3.0",
+                "symfony/framework-bundle": "~2.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\DynamicallyConfigurableMJRBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "time": "2015-03-31 10:23:42"
+        },
+        {
+            "name": "modera/file-repository-bundle",
+            "version": "v1.2.0",
+            "target-dir": "Modera/FileRepositoryBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraFileRepositoryBundle.git",
+                "reference": "23febe9a321e98e4e1888cc8da1c2e2caf8d1877"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraFileRepositoryBundle/zipball/23febe9a321e98e4e1888cc8da1c2e2caf8d1877",
+                "reference": "23febe9a321e98e4e1888cc8da1c2e2caf8d1877",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.2",
+                "doctrine/orm": "~2.2,>=2.2.3",
+                "knplabs/knp-gaufrette-bundle": "~0.1.7",
+                "modera/foundation-bundle": "~1.0",
+                "php": ">=5.3.0",
+                "symfony/symfony": "~2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "sergeil/aux-bundle": "~1.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\FileRepositoryBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "time": "2015-03-23 07:41:22"
+        },
+        {
+            "name": "modera/file-uploader-bundle",
+            "version": "v1.0.0",
+            "target-dir": "Modera/FileUploaderBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraFileUploaderBundle.git",
+                "reference": "a029254e80db2237e20492475a1212627fb9ac48"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraFileUploaderBundle/zipball/a029254e80db2237e20492475a1212627fb9ac48",
+                "reference": "a029254e80db2237e20492475a1212627fb9ac48",
+                "shasum": ""
+            },
+            "require": {
+                "modera/file-repository-bundle": "~1.0",
+                "modera/foundation-bundle": "~1.0",
+                "php": ">=5.3.0",
+                "sergeil/expander-bundle": "~1.0",
+                "symfony/symfony": "~2.0"
+            },
+            "require-dev": {
+                "phake/phake": "1.*",
+                "phpunit/phpunit": "3.7.*",
+                "sergeil/aux-bundle": "~1.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\FileUploaderBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "time": "2015-01-08 13:27:37"
+        },
+        {
+            "name": "modera/foundation-bundle",
+            "version": "v1.1.1",
+            "target-dir": "Modera/FoundationBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraFoundationBundle.git",
+                "reference": "d041b785bdb7485f1de1929580fb526b3642376d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraFoundationBundle/zipball/d041b785bdb7485f1de1929580fb526b3642376d",
+                "reference": "d041b785bdb7485f1de1929580fb526b3642376d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "symfony/symfony": "~2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\FoundationBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "time": "2015-02-09 10:57:23"
+        },
+        {
+            "name": "modera/languages-bundle",
+            "version": "v1.0.0",
+            "target-dir": "Modera/LanguagesBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraLanguagesBundle.git",
+                "reference": "705ca3554f12993bea966b4eed9089eb333d5903"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraLanguagesBundle/zipball/705ca3554f12993bea966b4eed9089eb333d5903",
+                "reference": "705ca3554f12993bea966b4eed9089eb333d5903",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.2",
+                "doctrine/orm": "~2.2,>=2.2.3",
+                "php": ">=5.3.3",
+                "symfony/framework-bundle": "~2.0"
+            },
+            "require-dev": {
+                "modera/foundation-bundle": "~1.0",
+                "phpunit/phpunit": "3.*"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\LanguagesBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Vizel",
+                    "email": "sergei.vizel@modera.org"
+                }
+            ],
+            "time": "2015-01-08 12:31:04"
+        },
+        {
+            "name": "modera/mjr-cache-aware-class-loader",
+            "version": "v1.0.0",
+            "target-dir": "Modera/MJRCacheAwareClassLoaderBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraMJRCacheAwareClassLoaderBundle.git",
+                "reference": "4558c775dca1712d6e68e4f92228b395936136e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraMJRCacheAwareClassLoaderBundle/zipball/4558c775dca1712d6e68e4f92228b395936136e9",
+                "reference": "4558c775dca1712d6e68e4f92228b395936136e9",
+                "shasum": ""
+            },
+            "require": {
+                "modera/mjr-integration-bundle": "~1.0",
+                "php": ">=5.3.0",
+                "sergeil/expander-bundle": "~1.0",
+                "symfony/framework-bundle": "~2.2"
+            },
+            "require-dev": {
+                "modera/foundation-bundle": "~1.0",
+                "phake/phake": "1.*",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\MJRCacheAwareClassLoaderBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org"
+                }
+            ],
+            "time": "2015-01-12 10:45:46"
+        },
+        {
+            "name": "modera/mjr-integration-bundle",
+            "version": "v1.3.1",
+            "target-dir": "Modera/MjrIntegrationBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraMjrIntegrationBundle.git",
+                "reference": "3941a730410f9c4553e286eaf502f5567926b005"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraMjrIntegrationBundle/zipball/3941a730410f9c4553e286eaf502f5567926b005",
+                "reference": "3941a730410f9c4553e286eaf502f5567926b005",
+                "shasum": ""
+            },
+            "require": {
+                "modera/direct-bundle": "~1.0",
+                "php": ">=5.3.0",
+                "symfony/framework-bundle": "~2.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\MjrIntegrationBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "time": "2015-09-15 08:48:39"
+        },
+        {
+            "name": "modera/mjr-security-integration-bundle",
+            "version": "v2.1",
+            "target-dir": "Modera/MJRSecurityIntegrationBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraMJRSecurityIntegrationBundle.git",
+                "reference": "a73dc96f4eaf0b8c06059dfb443f8358ffccd75a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraMJRSecurityIntegrationBundle/zipball/a73dc96f4eaf0b8c06059dfb443f8358ffccd75a",
+                "reference": "a73dc96f4eaf0b8c06059dfb443f8358ffccd75a",
+                "shasum": ""
+            },
+            "require": {
+                "modera/mjr-integration-bundle": "~1.3",
+                "php": ">=5.3.0",
+                "symfony/framework-bundle": "~2.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\MJRSecurityIntegrationBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "time": "2015-09-14 14:01:25"
+        },
+        {
+            "name": "modera/mjr-theme-integration-bundle",
+            "version": "v1.0.0",
+            "target-dir": "Modera/MJRThemeIntegrationBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraMJRThemeIntegrationBundle.git",
+                "reference": "cf1280fc4b46d6c7a5b99dfea4fe2361f05b08dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraMJRThemeIntegrationBundle/zipball/cf1280fc4b46d6c7a5b99dfea4fe2361f05b08dc",
+                "reference": "cf1280fc4b46d6c7a5b99dfea4fe2361f05b08dc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "symfony/framework-bundle": "~2.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\MJRThemeIntegrationBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "time": "2015-01-12 10:52:19"
+        },
+        {
+            "name": "modera/module",
+            "version": "v1.0.0",
+            "target-dir": "Modera/Module",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/module.git",
+                "reference": "1aba34c9a8395974a42c357170383695e38d626c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/module/zipball/1aba34c9a8395974a42c357170383695e38d626c",
+                "reference": "1aba34c9a8395974a42c357170383695e38d626c",
+                "shasum": ""
+            },
+            "require": {
+                "guzzle/plugin": "*",
+                "knplabs/packagist-api": "~1.1",
+                "react/http": "0.3.*",
+                "symfony/console": "~2.2",
+                "twig/twig": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\Module": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Vizel",
+                    "email": "sergei.vizel@modera.org"
+                }
+            ],
+            "description": "Modera module",
+            "homepage": "http://modera.org",
+            "keywords": [
+                "module"
+            ],
+            "time": "2015-01-12 10:57:37"
+        },
+        {
+            "name": "modera/module-bundle",
+            "version": "v1.0.1",
+            "target-dir": "Modera/ModuleBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraModuleBundle.git",
+                "reference": "78f4df74aa9877d7d60b3c2093f3cb0d522a7bdd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraModuleBundle/zipball/78f4df74aa9877d7d60b3c2093f3cb0d522a7bdd",
+                "reference": "78f4df74aa9877d7d60b3c2093f3cb0d522a7bdd",
+                "shasum": ""
+            },
+            "require": {
+                "modera/module": "~1.0",
+                "php": ">=5.3.0",
+                "symfony/framework-bundle": "~2.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\ModuleBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Vizel",
+                    "email": "sergei.vizel@modera.org"
+                }
+            ],
+            "time": "2015-03-09 12:20:40"
+        },
+        {
+            "name": "modera/routing-bundle",
+            "version": "v1.0.1",
+            "target-dir": "Modera/RoutingBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraRoutingBundle.git",
+                "reference": "08dfce6e41909b8f640420a65caf55a6617ef545"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraRoutingBundle/zipball/08dfce6e41909b8f640420a65caf55a6617ef545",
+                "reference": "08dfce6e41909b8f640420a65caf55a6617ef545",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "sergeil/expander-bundle": "~1.0",
+                "symfony/symfony": "~2.2"
+            },
+            "require-dev": {
+                "phake/phake": "1.*",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\RoutingBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Vizel",
+                    "email": "sergei.vizel@modera.org"
+                },
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org"
+                }
+            ],
+            "time": "2015-08-03 09:12:02"
+        },
+        {
+            "name": "modera/security-bundle",
+            "version": "v2.0.1",
+            "target-dir": "Modera/SecurityBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraSecurityBundle.git",
+                "reference": "f552e327f2c2e36a564903cdd4cfaddcd6b11178"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraSecurityBundle/zipball/f552e327f2c2e36a564903cdd4cfaddcd6b11178",
+                "reference": "f552e327f2c2e36a564903cdd4cfaddcd6b11178",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.2",
+                "doctrine/orm": "~2.2,>=2.2.3",
+                "modera/foundation-bundle": "~1.0",
+                "php": ">=5.3.3",
+                "sergeil/extjsintegration-bundle": "~1.0",
+                "symfony/framework-bundle": "~2.6"
+            },
+            "require-dev": {
+                "modera/foundation-bundle": "~1.0",
+                "modera/languages-bundle": "~1.0",
+                "phake/phake": "1.*",
+                "phpunit/phpunit": "3.*"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\SecurityBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org",
+                    "homepage": "http://sergei.lissovski.org/"
+                },
+                {
+                    "name": "Sergei Vizel",
+                    "email": "sergei.vizel@modera.org"
+                }
+            ],
+            "time": "2015-08-20 07:53:01"
+        },
+        {
+            "name": "modera/server-crud-bundle",
+            "version": "v2.0.0",
+            "target-dir": "Modera/ServerCrudBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraServerCrudBundle.git",
+                "reference": "0c1010b7742d55b1f1f14096df5f26b06dbc0218"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraServerCrudBundle/zipball/0c1010b7742d55b1f1f14096df5f26b06dbc0218",
+                "reference": "0c1010b7742d55b1f1f14096df5f26b06dbc0218",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.2",
+                "doctrine/orm": "~2.2,>=2.2.3",
+                "modera/foundation-bundle": "~1.0",
+                "php": ">=5.3.3",
+                "sergeil/aux-bundle": "~1.0",
+                "sergeil/expander-bundle": "~1.0",
+                "sergeil/extjsintegration-bundle": "~1.0",
+                "symfony/framework-bundle": "~2.6",
+                "symfony/property-access": "~2.0",
+                "symfony/symfony": "~2.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\ServerCrudBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "time": "2015-08-19 10:21:05"
+        },
+        {
+            "name": "modera/translations-bundle",
+            "version": "v1.0.0",
+            "target-dir": "Modera/TranslationsBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraTranslationsBundle.git",
+                "reference": "950204cecfd1d1321a19527c1b25d1844403628d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraTranslationsBundle/zipball/950204cecfd1d1321a19527c1b25d1844403628d",
+                "reference": "950204cecfd1d1321a19527c1b25d1844403628d",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.2",
+                "doctrine/orm": "~2.2,>=2.2.3",
+                "modera/languages-bundle": "~1.0",
+                "php": ">=5.4.0",
+                "symfony/framework-bundle": "~2.0"
+            },
+            "require-dev": {
+                "modera/foundation-bundle": "~1.0",
+                "phake/phake": "2.0.*@dev",
+                "phpunit/phpunit": "3.*"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\TranslationsBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Vizel",
+                    "email": "sergei.vizel@modera.org"
+                },
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org"
+                }
+            ],
+            "time": "2015-01-08 13:10:15"
+        },
+        {
+            "name": "modera/upgrade-bundle",
+            "version": "v1.0.0",
+            "target-dir": "Modera/UpgradeBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/ModeraUpgradeBundle.git",
+                "reference": "a83ac3a8c40481e33b20473cfe65a91e3243d268"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/ModeraUpgradeBundle/zipball/a83ac3a8c40481e33b20473cfe65a91e3243d268",
+                "reference": "a83ac3a8c40481e33b20473cfe65a91e3243d268",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "symfony/framework-bundle": "~2.3"
+            },
+            "require-dev": {
+                "modera/foundation-bundle": "~1.0",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\UpgradeBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Vizel",
+                    "email": "sergei.vizel@modera.org"
+                }
+            ],
+            "time": "2015-01-12 11:05:16"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "1.17.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "0524c87587ab85bc4c2d6f5b41253ccb930a5422"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/0524c87587ab85bc4c2d6f5b41253ccb930a5422",
+                "reference": "0524c87587ab85bc4c2d6f5b41253ccb930a5422",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^2.4.9",
+                "doctrine/couchdb": "~1.0@dev",
+                "graylog2/gelf-php": "~1.0",
+                "php-console/php-console": "^3.1.3",
+                "phpunit/phpunit": "~4.5",
+                "phpunit/phpunit-mock-objects": "2.3.0",
+                "raven/raven": "~0.11",
+                "ruflin/elastica": ">=0.90 <3.0",
+                "swiftmailer/swiftmailer": "~5.3",
+                "videlalvaro/php-amqplib": "~2.4"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-mongo": "Allow sending log messages to a MongoDB server",
+                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "php-console/php-console": "Allow sending log messages to Google Chrome",
+                "raven/raven": "Allow sending log messages to a Sentry server",
+                "rollbar/rollbar": "Allow sending log messages to Rollbar",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
+                "videlalvaro/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.16.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Monolog\\": "src/Monolog"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "time": "2015-08-31 09:17:37"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "react/event-loop",
+            "version": "v0.3.4",
+            "target-dir": "React/EventLoop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/event-loop.git",
+                "reference": "235cddfa999a392e7d63dc9bef2e042492608d9f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/235cddfa999a392e7d63dc9bef2e042492608d9f",
+                "reference": "235cddfa999a392e7d63dc9bef2e042492608d9f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-libev": "*",
+                "ext-libevent": ">=0.0.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "React\\EventLoop": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Event loop abstraction layer that libraries can use for evented I/O.",
+            "keywords": [
+                "event-loop"
+            ],
+            "time": "2013-07-21 02:23:09"
+        },
+        {
+            "name": "react/http",
+            "version": "v0.3.0",
+            "target-dir": "React/Http",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/http.git",
+                "reference": "9e131ab600a636bbe93d3553761ad4f29ebcbc9b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/http/zipball/9e131ab600a636bbe93d3553761ad4f29ebcbc9b",
+                "reference": "9e131ab600a636bbe93d3553761ad4f29ebcbc9b",
+                "shasum": ""
+            },
+            "require": {
+                "guzzle/parser": "3.0.*",
+                "php": ">=5.3.3",
+                "react/socket": "0.3.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "React\\Http": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Library for building an evented http server.",
+            "keywords": [
+                "http"
+            ],
+            "time": "2013-02-24 19:01:50"
+        },
+        {
+            "name": "react/socket",
+            "version": "v0.3.4",
+            "target-dir": "React/Socket",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/socket.git",
+                "reference": "19bc0c4309243717396022ffb2e59be1cc784327"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/socket/zipball/19bc0c4309243717396022ffb2e59be1cc784327",
+                "reference": "19bc0c4309243717396022ffb2e59be1cc784327",
+                "shasum": ""
+            },
+            "require": {
+                "evenement/evenement": "1.0.*",
+                "php": ">=5.3.3",
+                "react/event-loop": "0.3.*",
+                "react/stream": "0.3.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "React\\Socket": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Library for building an evented socket server.",
+            "keywords": [
+                "Socket"
+            ],
+            "time": "2014-02-17 22:32:00"
+        },
+        {
+            "name": "react/stream",
+            "version": "v0.3.4",
+            "target-dir": "React/Stream",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/stream.git",
+                "reference": "feef56628afe3fa861f0da5f92c909e029efceac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/stream/zipball/feef56628afe3fa861f0da5f92c909e029efceac",
+                "reference": "feef56628afe3fa861f0da5f92c909e029efceac",
+                "shasum": ""
+            },
+            "require": {
+                "evenement/evenement": "1.0.*",
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "react/event-loop": "0.3.*",
+                "react/promise": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "React\\Stream": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Basic readable and writable stream interfaces that support piping.",
+            "keywords": [
+                "pipe",
+                "stream"
+            ],
+            "time": "2014-02-16 19:48:52"
+        },
+        {
+            "name": "sensio/distribution-bundle",
+            "version": "v4.0.1",
+            "target-dir": "Sensio/Bundle/DistributionBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
+                "reference": "62d99ba41144e704300e40f755346553702b27c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/62d99ba41144e704300e40f755346553702b27c9",
+                "reference": "62d99ba41144e704300e40f755346553702b27c9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9",
+                "sensiolabs/security-checker": "~3.0",
+                "symfony/class-loader": "~2.2",
+                "symfony/framework-bundle": "~2.3",
+                "symfony/process": "~2.2"
+            },
+            "require-dev": {
+                "symfony/form": "~2.2",
+                "symfony/validator": "~2.2",
+                "symfony/yaml": "~2.2"
+            },
+            "suggest": {
+                "symfony/form": "If you want to use the configurator",
+                "symfony/validator": "If you want to use the configurator",
+                "symfony/yaml": "If you want to use  the configurator"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Sensio\\Bundle\\DistributionBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Base bundle for Symfony Distributions",
+            "keywords": [
+                "configuration",
+                "distribution"
+            ],
+            "time": "2015-08-03 10:07:56"
+        },
+        {
+            "name": "sensio/framework-extra-bundle",
+            "version": "v3.0.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
+                "reference": "18fc2063c4d6569cdca47a39fbac32342eb65f3c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/18fc2063c4d6569cdca47a39fbac32342eb65f3c",
+                "reference": "18fc2063c4d6569cdca47a39fbac32342eb65f3c",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/common": "~2.2",
+                "symfony/framework-bundle": "~2.3"
+            },
+            "require-dev": {
+                "symfony/expression-language": "~2.4",
+                "symfony/security-bundle": "~2.4"
+            },
+            "suggest": {
+                "symfony/expression-language": "",
+                "symfony/psr-http-message-bridge": "To use the PSR-7 converters",
+                "symfony/security-bundle": ""
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sensio\\Bundle\\FrameworkExtraBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "This bundle provides a way to configure your controllers with annotations",
+            "keywords": [
+                "annotations",
+                "controllers"
+            ],
+            "time": "2015-08-03 11:59:27"
+        },
+        {
+            "name": "sensiolabs/security-checker",
+            "version": "v3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sensiolabs/security-checker.git",
+                "reference": "7735fd97ff7303d9df776b8dbc970f949399abc9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/7735fd97ff7303d9df776b8dbc970f949399abc9",
+                "reference": "7735fd97ff7303d9df776b8dbc970f949399abc9",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/console": "~2.0"
+            },
+            "bin": [
+                "security-checker"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "SensioLabs\\Security": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien.potencier@gmail.com"
+                }
+            ],
+            "description": "A security checker for your composer.lock",
+            "time": "2015-08-11 12:11:25"
+        },
+        {
+            "name": "sergeil/aux-bundle",
+            "version": "v1.1.0",
+            "target-dir": "Sli/AuxBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sergeil/SliAuxBundle.git",
+                "reference": "0dc8b9b233b42d94e4bc8fa69118a8fef0f17e15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sergeil/SliAuxBundle/zipball/0dc8b9b233b42d94e4bc8fa69118a8fef0f17e15",
+                "reference": "0dc8b9b233b42d94e4bc8fa69118a8fef0f17e15",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "symfony/framework-bundle": "~2.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Sli\\AuxBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@gmail.com",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "description": "Contains base/utility classes for Sli/* bundles.",
+            "homepage": "https://github.com/sergeil/SliAuxBundle",
+            "keywords": [
+                "utils"
+            ],
+            "time": "2014-12-25 12:51:40"
+        },
+        {
+            "name": "sergeil/expander-bundle",
+            "version": "v1.0.1",
+            "target-dir": "Sli/ExpanderBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sergeil/ExpanderBundle.git",
+                "reference": "e34ba3f47c23c4b9045675052804631e5760769a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sergeil/ExpanderBundle/zipball/e34ba3f47c23c4b9045675052804631e5760769a",
+                "reference": "e34ba3f47c23c4b9045675052804631e5760769a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "symfony/framework-bundle": "~2.3"
+            },
+            "require-dev": {
+                "modera/foundation-bundle": "dev-master",
+                "phake/phake": "~1.0",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Sli\\ExpanderBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@gmail.com",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "description": "Provides an easy way how to leverage native DIC tags based mechanism for creating extension-points.",
+            "homepage": "https://github.com/sergeil/ExpanderBundle",
+            "keywords": [
+                "extensibility"
+            ],
+            "time": "2014-09-15 10:52:44"
+        },
+        {
+            "name": "sergeil/extjsintegration-bundle",
+            "version": "v1.0.0",
+            "target-dir": "Sli/ExtJsIntegrationBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sergeil/SliExtJsIntegrationBundle.git",
+                "reference": "882f89a19e3c9a3c36d2a2c8b3d2b6b28641195d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sergeil/SliExtJsIntegrationBundle/zipball/882f89a19e3c9a3c36d2a2c8b3d2b6b28641195d",
+                "reference": "882f89a19e3c9a3c36d2a2c8b3d2b6b28641195d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "sergeil/aux-bundle": "~1.0",
+                "sergeil/expander-bundle": "~1.0",
+                "symfony/framework-bundle": "~2.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Sli\\ExtJsIntegrationBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "description": "Utilities for easier integration of ExtJs on server-side.",
+            "homepage": "http://github.com/sergeil/SliExtJsIntegrationBundle",
+            "keywords": [
+                "extjs"
+            ],
+            "time": "2014-06-04 13:06:22"
+        },
+        {
+            "name": "sergeil/extjslocalization-bundle",
+            "version": "v1.0.0",
+            "target-dir": "Sli/ExtJsLocalizationBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sergeil/SliExtJsLocalizationBundle.git",
+                "reference": "4ae50dcb664bf8f72d3721c9257f1ad9325f0654"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sergeil/SliExtJsLocalizationBundle/zipball/4ae50dcb664bf8f72d3721c9257f1ad9325f0654",
+                "reference": "4ae50dcb664bf8f72d3721c9257f1ad9325f0654",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "symfony/symfony": ">=2.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Sli\\ExtJsLocalizationBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@gmail.com",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "description": "Adds localization support for ExtJs classes to Symfony2",
+            "homepage": "https://github.com/sergeil/SliExtJsLocalizationBundle",
+            "keywords": [
+                "extjs",
+                "l10n",
+                "translation"
+            ],
+            "time": "2015-01-11 09:41:09"
+        },
+        {
+            "name": "swiftmailer/swiftmailer",
+            "version": "v5.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swiftmailer/swiftmailer.git",
+                "reference": "0697e6aa65c83edf97bb0f23d8763f94e3f11421"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/0697e6aa65c83edf97bb0f23d8763f94e3f11421",
+                "reference": "0697e6aa65c83edf97bb0f23d8763f94e3f11421",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9.1,<0.9.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.4-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "lib/swift_required.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Corbyn"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Swiftmailer, free feature-rich PHP mailer",
+            "homepage": "http://swiftmailer.org",
+            "keywords": [
+                "email",
+                "mail",
+                "mailer"
+            ],
+            "time": "2015-06-06 14:19:39"
+        },
+        {
+            "name": "symfony/assetic-bundle",
+            "version": "v2.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/AsseticBundle.git",
+                "reference": "3ae5c8ca3079b6e0033cc9fbfb6500e2bc964da5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/AsseticBundle/zipball/3ae5c8ca3079b6e0033cc9fbfb6500e2bc964da5",
+                "reference": "3ae5c8ca3079b6e0033cc9fbfb6500e2bc964da5",
+                "shasum": ""
+            },
+            "require": {
+                "kriswallsmith/assetic": "~1.3",
+                "php": ">=5.3.0",
+                "symfony/console": "~2.3",
+                "symfony/dependency-injection": "~2.3",
+                "symfony/framework-bundle": "~2.3",
+                "symfony/yaml": "~2.3"
+            },
+            "conflict": {
+                "kriswallsmith/spork": "<=0.2",
+                "twig/twig": "<1.20"
+            },
+            "require-dev": {
+                "kriswallsmith/spork": "~0.3",
+                "patchwork/jsqueeze": "~1.0",
+                "symfony/class-loader": "~2.3",
+                "symfony/css-selector": "~2.3",
+                "symfony/dom-crawler": "~2.3",
+                "symfony/phpunit-bridge": "~2.7",
+                "symfony/twig-bundle": "~2.3"
+            },
+            "suggest": {
+                "kriswallsmith/spork": "to be able to dump assets in parallel",
+                "symfony/twig-bundle": "to use the Twig integration"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Bundle\\AsseticBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kris Wallsmith",
+                    "email": "kris.wallsmith@gmail.com",
+                    "homepage": "http://kriswallsmith.net/"
+                }
+            ],
+            "description": "Integrates Assetic into Symfony2",
+            "homepage": "https://github.com/symfony/AsseticBundle",
+            "keywords": [
+                "assets",
+                "compression",
+                "minification"
+            ],
+            "time": "2015-09-01 00:05:29"
+        },
+        {
+            "name": "symfony/monolog-bundle",
+            "version": "v2.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/MonologBundle.git",
+                "reference": "9320b6863404c70ebe111e9040dab96f251de7ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/MonologBundle/zipball/9320b6863404c70ebe111e9040dab96f251de7ac",
+                "reference": "9320b6863404c70ebe111e9040dab96f251de7ac",
+                "shasum": ""
+            },
+            "require": {
+                "monolog/monolog": "~1.8",
+                "php": ">=5.3.2",
+                "symfony/config": "~2.3",
+                "symfony/dependency-injection": "~2.3",
+                "symfony/http-kernel": "~2.3",
+                "symfony/monolog-bridge": "~2.3"
+            },
+            "require-dev": {
+                "symfony/console": "~2.3",
+                "symfony/yaml": "~2.3"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.7.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Bundle\\MonologBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony MonologBundle",
+            "homepage": "http://symfony.com",
+            "keywords": [
+                "log",
+                "logging"
+            ],
+            "time": "2015-01-04 20:21:17"
+        },
+        {
+            "name": "symfony/swiftmailer-bundle",
+            "version": "v2.3.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/SwiftmailerBundle.git",
+                "reference": "970b13d01871207e81d17b17ddda025e7e21e797"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/SwiftmailerBundle/zipball/970b13d01871207e81d17b17ddda025e7e21e797",
+                "reference": "970b13d01871207e81d17b17ddda025e7e21e797",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "swiftmailer/swiftmailer": ">=4.2.0,~5.0",
+                "symfony/swiftmailer-bridge": "~2.1"
+            },
+            "require-dev": {
+                "symfony/config": "~2.1",
+                "symfony/dependency-injection": "~2.1",
+                "symfony/http-kernel": "~2.1",
+                "symfony/yaml": "~2.1"
+            },
+            "suggest": {
+                "psr/log": "Allows logging"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Bundle\\SwiftmailerBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony SwiftmailerBundle",
+            "homepage": "http://symfony.com",
+            "time": "2014-12-01 17:44:50"
+        },
+        {
+            "name": "symfony/symfony",
+            "version": "v2.7.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/symfony.git",
+                "reference": "1fdf23fe28876844b887b0e1935c9adda43ee645"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/1fdf23fe28876844b887b0e1935c9adda43ee645",
+                "reference": "1fdf23fe28876844b887b0e1935c9adda43ee645",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/common": "~2.3",
+                "php": ">=5.3.9",
+                "psr/log": "~1.0",
+                "twig/twig": "~1.20|~2.0"
+            },
+            "replace": {
+                "symfony/asset": "self.version",
+                "symfony/browser-kit": "self.version",
+                "symfony/class-loader": "self.version",
+                "symfony/config": "self.version",
+                "symfony/console": "self.version",
+                "symfony/css-selector": "self.version",
+                "symfony/debug": "self.version",
+                "symfony/debug-bundle": "self.version",
+                "symfony/dependency-injection": "self.version",
+                "symfony/doctrine-bridge": "self.version",
+                "symfony/dom-crawler": "self.version",
+                "symfony/event-dispatcher": "self.version",
+                "symfony/expression-language": "self.version",
+                "symfony/filesystem": "self.version",
+                "symfony/finder": "self.version",
+                "symfony/form": "self.version",
+                "symfony/framework-bundle": "self.version",
+                "symfony/http-foundation": "self.version",
+                "symfony/http-kernel": "self.version",
+                "symfony/intl": "self.version",
+                "symfony/locale": "self.version",
+                "symfony/monolog-bridge": "self.version",
+                "symfony/options-resolver": "self.version",
+                "symfony/process": "self.version",
+                "symfony/property-access": "self.version",
+                "symfony/proxy-manager-bridge": "self.version",
+                "symfony/routing": "self.version",
+                "symfony/security": "self.version",
+                "symfony/security-acl": "self.version",
+                "symfony/security-bundle": "self.version",
+                "symfony/security-core": "self.version",
+                "symfony/security-csrf": "self.version",
+                "symfony/security-http": "self.version",
+                "symfony/serializer": "self.version",
+                "symfony/stopwatch": "self.version",
+                "symfony/swiftmailer-bridge": "self.version",
+                "symfony/templating": "self.version",
+                "symfony/translation": "self.version",
+                "symfony/twig-bridge": "self.version",
+                "symfony/twig-bundle": "self.version",
+                "symfony/validator": "self.version",
+                "symfony/var-dumper": "self.version",
+                "symfony/web-profiler-bundle": "self.version",
+                "symfony/yaml": "self.version"
+            },
+            "require-dev": {
+                "doctrine/data-fixtures": "1.0.*",
+                "doctrine/dbal": "~2.2",
+                "doctrine/doctrine-bundle": "~1.2",
+                "doctrine/orm": "~2.2,>=2.2.3",
+                "egulias/email-validator": "~1.2",
+                "ircmaxell/password-compat": "~1.0",
+                "monolog/monolog": "~1.11",
+                "ocramius/proxy-manager": "~0.4|~1.0",
+                "symfony/phpunit-bridge": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Bridge\\Doctrine\\": "src/Symfony/Bridge/Doctrine/",
+                    "Symfony\\Bridge\\Monolog\\": "src/Symfony/Bridge/Monolog/",
+                    "Symfony\\Bridge\\ProxyManager\\": "src/Symfony/Bridge/ProxyManager/",
+                    "Symfony\\Bridge\\Swiftmailer\\": "src/Symfony/Bridge/Swiftmailer/",
+                    "Symfony\\Bridge\\Twig\\": "src/Symfony/Bridge/Twig/",
+                    "Symfony\\Bundle\\": "src/Symfony/Bundle/",
+                    "Symfony\\Component\\": "src/Symfony/Component/"
+                },
+                "classmap": [
+                    "src/Symfony/Component/HttpFoundation/Resources/stubs",
+                    "src/Symfony/Component/Intl/Resources/stubs"
+                ],
+                "files": [
+                    "src/Symfony/Component/Intl/Resources/stubs/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "The Symfony PHP framework",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "framework"
+            ],
+            "time": "2015-09-08 14:26:39"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v1.22.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "b7fc2469fa009897871fb95b68237286fc54a5ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/b7fc2469fa009897871fb95b68237286fc54a5ad",
+                "reference": "b7fc2469fa009897871fb95b68237286fc54a5ad",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.7"
+            },
+            "require-dev": {
+                "symfony/debug": "~2.7",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.22-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                },
+                {
+                    "name": "Twig Team",
+                    "homepage": "http://twig.sensiolabs.org/contributors",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "http://twig.sensiolabs.org",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2015-09-15 06:50:16"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "sensio/generator-bundle",
+            "version": "v2.5.3",
+            "target-dir": "Sensio/Bundle/GeneratorBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sensiolabs/SensioGeneratorBundle.git",
+                "reference": "e50108c2133ee5c9c484555faed50c17a61221d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/e50108c2133ee5c9c484555faed50c17a61221d3",
+                "reference": "e50108c2133ee5c9c484555faed50c17a61221d3",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/console": "~2.5",
+                "symfony/framework-bundle": "~2.2"
+            },
+            "require-dev": {
+                "doctrine/orm": "~2.2,>=2.2.3",
+                "symfony/doctrine-bridge": "~2.2",
+                "twig/twig": "~1.11"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Sensio\\Bundle\\GeneratorBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "This bundle generates code for you",
+            "time": "2015-03-17 06:36:52"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.9"
+    },
+    "platform-dev": []
+}
