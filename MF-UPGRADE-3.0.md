@@ -44,3 +44,9 @@ property. This, for instance, will mark all assets which match `^/bundles/modera
             - ^/bundles/moderabackend.*
 
 `non_blocking_assets_patterns` configuration property will be removed from `\Modera\BackendOnSteroidsBundle\DependencyInjection\Configuration`.
+
+## TODOs
+
+ * Stop using [sergeil/extjsintegration-bundle](https://github.com/sergeil/SliExtJsIntegrationBundle) and instead use
+ [sergeil/doctrine-array-query-builder-bundle](https://github.com/sergeil/SliDoctrineArrayQueryBuilderBundle) and
+ [sergeil/doctrine-entity-data-mapper-bundle](https://github.com/sergeil/SliDoctrineEntityDataMapperBundle).
