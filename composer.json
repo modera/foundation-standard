@@ -48,7 +48,7 @@
         "modera/server-crud-bundle": "~2.0",
         "modera/backend-tools-bundle": "~2.0",
         "modera/backend-module-bundle": "~2.0",
-        "modera/backend-security-bundle": "~2.0",
+        "modera/backend-security-bundle": "~2.1",
         "modera/backend-languages-bundle": "~2.0",
         "modera/backend-translations-tool-bundle": "~2.0",
         "modera/backend-tools-activity-log-bundle": "~1.0",
