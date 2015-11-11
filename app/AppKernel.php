@@ -35,6 +35,7 @@ class AppKernel extends Kernel
             new Modera\FileUploaderBundle\ModeraFileUploaderBundle(),
 
             new Sli\ExtJsIntegrationBundle\SliExtJsIntegrationBundle(),
+            new Modera\DirectBundle\ModeraDirectBundle(),
             new Modera\MjrIntegrationBundle\ModeraMjrIntegrationBundle(),
             new Modera\MJRThemeIntegrationBundle\ModeraMJRThemeIntegrationBundle(),
             new Modera\MJRSecurityIntegrationBundle\ModeraMJRSecurityIntegrationBundle(),
