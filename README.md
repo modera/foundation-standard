@@ -1,11 +1,16 @@
 # Modera Foundation
 
+RAD platform for developing applications using Symfony2, Doctrine, ExtJS ([MJR](https://mjr.dev.modera.org/)).
+
+![Settings](app/Resources/screenshots/login.png)
+
 ## Installation
 
 If you are working under Debian-like operating system (like Ubuntu):
 
 * Install [mcloud](https://mcloud.io)
-* Add [GitHub personal access token](https://github.com/settings/applications) (optional)
+* Optional. If you want to make sure that you won't reach github API call limit for anonymous users when composer is
+working you can add [GitHub personal access token](https://github.com/settings/applications):
 
 ``` bash
 $ mcloud set COMPOSER_GITHUB_OAUTH YOUR-TOKEN-HASH-GOES-HERE

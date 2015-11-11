@@ -50,3 +50,5 @@ property. This, for instance, will mark all assets which match `^/bundles/modera
  * Stop using [sergeil/extjsintegration-bundle](https://github.com/sergeil/SliExtJsIntegrationBundle) and instead use
  [sergeil/doctrine-array-query-builder-bundle](https://github.com/sergeil/SliDoctrineArrayQueryBuilderBundle) and
  [sergeil/doctrine-entity-data-mapper-bundle](https://github.com/sergeil/SliDoctrineEntityDataMapperBundle).
+ * Consider refactoring existing [ModeraDirectBundle](https://github.com/modera/ModeraDirectBundle) or creating
+ a new solution (its performance, route generation approach can be improved, security issues)

@@ -40,7 +40,7 @@
         "modera/file-uploader-bundle": "~1.0",
 
         "sergeil/extjsintegration-bundle": "~1.0",
-        "modera/mjr-integration-bundle": "~1.3",
+        "modera/mjr-integration-bundle": "~1.4",
         "modera/mjr-theme-integration-bundle": "~1.0",
         "modera/mjr-security-integration-bundle": "~2.1",
         "modera/mjr-cache-aware-class-loader": "~1.0",
@@ -57,7 +57,9 @@
         "modera/backend-dashboard-bundle": "~2.0"
     },
     "require-dev": {
-        "sensio/generator-bundle": "~2.3"
+        "sensio/generator-bundle": "~2.3",
+        "phpunit/phpunit": "3.7.*",
+        "phake/phake": "2.*"
     },
     "scripts": {
         "pre-install-cmd": "Modera\\ModuleBundle\\Composer\\ScriptHandler::enableMaintenance",

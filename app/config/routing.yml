@@ -2,7 +2,7 @@ root:
     path: /
     defaults:
         _controller: FrameworkBundle:Redirect:urlRedirect
-        path:   /backend
+        path:   %modera_mjr_integration.route_prefix%
         permanent: true
 
 _modera_routing:
