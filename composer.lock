@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7ec02b252aadbcedc3b9abb51266aeb4",
-    "content-hash": "0e347aaa8e14c4a4054f34520fa485ce",
+    "hash": "af4f48b92dd7d12b9fbe3956d169a4e1",
+    "content-hash": "15178a3e83c786b46ebd714bb398612e",
     "packages": [
         {
             "name": "amazonwebservices/aws-sdk-for-php",
@@ -2326,22 +2326,22 @@
         },
         {
             "name": "modera/mjr-integration-bundle",
-            "version": "v1.4.1",
+            "version": "v1.4.2",
             "target-dir": "Modera/MjrIntegrationBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraMjrIntegrationBundle.git",
-                "reference": "51543a2ca746642f21b4ebc430c66496a449c51a"
+                "reference": "d2a3f6db9428244f4fc90b49f6afa9dcf6f88271"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraMjrIntegrationBundle/zipball/51543a2ca746642f21b4ebc430c66496a449c51a",
-                "reference": "51543a2ca746642f21b4ebc430c66496a449c51a",
+                "url": "https://api.github.com/repos/modera/ModeraMjrIntegrationBundle/zipball/d2a3f6db9428244f4fc90b49f6afa9dcf6f88271",
+                "reference": "d2a3f6db9428244f4fc90b49f6afa9dcf6f88271",
                 "shasum": ""
             },
             "require": {
                 "modera/direct-bundle": "~1.0",
-                "php": ">=5.3.0",
+                "php": ">=5.4.0",
                 "sergeil/expander-bundle": "~1.0",
                 "symfony/framework-bundle": "~2.0"
             },
@@ -2376,21 +2376,21 @@
             "keywords": [
                 "mjr"
             ],
-            "time": "2015-11-11 12:42:56"
+            "time": "2015-11-12 12:39:28"
         },
         {
             "name": "modera/mjr-security-integration-bundle",
-            "version": "v2.1.1",
+            "version": "v2.1.2",
             "target-dir": "Modera/MJRSecurityIntegrationBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraMJRSecurityIntegrationBundle.git",
-                "reference": "30a9b8f5b00ded26987db2e81578a87385b0cd20"
+                "reference": "14589b62fd6cda571b6f7e207a56b045703bb169"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraMJRSecurityIntegrationBundle/zipball/30a9b8f5b00ded26987db2e81578a87385b0cd20",
-                "reference": "30a9b8f5b00ded26987db2e81578a87385b0cd20",
+                "url": "https://api.github.com/repos/modera/ModeraMJRSecurityIntegrationBundle/zipball/14589b62fd6cda571b6f7e207a56b045703bb169",
+                "reference": "14589b62fd6cda571b6f7e207a56b045703bb169",
                 "shasum": ""
             },
             "require": {
@@ -2430,7 +2430,7 @@
             "keywords": [
                 "mjr"
             ],
-            "time": "2015-11-11 11:32:12"
+            "time": "2015-11-12 12:56:35"
         },
         {
             "name": "modera/mjr-theme-integration-bundle",
@@ -4590,7 +4590,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.3.9"
+        "php": ">=5.4.0"
     },
     "platform-dev": []
 }

@@ -52,3 +52,5 @@ property. This, for instance, will mark all assets which match `^/bundles/modera
  [sergeil/doctrine-entity-data-mapper-bundle](https://github.com/sergeil/SliDoctrineEntityDataMapperBundle).
  * Consider refactoring existing [ModeraDirectBundle](https://github.com/modera/ModeraDirectBundle) or creating
  a new solution (its performance, route generation approach can be improved, security issues)
+ * It should be possible just by changing one configuration property completely switch backend's url (so even Symfony's
+ firewall would be automatically re-configured)
