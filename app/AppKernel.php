@@ -36,6 +36,7 @@ class AppKernel extends Kernel
 
             new Sli\ExtJsIntegrationBundle\SliExtJsIntegrationBundle(),
             new Modera\MjrIntegrationBundle\ModeraMjrIntegrationBundle(),
+            new Modera\DirectBundle\ModeraDirectBundle(),
             new Modera\MJRThemeIntegrationBundle\ModeraMJRThemeIntegrationBundle(),
             new Modera\MJRSecurityIntegrationBundle\ModeraMJRSecurityIntegrationBundle(),
             new Modera\MJRCacheAwareClassLoaderBundle\ModeraMJRCacheAwareClassLoaderBundle(),
