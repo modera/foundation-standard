@@ -54,3 +54,6 @@ property. This, for instance, will mark all assets which match `^/bundles/modera
  a new solution (its performance, route generation approach can be improved, security issues)
  * It should be possible just by changing one configuration property completely switch backend's url (so even Symfony's
  firewall would be automatically re-configured)
+ * \Modera\MjrIntegrationBundle\Model\FontAwesome must be refactored to a service, it shouldn't be a "helper-like" class
+ with static methods; its cache should be stored in app/cache/*/ directory
+ * To keep things consistent, ModeraMjrIntegrationBundle must be renamed to ModeraMJRIntegrationBundle

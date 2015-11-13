@@ -2326,17 +2326,17 @@
         },
         {
             "name": "modera/mjr-integration-bundle",
-            "version": "v1.4.2",
+            "version": "v1.4.3",
             "target-dir": "Modera/MjrIntegrationBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraMjrIntegrationBundle.git",
-                "reference": "d2a3f6db9428244f4fc90b49f6afa9dcf6f88271"
+                "reference": "2420833dd327bec001e9137c45796367d8e738c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraMjrIntegrationBundle/zipball/d2a3f6db9428244f4fc90b49f6afa9dcf6f88271",
-                "reference": "d2a3f6db9428244f4fc90b49f6afa9dcf6f88271",
+                "url": "https://api.github.com/repos/modera/ModeraMjrIntegrationBundle/zipball/2420833dd327bec001e9137c45796367d8e738c4",
+                "reference": "2420833dd327bec001e9137c45796367d8e738c4",
                 "shasum": ""
             },
             "require": {
@@ -2376,7 +2376,7 @@
             "keywords": [
                 "mjr"
             ],
-            "time": "2015-11-12 12:39:28"
+            "time": "2015-11-13 13:35:31"
         },
         {
             "name": "modera/mjr-security-integration-bundle",
