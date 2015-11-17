@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "af4f48b92dd7d12b9fbe3956d169a4e1",
-    "content-hash": "15178a3e83c786b46ebd714bb398612e",
+    "hash": "d1281b31ee35d43fa9822e65e6089f4a",
+    "content-hash": "58a693304761a0e1ff17cb9c424e0470",
     "packages": [
         {
             "name": "amazonwebservices/aws-sdk-for-php",
@@ -1937,17 +1937,17 @@
         },
         {
             "name": "modera/direct-bundle",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "target-dir": "Modera/DirectBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraDirectBundle.git",
-                "reference": "67506d7140da6f9ae7274c5b7f3e11fe2efd7e10"
+                "reference": "195ccd349236b0ea8b7b5a79cc100fa8bb563245"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraDirectBundle/zipball/67506d7140da6f9ae7274c5b7f3e11fe2efd7e10",
-                "reference": "67506d7140da6f9ae7274c5b7f3e11fe2efd7e10",
+                "url": "https://api.github.com/repos/modera/ModeraDirectBundle/zipball/195ccd349236b0ea8b7b5a79cc100fa8bb563245",
+                "reference": "195ccd349236b0ea8b7b5a79cc100fa8bb563245",
                 "shasum": ""
             },
             "require": {
@@ -1985,7 +1985,7 @@
                 "extdirect",
                 "extjs"
             ],
-            "time": "2015-11-12 13:53:47"
+            "time": "2015-11-17 13:59:49"
         },
         {
             "name": "modera/dynamically-configurable-app-bundle",
