@@ -58,6 +58,7 @@
                 "s3",
                 "sdk"
             ],
+            "abandoned": "aws/aws-sdk-php",
             "time": "2013-03-15 19:43:06"
         },
         {
@@ -130,16 +131,16 @@
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.5.2",
+            "version": "v1.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "47c7128262da274f590ae6f86eb137a7a64e82af"
+                "reference": "47cdc76ceb95cc591d9c79a36dc3794975b5d136"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/47c7128262da274f590ae6f86eb137a7a64e82af",
-                "reference": "47c7128262da274f590ae6f86eb137a7a64e82af",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/47cdc76ceb95cc591d9c79a36dc3794975b5d136",
+                "reference": "47cdc76ceb95cc591d9c79a36dc3794975b5d136",
                 "shasum": ""
             },
             "require": {
@@ -196,7 +197,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-12-03 10:50:37"
+            "time": "2015-12-19 05:03:47"
         },
         {
             "name": "doctrine/collections",
@@ -1620,17 +1621,17 @@
         },
         {
             "name": "modera/backend-security-bundle",
-            "version": "v2.1",
+            "version": "v2.2",
             "target-dir": "Modera/BackendSecurityBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraBackendSecurityBundle.git",
-                "reference": "227cb198f1ed2cd7e55a7833f9aa619b2063db4c"
+                "reference": "473c454c56dfb8b783261543885cfa4f79340333"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraBackendSecurityBundle/zipball/227cb198f1ed2cd7e55a7833f9aa619b2063db4c",
-                "reference": "227cb198f1ed2cd7e55a7833f9aa619b2063db4c",
+                "url": "https://api.github.com/repos/modera/ModeraBackendSecurityBundle/zipball/473c454c56dfb8b783261543885cfa4f79340333",
+                "reference": "473c454c56dfb8b783261543885cfa4f79340333",
                 "shasum": ""
             },
             "require": {
@@ -1638,14 +1639,21 @@
                 "modera/backend-tools-bundle": "~2.0",
                 "modera/mjr-integration-bundle": "~1.1",
                 "modera/security-bundle": "~2.0",
+                "modera/server-crud-bundle": "~2.0",
                 "modera/translations-bundle": "~1.0",
-                "php": ">=5.3.0",
-                "symfony/framework-bundle": "~2.6"
+                "php": ">=5.4.0",
+                "symfony/framework-bundle": "~2.6",
+                "symfony/swiftmailer-bundle": "~2.3"
+            },
+            "require-dev": {
+                "modera/foundation-bundle": "~1.0",
+                "phake/phake": "2.*",
+                "phpunit/phpunit": "3.*"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -1668,7 +1676,8 @@
                     "email": "sergei.vizel@modera.org"
                 }
             ],
-            "time": "2015-09-30 11:43:47"
+            "description": "Bundle provides UI section for MF that makes it possible to manage users/groups/permissions.",
+            "time": "2015-12-23 07:38:00"
         },
         {
             "name": "modera/backend-tools-activity-log-bundle",
@@ -3182,16 +3191,16 @@
         },
         {
             "name": "sensio/framework-extra-bundle",
-            "version": "v3.0.11",
+            "version": "v3.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
-                "reference": "a79e205737b58d557c05caef6dfa8f94d8084bca"
+                "reference": "3e8936fe13aa4086644977d334d8fcd275f50357"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/a79e205737b58d557c05caef6dfa8f94d8084bca",
-                "reference": "a79e205737b58d557c05caef6dfa8f94d8084bca",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/3e8936fe13aa4086644977d334d8fcd275f50357",
+                "reference": "3e8936fe13aa4086644977d334d8fcd275f50357",
                 "shasum": ""
             },
             "require": {
@@ -3233,7 +3242,7 @@
                 "annotations",
                 "controllers"
             ],
-            "time": "2015-10-28 15:47:04"
+            "time": "2015-12-18 17:39:27"
         },
         {
             "name": "sensiolabs/security-checker",
