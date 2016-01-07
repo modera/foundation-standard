@@ -57,3 +57,6 @@ property. This, for instance, will mark all assets which match `^/bundles/modera
  * \Modera\MjrIntegrationBundle\Model\FontAwesome must be refactored to a service, it shouldn't be a "helper-like" class
  with static methods; its cache should be stored in app/cache/*/ directory
  * To keep things consistent, ModeraMjrIntegrationBundle must be renamed to ModeraMJRIntegrationBundle
+ * \Modera\FileUploaderBundle\Controller\UniversalUploaderController - "error" response codes must be renamed to "errors".
+ * \Modera\SecurityBundle\Security\Authenticator should be renamed to something more meaningful, see class docblock for
+  details.
