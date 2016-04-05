@@ -4,22 +4,20 @@
     "type": "project",
     "description": "Modera Foundation",
     "autoload": {
-        "psr-0": {
-            "": "src/"
-        }
+        "psr-4": { "": "src/" },
+        "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
     },
     "require": {
         "php": ">=5.4.0",
-        "symfony/symfony": "2.7.*",
-        "doctrine/orm": "~2.2,>=2.2.3,<2.5",
-        "doctrine/dbal": "<2.5",
+        "symfony/symfony": "2.8.*",
+        "doctrine/orm": "^2.4.8",
         "doctrine/doctrine-bundle": "~1.4",
-        "symfony/assetic-bundle": "~2.3",
         "symfony/swiftmailer-bundle": "~2.3",
         "symfony/monolog-bundle": "~2.4",
-        "sensio/distribution-bundle": "~4.0",
-        "sensio/framework-extra-bundle": "~3.0,>=3.0.2",
+        "sensio/distribution-bundle": "~5.0",
+        "sensio/framework-extra-bundle": "^3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
+        "symfony/assetic-bundle": "^2.8",
 
         "doctrine/doctrine-fixtures-bundle": "~2.2",
         "sergeil/aux-bundle": "~1.0",
@@ -57,7 +55,8 @@
         "modera/backend-dashboard-bundle": "~2.0"
     },
     "require-dev": {
-        "sensio/generator-bundle": "~2.3",
+        "sensio/generator-bundle": "~3.0",
+        "symfony/phpunit-bridge": "~2.7",
         "phpunit/phpunit": "3.7.*",
         "phake/phake": "2.*"
     },
@@ -74,6 +73,7 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget",
             "Modera\\ModuleBundle\\Composer\\ScriptHandler::initDatabase",
             "Modera\\ModuleBundle\\Composer\\ScriptHandler::eventDispatcher",
             "Modera\\SecurityBundle\\Composer\\ScriptHandler::installPermissions",
@@ -93,13 +93,17 @@
             "Modera\\SecurityBundle\\Composer\\ScriptHandler::installPermissions",
             "Modera\\ConfigBundle\\Composer\\ScriptHandler::installConfigEntries",
             "Modera\\LanguagesBundle\\Composer\\ScriptHandler::configSync",
-            "Modera\\ModuleBundle\\Composer\\ScriptHandler::disableMaintenance"
+            "Modera\\ModuleBundle\\Composer\\ScriptHandler::disableMaintenance",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
         ]
     },
-    "config": {
-        "bin-dir": "bin"
-    },
     "minimum-stability": "stable",
+    "config": {
+        "bin-dir": "bin",
+        "platform": {
+            "php": "5.4.0"
+        }
+    },
     "extra": {
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
