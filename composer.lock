@@ -2711,17 +2711,17 @@
         },
         {
             "name": "modera/security-bundle",
-            "version": "v2.2.0",
+            "version": "v2.2.1",
             "target-dir": "Modera/SecurityBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraSecurityBundle.git",
-                "reference": "efa8fa1afbe4466952d147eb5c457cbaaeec6993"
+                "reference": "af9e40ab4529b3e8d1e57c090a5b778734e3317b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraSecurityBundle/zipball/efa8fa1afbe4466952d147eb5c457cbaaeec6993",
-                "reference": "efa8fa1afbe4466952d147eb5c457cbaaeec6993",
+                "url": "https://api.github.com/repos/modera/ModeraSecurityBundle/zipball/af9e40ab4529b3e8d1e57c090a5b778734e3317b",
+                "reference": "af9e40ab4529b3e8d1e57c090a5b778734e3317b",
                 "shasum": ""
             },
             "require": {
@@ -2765,7 +2765,7 @@
                 }
             ],
             "description": "Provides database aware implementation of Security model + some other perks",
-            "time": "2016-04-04 06:29:09"
+            "time": "2016-04-06 05:53:18"
         },
         {
             "name": "modera/server-crud-bundle",

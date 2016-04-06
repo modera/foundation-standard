@@ -34,6 +34,7 @@ monolog:
             channels: ["doctrine"]
         # uncomment to get logging in your browser
         # you may have to allow bigger header sizes in your Web server configuration
+        # See comment in https://github.com/symfony/symfony-standard/blob/2.7/UPGRADE-2.4.md
         #firephp:
         #    type:   firephp
         #    level:  info
