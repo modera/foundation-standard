@@ -60,3 +60,5 @@ property. This, for instance, will mark all assets which match `^/bundles/modera
  * \Modera\FileUploaderBundle\Controller\UniversalUploaderController - "error" response codes must be renamed to "errors".
  * \Modera\SecurityBundle\Security\Authenticator should be renamed to something more meaningful, see class docblock for
   details.
+ * "security.user_provider" service should be removed from @ModeraSecurityBundle:security.yml, it could confuse
+ developer that it is a service provided by Symfony (because it is declared in "security" namespace)
