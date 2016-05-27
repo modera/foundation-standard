@@ -62,3 +62,8 @@ property. This, for instance, will mark all assets which match `^/bundles/modera
   details.
  * "security.user_provider" service should be removed from @ModeraSecurityBundle:security.yml, it could confuse
  developer that it is a service provided by Symfony (because it is declared in "security" namespace)
+ * \Modera\MJRCacheAwareClassLoaderBundle\EventListener\VersionInjectorEventListener now is responsible for injecting
+ "X-Modera-Version" header, but it would be more correct to have a universal "product/foundation" version number, so
+  probably version resolving logic should be moved to ModeraFoundationBundle. In other words, ModeraMJRCacheAwareClassLoaderBundle
+  would only contain code to update ExtJs class loader (maybe it even makes sense to get rid of
+  ModeraMJRCacheAwareClassLoaderBundle bundle at all and move its code to ModeraMjrIntegrationBundle ?)
