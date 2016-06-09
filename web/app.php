@@ -1,6 +1,8 @@
 <?php
 
+use Symfony\Component\Debug\Debug;
 use Symfony\Component\HttpFoundation\Request;
+use Modera\DynamicallyConfigurableAppBundle\KernelConfig;
 
 /**
  * @var Composer\Autoload\ClassLoader
@@ -8,17 +10,12 @@ use Symfony\Component\HttpFoundation\Request;
 $loader = require __DIR__.'/../app/autoload.php';
 include_once __DIR__.'/../app/bootstrap.php.cache';
 
-// Enable APC for autoloading to improve performance.
-// You should change the ApcClassLoader first argument to a unique prefix
-// in order to prevent cache key conflicts with other applications
-// also using APC.
-/*
-$apcLoader = new Symfony\Component\ClassLoader\ApcClassLoader(sha1(__FILE__), $loader);
-$loader->unregister();
-$apcLoader->register(true);
-*/
+$mode = KernelConfig::read();
+if ($mode['debug']) {
+    Debug::enable();
+}
 
-$kernel = new AppKernel('prod', false);
+$kernel = new AppKernel($mode['env'], $mode['debug']);
 $kernel->loadClassCache();
 //$kernel = new AppCache($kernel);
 
