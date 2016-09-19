@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "44cfba4d57baa299a99addbcb659e87e",
+    "hash": "bdf6df8613b8d312badc760fd02826f3",
     "content-hash": "403caa1ede18663648757e9b0abfea3c",
     "packages": [
         {
@@ -397,16 +397,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "v2.5.4",
+            "version": "v2.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "abbdfd1cff43a7b99d027af3be709bc8fc7d4769"
+                "reference": "9f8c05cd5225a320d56d4bfdb4772f10d045a0c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/abbdfd1cff43a7b99d027af3be709bc8fc7d4769",
-                "reference": "abbdfd1cff43a7b99d027af3be709bc8fc7d4769",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/9f8c05cd5225a320d56d4bfdb4772f10d045a0c9",
+                "reference": "9f8c05cd5225a320d56d4bfdb4772f10d045a0c9",
                 "shasum": ""
             },
             "require": {
@@ -415,7 +415,7 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "4.*",
-                "symfony/console": "2.*"
+                "symfony/console": "2.*||^3.0"
             },
             "suggest": {
                 "symfony/console": "For helpful console commands such as SQL execution and import of files."
@@ -464,7 +464,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2016-01-05 22:11:12"
+            "time": "2016-09-09 19:13:33"
         },
         {
             "name": "doctrine/doctrine-bundle",
@@ -869,16 +869,16 @@
         },
         {
             "name": "doctrine/orm",
-            "version": "v2.5.4",
+            "version": "v2.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/doctrine2.git",
-                "reference": "bc4ddbfb0114cb33438cc811c9a740d8aa304aab"
+                "reference": "73e4be7c7b3ba26f96b781a40b33feba4dfa6d45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/bc4ddbfb0114cb33438cc811c9a740d8aa304aab",
-                "reference": "bc4ddbfb0114cb33438cc811c9a740d8aa304aab",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/73e4be7c7b3ba26f96b781a40b33feba4dfa6d45",
+                "reference": "73e4be7c7b3ba26f96b781a40b33feba4dfa6d45",
                 "shasum": ""
             },
             "require": {
@@ -941,7 +941,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2016-01-05 21:34:58"
+            "time": "2016-09-10 18:51:13"
         },
         {
             "name": "evenement/evenement",
@@ -984,171 +984,34 @@
             "time": "2012-05-30 15:01:08"
         },
         {
-            "name": "guzzle/common",
+            "name": "guzzle/guzzle",
             "version": "v3.0.7",
-            "target-dir": "Guzzle/Common",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Guzzle3/common.git",
-                "reference": "b7c6ec11fb5f141c31fea22844aac2343db853f4"
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "f31f35d1669382936861533bd0217fcf830dc9a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Guzzle3/common/zipball/b7c6ec11fb5f141c31fea22844aac2343db853f4",
-                "reference": "b7c6ec11fb5f141c31fea22844aac2343db853f4",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2",
-                "symfony/event-dispatcher": ">=2.1"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Guzzle\\Common": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Common libraries used by Guzzle",
-            "homepage": "http://guzzlephp.org/",
-            "keywords": [
-                "collection",
-                "common",
-                "event",
-                "exception"
-            ],
-            "abandoned": "guzzle/guzzle",
-            "time": "2012-12-19 23:06:35"
-        },
-        {
-            "name": "guzzle/http",
-            "version": "v3.0.7",
-            "target-dir": "Guzzle/Http",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Guzzle3/http.git",
-                "reference": "eea92ef701a69b48d1e37fc9dd79058d41aeec93"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Guzzle3/http/zipball/eea92ef701a69b48d1e37fc9dd79058d41aeec93",
-                "reference": "eea92ef701a69b48d1e37fc9dd79058d41aeec93",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/f31f35d1669382936861533bd0217fcf830dc9a9",
+                "reference": "f31f35d1669382936861533bd0217fcf830dc9a9",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
-                "guzzle/common": "self.version",
-                "guzzle/parser": "self.version",
-                "guzzle/stream": "self.version",
-                "php": ">=5.3.2"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Guzzle\\Http": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                }
-            ],
-            "description": "HTTP libraries used by Guzzle",
-            "homepage": "http://guzzlephp.org/",
-            "keywords": [
-                "Guzzle",
-                "client",
-                "curl",
-                "http",
-                "http client"
-            ],
-            "abandoned": "guzzle/guzzle",
-            "time": "2012-12-14 00:49:17"
-        },
-        {
-            "name": "guzzle/parser",
-            "version": "v3.0.7",
-            "target-dir": "Guzzle/Parser",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Guzzle3/parser.git",
-                "reference": "8a1f6829d75274de16232cb327597db3067a2074"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Guzzle3/parser/zipball/8a1f6829d75274de16232cb327597db3067a2074",
-                "reference": "8a1f6829d75274de16232cb327597db3067a2074",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Guzzle\\Parser": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Interchangeable parsers used by Guzzle",
-            "homepage": "http://guzzlephp.org/",
-            "keywords": [
-                "URI Template",
-                "cookie",
-                "http",
-                "message",
-                "url"
-            ],
-            "abandoned": "guzzle/guzzle",
-            "time": "2012-12-07 16:45:11"
-        },
-        {
-            "name": "guzzle/plugin",
-            "version": "v3.0.7",
-            "target-dir": "Guzzle/Plugin",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Guzzle3/plugin.git",
-                "reference": "fab9f052ffd6bdfa0c9777a99d5d551647c07ba0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Guzzle3/plugin/zipball/fab9f052ffd6bdfa0c9777a99d5d551647c07ba0",
-                "reference": "fab9f052ffd6bdfa0c9777a99d5d551647c07ba0",
-                "shasum": ""
-            },
-            "require": {
-                "guzzle/http": "self.version",
-                "php": ">=5.3.2"
+                "php": ">=5.3.2",
+                "symfony/event-dispatcher": ">=2.1"
             },
             "replace": {
+                "guzzle/batch": "self.version",
+                "guzzle/cache": "self.version",
+                "guzzle/common": "self.version",
+                "guzzle/http": "self.version",
+                "guzzle/inflection": "self.version",
+                "guzzle/iterator": "self.version",
+                "guzzle/log": "self.version",
+                "guzzle/parser": "self.version",
+                "guzzle/plugin": "self.version",
                 "guzzle/plugin-async": "self.version",
                 "guzzle/plugin-backoff": "self.version",
                 "guzzle/plugin-cache": "self.version",
@@ -1158,11 +1021,19 @@
                 "guzzle/plugin-log": "self.version",
                 "guzzle/plugin-md5": "self.version",
                 "guzzle/plugin-mock": "self.version",
-                "guzzle/plugin-oauth": "self.version"
+                "guzzle/plugin-oauth": "self.version",
+                "guzzle/service": "self.version",
+                "guzzle/stream": "self.version"
             },
-            "suggest": {
-                "guzzle/cache": "v3.0.7",
-                "guzzle/log": "v3.0.7"
+            "require-dev": {
+                "doctrine/common": "*",
+                "monolog/monolog": "1.*",
+                "phpunit/phpunit": "3.7.*",
+                "symfony/class-loader": "*",
+                "zend/zend-cache1": "1.12",
+                "zend/zend-log1": "1.12",
+                "zendframework/zend-cache": "2.0.*",
+                "zendframework/zend-log": "2.0.*"
             },
             "type": "library",
             "extra": {
@@ -1172,7 +1043,8 @@
             },
             "autoload": {
                 "psr-0": {
-                    "Guzzle\\Plugin": ""
+                    "Guzzle\\Tests": "tests/",
+                    "Guzzle": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1184,48 +1056,60 @@
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Guzzle Community",
+                    "homepage": "https://github.com/guzzle/guzzle/contributors"
                 }
             ],
-            "description": "Guzzle plugin component containing all Guzzle HTTP plugins",
+            "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
             "homepage": "http://guzzlephp.org/",
             "keywords": [
-                "Guzzle",
                 "client",
-                "extension",
+                "curl",
+                "framework",
                 "http",
-                "plugin"
+                "http client",
+                "rest",
+                "web service"
             ],
-            "abandoned": "guzzle/guzzle",
-            "time": "2012-12-07 16:45:11"
+            "abandoned": "guzzlehttp/guzzle",
+            "time": "2012-12-19 23:06:35"
         },
         {
-            "name": "guzzle/stream",
-            "version": "v3.0.7",
-            "target-dir": "Guzzle/Stream",
+            "name": "imagine/imagine",
+            "version": "v0.6.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Guzzle3/stream.git",
-                "reference": "c499757c760159188a9573362b8086ef25e6734e"
+                "url": "https://github.com/avalanche123/Imagine.git",
+                "reference": "149041d2a1b517107bfe270ca2b1a17aa341715d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Guzzle3/stream/zipball/c499757c760159188a9573362b8086ef25e6734e",
-                "reference": "c499757c760159188a9573362b8086ef25e6734e",
+                "url": "https://api.github.com/repos/avalanche123/Imagine/zipball/149041d2a1b517107bfe270ca2b1a17aa341715d",
+                "reference": "149041d2a1b517107bfe270ca2b1a17aa341715d",
                 "shasum": ""
             },
             "require": {
-                "guzzle/common": "self.version",
                 "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "sami/sami": "dev-master"
+            },
+            "suggest": {
+                "ext-gd": "to use the GD implementation",
+                "ext-gmagick": "to use the Gmagick implementation",
+                "ext-imagick": "to use the Imagick implementation"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-develop": "0.7-dev"
                 }
             },
             "autoload": {
                 "psr-0": {
-                    "Guzzle\\Stream": ""
+                    "Imagine": "lib/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1234,20 +1118,20 @@
             ],
             "authors": [
                 {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
+                    "name": "Bulat Shakirzyanov",
+                    "email": "mallluhuct@gmail.com",
+                    "homepage": "http://avalanche123.com"
                 }
             ],
-            "description": "Guzzle stream wrapper component",
-            "homepage": "http://guzzlephp.org/",
+            "description": "Image processing for PHP 5.3",
+            "homepage": "http://imagine.readthedocs.org/",
             "keywords": [
-                "Guzzle",
-                "component",
-                "stream"
+                "drawing",
+                "graphics",
+                "image manipulation",
+                "image processing"
             ],
-            "abandoned": "guzzle/guzzle",
-            "time": "2012-12-07 16:45:11"
+            "time": "2015-09-19 16:54:05"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -1538,21 +1422,21 @@
         },
         {
             "name": "knplabs/packagist-api",
-            "version": "v1.2",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/packagist-api.git",
-                "reference": "22eef9dfc163da33e78af2ae1487966774b54db5"
+                "reference": "9aebf8238943289d3bc3ab51e0014ed94a7a266a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/packagist-api/zipball/22eef9dfc163da33e78af2ae1487966774b54db5",
-                "reference": "22eef9dfc163da33e78af2ae1487966774b54db5",
+                "url": "https://api.github.com/repos/KnpLabs/packagist-api/zipball/9aebf8238943289d3bc3ab51e0014ed94a7a266a",
+                "reference": "9aebf8238943289d3bc3ab51e0014ed94a7a266a",
                 "shasum": ""
             },
             "require": {
                 "doctrine/inflector": "~1.0",
-                "guzzle/http": "~3.0",
+                "guzzle/guzzle": "~3.0",
                 "php": ">=5.3.2"
             },
             "require-dev": {
@@ -1587,7 +1471,7 @@
                 "composer",
                 "packagist"
             ],
-            "time": "2014-09-17 13:49:46"
+            "time": "2015-09-07 14:25:16"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -1668,17 +1552,17 @@
         },
         {
             "name": "modera/activity-logger-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/ActivityLoggerBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraActivityLoggerBundle.git",
-                "reference": "9cd8b89db3a70d5d47fd5a55925ebb28a8ba77da"
+                "reference": "3b4906e0883ae296095b70f4e0d891733f4ce7b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraActivityLoggerBundle/zipball/9cd8b89db3a70d5d47fd5a55925ebb28a8ba77da",
-                "reference": "9cd8b89db3a70d5d47fd5a55925ebb28a8ba77da",
+                "url": "https://api.github.com/repos/modera/ModeraActivityLoggerBundle/zipball/3b4906e0883ae296095b70f4e0d891733f4ce7b2",
+                "reference": "3b4906e0883ae296095b70f4e0d891733f4ce7b2",
                 "shasum": ""
             },
             "require": {
@@ -1691,12 +1575,12 @@
             },
             "require-dev": {
                 "modera/foundation-bundle": "~1.0|~2.0",
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "^5.5"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -1715,21 +1599,21 @@
                     "homepage": "http://sergei.lissovski.org/"
                 }
             ],
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/backend-config-utils-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/BackendConfigUtilsBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraBackendConfigUtilsBundle.git",
-                "reference": "845c64f7d5354cdf56e9bc8f59cdf23c4d21c036"
+                "reference": "591e177a1204e6d0a66ed2e268c57d96ba5b5baa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraBackendConfigUtilsBundle/zipball/845c64f7d5354cdf56e9bc8f59cdf23c4d21c036",
-                "reference": "845c64f7d5354cdf56e9bc8f59cdf23c4d21c036",
+                "url": "https://api.github.com/repos/modera/ModeraBackendConfigUtilsBundle/zipball/591e177a1204e6d0a66ed2e268c57d96ba5b5baa",
+                "reference": "591e177a1204e6d0a66ed2e268c57d96ba5b5baa",
                 "shasum": ""
             },
             "require": {
@@ -1740,12 +1624,12 @@
             },
             "require-dev": {
                 "phake/phake": "~2.0",
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "^5.5"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -1765,21 +1649,21 @@
                 }
             ],
             "description": "Bundle provides tools that simplify contributing your own configuration sections to 'Backend/Tools/Settings' section.",
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/backend-dashboard-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/BackendDashboardBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraBackendDashboardBundle.git",
-                "reference": "9a88cd999a960d2a75b928d2eda37b58e144db16"
+                "reference": "2b014b7740aaca27a0f8aaf96575b60630d8659d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraBackendDashboardBundle/zipball/9a88cd999a960d2a75b928d2eda37b58e144db16",
-                "reference": "9a88cd999a960d2a75b928d2eda37b58e144db16",
+                "url": "https://api.github.com/repos/modera/ModeraBackendDashboardBundle/zipball/2b014b7740aaca27a0f8aaf96575b60630d8659d",
+                "reference": "2b014b7740aaca27a0f8aaf96575b60630d8659d",
                 "shasum": ""
             },
             "require": {
@@ -1789,13 +1673,13 @@
                 "sergeil/expander-bundle": "~1.0"
             },
             "require-dev": {
-                "phake/phake": "2.0.*@dev",
-                "phpunit/phpunit": "3.*"
+                "phake/phake": "~2.0",
+                "phpunit/phpunit": "^5.5"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -1813,21 +1697,21 @@
                     "email": "alexandr.rudakov@modera.org"
                 }
             ],
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/backend-languages-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/BackendLanguagesBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraBackendLanguagesBundle.git",
-                "reference": "e2cb5c12159bfab6638cfecf812a3e6e7986720a"
+                "reference": "44c63ef891bf00027136fc9480e46a0e83d86f52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraBackendLanguagesBundle/zipball/e2cb5c12159bfab6638cfecf812a3e6e7986720a",
-                "reference": "e2cb5c12159bfab6638cfecf812a3e6e7986720a",
+                "url": "https://api.github.com/repos/modera/ModeraBackendLanguagesBundle/zipball/44c63ef891bf00027136fc9480e46a0e83d86f52",
+                "reference": "44c63ef891bf00027136fc9480e46a0e83d86f52",
                 "shasum": ""
             },
             "require": {
@@ -1839,12 +1723,12 @@
             },
             "require-dev": {
                 "phake/phake": "~2.0",
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "^5.5"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -1862,21 +1746,21 @@
                     "email": "sergei.vizel@modera.org"
                 }
             ],
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/backend-module-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/BackendModuleBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraBackendModuleBundle.git",
-                "reference": "b6f421da9e1c176e03ea6631131378edd658705f"
+                "reference": "a15b6dc1e12fc3ce40c0b3e62db0c60123307af8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraBackendModuleBundle/zipball/b6f421da9e1c176e03ea6631131378edd658705f",
-                "reference": "b6f421da9e1c176e03ea6631131378edd658705f",
+                "url": "https://api.github.com/repos/modera/ModeraBackendModuleBundle/zipball/a15b6dc1e12fc3ce40c0b3e62db0c60123307af8",
+                "reference": "a15b6dc1e12fc3ce40c0b3e62db0c60123307af8",
                 "shasum": ""
             },
             "require": {
@@ -1889,7 +1773,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -1912,21 +1796,21 @@
                     "email": "sergei.vizel@modera.org"
                 }
             ],
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/backend-security-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/BackendSecurityBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraBackendSecurityBundle.git",
-                "reference": "c42c5ac0b31c35ba2d9a7aaee882e96f41e2427e"
+                "reference": "9450e3455f23bdc0262baa7bf36ef26df5bf6b0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraBackendSecurityBundle/zipball/c42c5ac0b31c35ba2d9a7aaee882e96f41e2427e",
-                "reference": "c42c5ac0b31c35ba2d9a7aaee882e96f41e2427e",
+                "url": "https://api.github.com/repos/modera/ModeraBackendSecurityBundle/zipball/9450e3455f23bdc0262baa7bf36ef26df5bf6b0e",
+                "reference": "9450e3455f23bdc0262baa7bf36ef26df5bf6b0e",
                 "shasum": ""
             },
             "require": {
@@ -1944,12 +1828,12 @@
             "require-dev": {
                 "modera/foundation-bundle": "~1.0|~2.0",
                 "phake/phake": "2.*",
-                "phpunit/phpunit": "3.*"
+                "phpunit/phpunit": "^5.5"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -1973,21 +1857,21 @@
                 }
             ],
             "description": "Bundle provides UI section for MF that makes it possible to manage users/groups/permissions.",
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/backend-tools-activity-log-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/BackendToolsActivityLogBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraBackendToolsActivityLogBundle.git",
-                "reference": "cb812975f75eb9df8c76e29cb608ba8b19a900cd"
+                "reference": "b0085655e3f99bbf93be09cf2b174c25e36533c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraBackendToolsActivityLogBundle/zipball/cb812975f75eb9df8c76e29cb608ba8b19a900cd",
-                "reference": "cb812975f75eb9df8c76e29cb608ba8b19a900cd",
+                "url": "https://api.github.com/repos/modera/ModeraBackendToolsActivityLogBundle/zipball/b0085655e3f99bbf93be09cf2b174c25e36533c1",
+                "reference": "b0085655e3f99bbf93be09cf2b174c25e36533c1",
                 "shasum": ""
             },
             "require": {
@@ -1998,12 +1882,12 @@
                 "symfony/symfony": "~2.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "^5.5"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -2022,21 +1906,21 @@
                     "homepage": "http://sergei.lissovski.org/"
                 }
             ],
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/backend-tools-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/BackendToolsBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraBackendToolsBundle.git",
-                "reference": "3f184f88f5ec65afa830952148dc4730cb069071"
+                "reference": "1bac2d362e1587db3d73e333ead20b9e82c1b468"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraBackendToolsBundle/zipball/3f184f88f5ec65afa830952148dc4730cb069071",
-                "reference": "3f184f88f5ec65afa830952148dc4730cb069071",
+                "url": "https://api.github.com/repos/modera/ModeraBackendToolsBundle/zipball/1bac2d362e1587db3d73e333ead20b9e82c1b468",
+                "reference": "1bac2d362e1587db3d73e333ead20b9e82c1b468",
                 "shasum": ""
             },
             "require": {
@@ -2047,7 +1931,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -2066,21 +1950,21 @@
                     "homepage": "http://sergei.lissovski.org/"
                 }
             ],
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/backend-tools-settings-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/BackendToolsSettingsBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraBackendToolsSettingsBundle.git",
-                "reference": "628161339ee9850e8cc399fce3ff87c9d577069f"
+                "reference": "d88795ca2fce56569a4882c341b232a047819d75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraBackendToolsSettingsBundle/zipball/628161339ee9850e8cc399fce3ff87c9d577069f",
-                "reference": "628161339ee9850e8cc399fce3ff87c9d577069f",
+                "url": "https://api.github.com/repos/modera/ModeraBackendToolsSettingsBundle/zipball/d88795ca2fce56569a4882c341b232a047819d75",
+                "reference": "d88795ca2fce56569a4882c341b232a047819d75",
                 "shasum": ""
             },
             "require": {
@@ -2089,12 +1973,12 @@
                 "symfony/framework-bundle": "~2.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "3.*"
+                "phpunit/phpunit": "^5.5"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -2112,21 +1996,21 @@
                     "email": "sergei.lissovski@modera.org"
                 }
             ],
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/backend-translations-tool-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/BackendTranslationsToolBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraBackendTranslationsToolBundle.git",
-                "reference": "f9b97b83f3c209a0924ef2c6b9610c2a2080e385"
+                "reference": "3f844819c58c5997ecd6907bf9e40162dbd92e80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraBackendTranslationsToolBundle/zipball/f9b97b83f3c209a0924ef2c6b9610c2a2080e385",
-                "reference": "f9b97b83f3c209a0924ef2c6b9610c2a2080e385",
+                "url": "https://api.github.com/repos/modera/ModeraBackendTranslationsToolBundle/zipball/3f844819c58c5997ecd6907bf9e40162dbd92e80",
+                "reference": "3f844819c58c5997ecd6907bf9e40162dbd92e80",
                 "shasum": ""
             },
             "require": {
@@ -2140,7 +2024,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -2158,7 +2042,7 @@
                     "email": "sergei.vizel@modera.org"
                 }
             ],
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/composer-symfony-web-asset-installer-plugin",
@@ -2201,17 +2085,17 @@
         },
         {
             "name": "modera/config-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/ConfigBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraConfigBundle.git",
-                "reference": "40f1728fc79ce440061134479edac9c59e485330"
+                "reference": "0a2275dd15b9ef19bdf3a31a8ca3a47a2e04a333"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraConfigBundle/zipball/40f1728fc79ce440061134479edac9c59e485330",
-                "reference": "40f1728fc79ce440061134479edac9c59e485330",
+                "url": "https://api.github.com/repos/modera/ModeraConfigBundle/zipball/0a2275dd15b9ef19bdf3a31a8ca3a47a2e04a333",
+                "reference": "0a2275dd15b9ef19bdf3a31a8ca3a47a2e04a333",
                 "shasum": ""
             },
             "require": {
@@ -2225,12 +2109,12 @@
             },
             "require-dev": {
                 "phake/phake": "~2.0",
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "^5.5"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -2250,21 +2134,21 @@
                 }
             ],
             "description": "Bundles provides tools that allow to you to dynamically store and fetch your configuration properties in a flexible way.",
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/direct-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/DirectBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraDirectBundle.git",
-                "reference": "32eab2b063d18bd1a44e8ba0e6494a558c35eb4f"
+                "reference": "c7af0332946d9a7b1a9d941e6b1d7add4288f5ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraDirectBundle/zipball/32eab2b063d18bd1a44e8ba0e6494a558c35eb4f",
-                "reference": "32eab2b063d18bd1a44e8ba0e6494a558c35eb4f",
+                "url": "https://api.github.com/repos/modera/ModeraDirectBundle/zipball/c7af0332946d9a7b1a9d941e6b1d7add4288f5ea",
+                "reference": "c7af0332946d9a7b1a9d941e6b1d7add4288f5ea",
                 "shasum": ""
             },
             "require": {
@@ -2278,7 +2162,7 @@
                     "register-bundle": "Modera\\DirectBundle\\ModeraDirectBundle"
                 },
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -2302,21 +2186,21 @@
                 "extdirect",
                 "extjs"
             ],
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/dynamically-configurable-app-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/DynamicallyConfigurableAppBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraDynamicallyConfigurableAppBundle.git",
-                "reference": "f0024103b025674e57914a74ef4a2fecde05d2bd"
+                "reference": "2fdee689047a5622834f06e25e9c93b2e864ff96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraDynamicallyConfigurableAppBundle/zipball/f0024103b025674e57914a74ef4a2fecde05d2bd",
-                "reference": "f0024103b025674e57914a74ef4a2fecde05d2bd",
+                "url": "https://api.github.com/repos/modera/ModeraDynamicallyConfigurableAppBundle/zipball/2fdee689047a5622834f06e25e9c93b2e864ff96",
+                "reference": "2fdee689047a5622834f06e25e9c93b2e864ff96",
                 "shasum": ""
             },
             "require": {
@@ -2329,7 +2213,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -2348,21 +2232,21 @@
                     "homepage": "http://sergei.lissovski.org/"
                 }
             ],
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/dynamically-configurable-mjr-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/DynamicallyConfigurableMJRBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraDynamicallyConfigurableMJRBundle.git",
-                "reference": "4883c79a18f83a03eb36bccc083df8391bdde357"
+                "reference": "d05924522dca79341870234e5c9d1205aa2c01cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraDynamicallyConfigurableMJRBundle/zipball/4883c79a18f83a03eb36bccc083df8391bdde357",
-                "reference": "4883c79a18f83a03eb36bccc083df8391bdde357",
+                "url": "https://api.github.com/repos/modera/ModeraDynamicallyConfigurableMJRBundle/zipball/d05924522dca79341870234e5c9d1205aa2c01cf",
+                "reference": "d05924522dca79341870234e5c9d1205aa2c01cf",
                 "shasum": ""
             },
             "require": {
@@ -2375,12 +2259,12 @@
             },
             "require-dev": {
                 "phake/phake": "~2.0",
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "^5.5"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -2400,26 +2284,27 @@
                 }
             ],
             "description": "Allows to configure some aspects of MJR integration using UIs.",
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/file-repository-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/FileRepositoryBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraFileRepositoryBundle.git",
-                "reference": "f3ee82b8dcfe3126385efc8bf9b2fed62d470fbf"
+                "reference": "1a4a9bfdabc3e58d4cfde783ddd82bb56ce697a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraFileRepositoryBundle/zipball/f3ee82b8dcfe3126385efc8bf9b2fed62d470fbf",
-                "reference": "f3ee82b8dcfe3126385efc8bf9b2fed62d470fbf",
+                "url": "https://api.github.com/repos/modera/ModeraFileRepositoryBundle/zipball/1a4a9bfdabc3e58d4cfde783ddd82bb56ce697a0",
+                "reference": "1a4a9bfdabc3e58d4cfde783ddd82bb56ce697a0",
                 "shasum": ""
             },
             "require": {
                 "doctrine/doctrine-bundle": "~1.2",
                 "doctrine/orm": "~2.2,>=2.2.3",
+                "imagine/imagine": "0.6.*",
                 "knplabs/knp-gaufrette-bundle": "~0.1.7",
                 "modera/foundation-bundle": "~1.0|~2.0",
                 "php": ">=5.3.0",
@@ -2427,13 +2312,13 @@
             },
             "require-dev": {
                 "phake/phake": "~2.0",
-                "phpunit/phpunit": "3.7.*",
+                "phpunit/phpunit": "^5.5",
                 "sergeil/aux-bundle": "~1.0"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -2452,21 +2337,21 @@
                     "homepage": "http://sergei.lissovski.org/"
                 }
             ],
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-19 12:40:17"
         },
         {
             "name": "modera/file-uploader-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/FileUploaderBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraFileUploaderBundle.git",
-                "reference": "29c3443b0c37d4a1e267d8d842de63acd93db884"
+                "reference": "25db5eb3697de95f8193e003ede4e1d5b280ce02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraFileUploaderBundle/zipball/29c3443b0c37d4a1e267d8d842de63acd93db884",
-                "reference": "29c3443b0c37d4a1e267d8d842de63acd93db884",
+                "url": "https://api.github.com/repos/modera/ModeraFileUploaderBundle/zipball/25db5eb3697de95f8193e003ede4e1d5b280ce02",
+                "reference": "25db5eb3697de95f8193e003ede4e1d5b280ce02",
                 "shasum": ""
             },
             "require": {
@@ -2477,14 +2362,14 @@
                 "symfony/symfony": "~2.0"
             },
             "require-dev": {
-                "phake/phake": "1.*",
-                "phpunit/phpunit": "3.7.*",
+                "phake/phake": "~2.0",
+                "phpunit/phpunit": "^5.5",
                 "sergeil/aux-bundle": "~1.0"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -2503,21 +2388,21 @@
                     "homepage": "http://sergei.lissovski.org/"
                 }
             ],
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/foundation-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/FoundationBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraFoundationBundle.git",
-                "reference": "a1720c85bc32b4549541438bebd25158a05be744"
+                "reference": "4996b9dba546c02d8f0b7bdf49b5d200bea6fce2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraFoundationBundle/zipball/a1720c85bc32b4549541438bebd25158a05be744",
-                "reference": "a1720c85bc32b4549541438bebd25158a05be744",
+                "url": "https://api.github.com/repos/modera/ModeraFoundationBundle/zipball/4996b9dba546c02d8f0b7bdf49b5d200bea6fce2",
+                "reference": "4996b9dba546c02d8f0b7bdf49b5d200bea6fce2",
                 "shasum": ""
             },
             "require": {
@@ -2525,12 +2410,12 @@
                 "symfony/symfony": "~2.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "^5.5"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -2549,21 +2434,21 @@
                     "homepage": "http://sergei.lissovski.org/"
                 }
             ],
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 10:08:56"
         },
         {
             "name": "modera/languages-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/LanguagesBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraLanguagesBundle.git",
-                "reference": "64cbc4ed8252d4225e4702bc135ea9ac1abd9542"
+                "reference": "6c05cb0dc752453d1f3e55853966109d8555cbec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraLanguagesBundle/zipball/64cbc4ed8252d4225e4702bc135ea9ac1abd9542",
-                "reference": "64cbc4ed8252d4225e4702bc135ea9ac1abd9542",
+                "url": "https://api.github.com/repos/modera/ModeraLanguagesBundle/zipball/6c05cb0dc752453d1f3e55853966109d8555cbec",
+                "reference": "6c05cb0dc752453d1f3e55853966109d8555cbec",
                 "shasum": ""
             },
             "require": {
@@ -2574,12 +2459,12 @@
             },
             "require-dev": {
                 "modera/foundation-bundle": "~1.0|~2.0",
-                "phpunit/phpunit": "3.*"
+                "phpunit/phpunit": "^5.5"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -2597,21 +2482,21 @@
                     "email": "sergei.vizel@modera.org"
                 }
             ],
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/mjr-cache-aware-class-loader",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/MJRCacheAwareClassLoaderBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraMJRCacheAwareClassLoaderBundle.git",
-                "reference": "65694607c5f0a62ae5a412725826d6d7fc6ca0ee"
+                "reference": "783479562c84ff9297e19827f47f16811cde45fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraMJRCacheAwareClassLoaderBundle/zipball/65694607c5f0a62ae5a412725826d6d7fc6ca0ee",
-                "reference": "65694607c5f0a62ae5a412725826d6d7fc6ca0ee",
+                "url": "https://api.github.com/repos/modera/ModeraMJRCacheAwareClassLoaderBundle/zipball/783479562c84ff9297e19827f47f16811cde45fb",
+                "reference": "783479562c84ff9297e19827f47f16811cde45fb",
                 "shasum": ""
             },
             "require": {
@@ -2622,13 +2507,13 @@
             },
             "require-dev": {
                 "modera/foundation-bundle": "~1.0|~2.0",
-                "phake/phake": "1.*",
-                "phpunit/phpunit": "3.7.*"
+                "phake/phake": "~2.0",
+                "phpunit/phpunit": "^5.5"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -2646,21 +2531,21 @@
                     "email": "sergei.lissovski@modera.org"
                 }
             ],
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/mjr-integration-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/MjrIntegrationBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraMjrIntegrationBundle.git",
-                "reference": "6b8dcd32d553255de21dd8d5b057552c29e9af80"
+                "reference": "47cc37a9b27202e4188282ca205f1774000598c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraMjrIntegrationBundle/zipball/6b8dcd32d553255de21dd8d5b057552c29e9af80",
-                "reference": "6b8dcd32d553255de21dd8d5b057552c29e9af80",
+                "url": "https://api.github.com/repos/modera/ModeraMjrIntegrationBundle/zipball/47cc37a9b27202e4188282ca205f1774000598c8",
+                "reference": "47cc37a9b27202e4188282ca205f1774000598c8",
                 "shasum": ""
             },
             "require": {
@@ -2670,13 +2555,13 @@
                 "symfony/symfony": "~2.0"
             },
             "require-dev": {
-                "phake/phake": "2.*",
-                "phpunit/phpunit": "3.*"
+                "phake/phake": "~2.0",
+                "phpunit/phpunit": "^5.5"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -2700,21 +2585,21 @@
             "keywords": [
                 "mjr"
             ],
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/mjr-security-integration-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/MJRSecurityIntegrationBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraMJRSecurityIntegrationBundle.git",
-                "reference": "c3966d7b9f33f01065e2408994166a3b671ddef7"
+                "reference": "917aa5ad6ecd498365203a957405af0e9e82ae3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraMJRSecurityIntegrationBundle/zipball/c3966d7b9f33f01065e2408994166a3b671ddef7",
-                "reference": "c3966d7b9f33f01065e2408994166a3b671ddef7",
+                "url": "https://api.github.com/repos/modera/ModeraMJRSecurityIntegrationBundle/zipball/917aa5ad6ecd498365203a957405af0e9e82ae3f",
+                "reference": "917aa5ad6ecd498365203a957405af0e9e82ae3f",
                 "shasum": ""
             },
             "require": {
@@ -2728,12 +2613,12 @@
             },
             "require-dev": {
                 "phake/phake": "~2.0",
-                "phpunit/phpunit": "3.*"
+                "phpunit/phpunit": "^5.5"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -2757,21 +2642,21 @@
             "keywords": [
                 "mjr"
             ],
-            "time": "2016-09-02 08:24:43"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/mjr-theme-integration-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/MJRThemeIntegrationBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraMJRThemeIntegrationBundle.git",
-                "reference": "07ad94f90cd3de289bb6b0d17a123271d8128179"
+                "reference": "998425ccd029282f3932dc96602e7b0a6f89617f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraMJRThemeIntegrationBundle/zipball/07ad94f90cd3de289bb6b0d17a123271d8128179",
-                "reference": "07ad94f90cd3de289bb6b0d17a123271d8128179",
+                "url": "https://api.github.com/repos/modera/ModeraMJRThemeIntegrationBundle/zipball/998425ccd029282f3932dc96602e7b0a6f89617f",
+                "reference": "998425ccd029282f3932dc96602e7b0a6f89617f",
                 "shasum": ""
             },
             "require": {
@@ -2781,7 +2666,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -2800,7 +2685,7 @@
                     "homepage": "http://sergei.lissovski.org/"
                 }
             ],
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/module",
@@ -2854,17 +2739,17 @@
         },
         {
             "name": "modera/module-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/ModuleBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraModuleBundle.git",
-                "reference": "ea5ea73ea76602cadeeb053cc94019166120f2a4"
+                "reference": "b4275a229884e906c737dfd8c4fb92690c57d094"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraModuleBundle/zipball/ea5ea73ea76602cadeeb053cc94019166120f2a4",
-                "reference": "ea5ea73ea76602cadeeb053cc94019166120f2a4",
+                "url": "https://api.github.com/repos/modera/ModeraModuleBundle/zipball/b4275a229884e906c737dfd8c4fb92690c57d094",
+                "reference": "b4275a229884e906c737dfd8c4fb92690c57d094",
                 "shasum": ""
             },
             "require": {
@@ -2874,13 +2759,13 @@
                 "symfony/symfony": "~2.0"
             },
             "require-dev": {
-                "phake/phake": "2.*",
-                "phpunit/phpunit": "3.*"
+                "phake/phake": "~2.0",
+                "phpunit/phpunit": "^5.5"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -2903,21 +2788,21 @@
                 }
             ],
             "description": "Adds support for dynamical bundles installation.",
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-15 12:45:04"
         },
         {
             "name": "modera/routing-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/RoutingBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraRoutingBundle.git",
-                "reference": "9f605f5bd9e869fe84816425780a192884923f9d"
+                "reference": "1a886fd41cd37b24cac3d8d513b1200da5872ef7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraRoutingBundle/zipball/9f605f5bd9e869fe84816425780a192884923f9d",
-                "reference": "9f605f5bd9e869fe84816425780a192884923f9d",
+                "url": "https://api.github.com/repos/modera/ModeraRoutingBundle/zipball/1a886fd41cd37b24cac3d8d513b1200da5872ef7",
+                "reference": "1a886fd41cd37b24cac3d8d513b1200da5872ef7",
                 "shasum": ""
             },
             "require": {
@@ -2926,13 +2811,13 @@
                 "symfony/symfony": "~2.2"
             },
             "require-dev": {
-                "phake/phake": "1.*",
-                "phpunit/phpunit": "3.7.*"
+                "phake/phake": "~2.0",
+                "phpunit/phpunit": "^5.5"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -2955,21 +2840,21 @@
                 }
             ],
             "description": "This bundle makes it possible for bundles to dynamically include routing files from within your bundles.",
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/security-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/SecurityBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraSecurityBundle.git",
-                "reference": "286c024d8918499a70c3d84b9f27eef2aeaa94c5"
+                "reference": "309318d83e5990264833a4690014d053a0a7bcb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraSecurityBundle/zipball/286c024d8918499a70c3d84b9f27eef2aeaa94c5",
-                "reference": "286c024d8918499a70c3d84b9f27eef2aeaa94c5",
+                "url": "https://api.github.com/repos/modera/ModeraSecurityBundle/zipball/309318d83e5990264833a4690014d053a0a7bcb3",
+                "reference": "309318d83e5990264833a4690014d053a0a7bcb3",
                 "shasum": ""
             },
             "require": {
@@ -2983,13 +2868,13 @@
             "require-dev": {
                 "modera/foundation-bundle": "~1.0|~2.0",
                 "modera/languages-bundle": "~1.0|~2.0",
-                "phake/phake": "1.*",
-                "phpunit/phpunit": "3.*"
+                "phake/phake": "~2.0",
+                "phpunit/phpunit": "^5.5"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -3013,21 +2898,21 @@
                 }
             ],
             "description": "Provides database aware implementation of Security model + some other perks",
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/server-crud-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/ServerCrudBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraServerCrudBundle.git",
-                "reference": "f2d21c9c3e0f406b00b1d0aa1e0cc7f4081b10fb"
+                "reference": "c29429311a40da56a9d11e872122679e1a695ffa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraServerCrudBundle/zipball/f2d21c9c3e0f406b00b1d0aa1e0cc7f4081b10fb",
-                "reference": "f2d21c9c3e0f406b00b1d0aa1e0cc7f4081b10fb",
+                "url": "https://api.github.com/repos/modera/ModeraServerCrudBundle/zipball/c29429311a40da56a9d11e872122679e1a695ffa",
+                "reference": "c29429311a40da56a9d11e872122679e1a695ffa",
                 "shasum": ""
             },
             "require": {
@@ -3043,13 +2928,13 @@
                 "symfony/symfony": "~2.6"
             },
             "require-dev": {
-                "phake/phake": "2.*",
-                "phpunit/phpunit": "3.7.*"
+                "phake/phake": "~2.0",
+                "phpunit/phpunit": "^5.5"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -3068,21 +2953,21 @@
                     "homepage": "http://sergei.lissovski.org/"
                 }
             ],
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-19 09:30:31"
         },
         {
             "name": "modera/translations-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/TranslationsBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraTranslationsBundle.git",
-                "reference": "f8dfbf1523837d13653952d90ad6c340076557d1"
+                "reference": "a771d5721bf20264d0897cc04bf0736a3351c298"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraTranslationsBundle/zipball/f8dfbf1523837d13653952d90ad6c340076557d1",
-                "reference": "f8dfbf1523837d13653952d90ad6c340076557d1",
+                "url": "https://api.github.com/repos/modera/ModeraTranslationsBundle/zipball/a771d5721bf20264d0897cc04bf0736a3351c298",
+                "reference": "a771d5721bf20264d0897cc04bf0736a3351c298",
                 "shasum": ""
             },
             "require": {
@@ -3094,13 +2979,13 @@
             },
             "require-dev": {
                 "modera/foundation-bundle": "~1.0|~2.0",
-                "phake/phake": "2.0.*@dev",
-                "phpunit/phpunit": "3.*"
+                "phake/phake": "~2.0",
+                "phpunit/phpunit": "^5.5"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -3122,21 +3007,21 @@
                     "email": "sergei.lissovski@modera.org"
                 }
             ],
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "modera/upgrade-bundle",
-            "version": "v2.51.1",
+            "version": "v2.52.1",
             "target-dir": "Modera/UpgradeBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/ModeraUpgradeBundle.git",
-                "reference": "a9f390c05b09b8339c24e156418b12610c8efe8c"
+                "reference": "3af09db91f3b36750a349f2a0581c7825f852af5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/ModeraUpgradeBundle/zipball/a9f390c05b09b8339c24e156418b12610c8efe8c",
-                "reference": "a9f390c05b09b8339c24e156418b12610c8efe8c",
+                "url": "https://api.github.com/repos/modera/ModeraUpgradeBundle/zipball/3af09db91f3b36750a349f2a0581c7825f852af5",
+                "reference": "3af09db91f3b36750a349f2a0581c7825f852af5",
                 "shasum": ""
             },
             "require": {
@@ -3145,12 +3030,12 @@
             },
             "require-dev": {
                 "modera/foundation-bundle": "~1.0|~2.0",
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "^5.5"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -3168,7 +3053,7 @@
                     "email": "sergei.vizel@modera.org"
                 }
             ],
-            "time": "2016-07-22 11:51:34"
+            "time": "2016-09-05 07:27:02"
         },
         {
             "name": "monolog/monolog",
@@ -3507,16 +3392,16 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v5.0.8",
+            "version": "v5.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "f8ace5c71ee309492b027ef71215577f5a52b4ea"
+                "reference": "b6dcd04595e4db95ead22ddea58c397864e00c32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/f8ace5c71ee309492b027ef71215577f5a52b4ea",
-                "reference": "f8ace5c71ee309492b027ef71215577f5a52b4ea",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/b6dcd04595e4db95ead22ddea58c397864e00c32",
+                "reference": "b6dcd04595e4db95ead22ddea58c397864e00c32",
                 "shasum": ""
             },
             "require": {
@@ -3555,7 +3440,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2016-08-17 18:16:49"
+            "time": "2016-09-14 20:25:12"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -3621,16 +3506,16 @@
         },
         {
             "name": "sensio/generator-bundle",
-            "version": "v3.0.7",
+            "version": "v3.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioGeneratorBundle.git",
-                "reference": "d1be460925376703a470a3ac6ec034eb7eab3892"
+                "reference": "3c20d16512f37d2be159eca0411b99a141b90fa4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/d1be460925376703a470a3ac6ec034eb7eab3892",
-                "reference": "d1be460925376703a470a3ac6ec034eb7eab3892",
+                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/3c20d16512f37d2be159eca0411b99a141b90fa4",
+                "reference": "3c20d16512f37d2be159eca0411b99a141b90fa4",
                 "shasum": ""
             },
             "require": {
@@ -3669,7 +3554,7 @@
                 }
             ],
             "description": "This bundle generates code for you",
-            "time": "2016-06-20 05:58:05"
+            "time": "2016-09-06 01:30:19"
         },
         {
             "name": "sensiolabs/security-checker",
@@ -4650,16 +4535,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.9",
+            "version": "v2.8.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "df02dd5d3f7decb3a05c6d0f31054b4263625dcb"
+                "reference": "f588c92c3e263b2eaa2f96a7b1359199eb209b3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/df02dd5d3f7decb3a05c6d0f31054b4263625dcb",
-                "reference": "df02dd5d3f7decb3a05c6d0f31054b4263625dcb",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/f588c92c3e263b2eaa2f96a7b1359199eb209b3d",
+                "reference": "f588c92c3e263b2eaa2f96a7b1359199eb209b3d",
                 "shasum": ""
             },
             "require": {
@@ -4780,7 +4665,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-07-30 08:48:52"
+            "time": "2016-09-07 02:04:25"
         },
         {
             "name": "twig/twig",
@@ -5506,16 +5391,16 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v2.8.9",
+            "version": "v2.8.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
-                "reference": "bc61b781fa7f07f9a2ed4e69b15d5c2238695fc0"
+                "reference": "fc69aad7dba2ab3eed5cf90c8e3ede4fb961effd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/bc61b781fa7f07f9a2ed4e69b15d5c2238695fc0",
-                "reference": "bc61b781fa7f07f9a2ed4e69b15d5c2238695fc0",
+                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/fc69aad7dba2ab3eed5cf90c8e3ede4fb961effd",
+                "reference": "fc69aad7dba2ab3eed5cf90c8e3ede4fb961effd",
                 "shasum": ""
             },
             "require": {
@@ -5557,7 +5442,7 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
-            "time": "2016-06-29 05:31:50"
+            "time": "2016-08-19 06:48:01"
         }
     ],
     "aliases": [],

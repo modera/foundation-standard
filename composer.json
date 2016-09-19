@@ -63,9 +63,9 @@
     "scripts": {
         "pre-install-cmd": "Modera\\ModuleBundle\\Composer\\ScriptHandler::enableMaintenance",
         "pre-update-cmd": "Modera\\ModuleBundle\\Composer\\ScriptHandler::enableMaintenance",
-        "post-package-install": "Modera\\ModuleBundle\\Composer\\ScriptHandler::eventDispatcher",
-        "post-package-update": "Modera\\ModuleBundle\\Composer\\ScriptHandler::eventDispatcher",
-        "pre-package-uninstall": "Modera\\ModuleBundle\\Composer\\ScriptHandler::eventDispatcher",
+        "post-package-install": "Modera\\ModuleBundle\\Composer\\ScriptHandler::packageEventDispatcher",
+        "post-package-update": "Modera\\ModuleBundle\\Composer\\ScriptHandler::packageEventDispatcher",
+        "pre-package-uninstall": "Modera\\ModuleBundle\\Composer\\ScriptHandler::packageEventDispatcher",
         "post-install-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
