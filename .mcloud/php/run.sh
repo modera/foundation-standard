@@ -12,7 +12,6 @@ while ! echo exit | nc -z mysql 3306; do
 done
 
 . /var/www/.extjs/install.sh
-. /var/www/.mjr/install.sh
 
 rm -rf /var/www/app/cache/*
 rm -rf /var/www/app/logs/*
