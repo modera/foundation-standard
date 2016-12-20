@@ -1,0 +1,7 @@
+.git/
+.idea/
+app/bootstrap.php.cache
+app/cache
+app/config/parameters.yml
+app/kernel.json
+app/logs

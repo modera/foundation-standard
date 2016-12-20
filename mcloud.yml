@@ -17,11 +17,11 @@ php:
         .mcloud/volumes/composer: /.composer
     cmd: .mcloud/php/run.sh
 
-module-service:
-    extend: php
-    cmd: .mcloud/module-service/run.sh
-    ~dev:
-        cmd: .mcloud/module-service/run.sh --ui=true
+#module-service:
+#    extend: php
+#    cmd: .mcloud/module-service/run.sh
+#    ~dev:
+#        cmd: .mcloud/module-service/run.sh --ui=true
 
 nginx:
     image: nginx:1.7.7
