@@ -3,7 +3,8 @@
 ## 0.9
 
 * Update your composer.json file so it would use modera/foundation fat-repo instead of directly specifying all nested
-packages. 
+packages. See [composer.json changeset](https://github.com/modera/foundation-standard/commit/52db17a084bf1a0461e47a98dd7353178c4ccbc7#diff-b5d0ee8c97c7abd7e3fa29b9a27d1780) for more details.
+One composer.json has been updated don't forget to run `composer update`.
 
 ## from 0.7 to 0.8
 
