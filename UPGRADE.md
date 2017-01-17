@@ -1,5 +1,10 @@
 # Upgrade guide
 
+## 0.9
+
+* Update your composer.json file so it would use modera/foundation fat-repo instead of directly specifying all nested
+packages. 
+
 ## from 0.7 to 0.8
 
 * Make sure that your composer.json includes "repositories" section
