@@ -1,5 +1,15 @@
 # Upgrade guide
 
+## 0.10
+
+* Update composer.json so "modera/mjr" would point to "~0.3.0" version
+* Update composer.json so it would include [modera/foundation](https://github.com/modera/foundation) and exclude
+ packages that modera/foundation "replaces" (see ["replace"](https://github.com/modera/foundation/blob/master/composer.json#L34) 
+ section of modera/foundation package).
+* Update .whaler and .mcloud directories so they would use latest configuration files. See 
+[5a7b6b5 changeset](https://github.com/modera/foundation-standard/commit/0a20324cb480dc7b18f6727ea9779a75177ce388) for 
+related changeset. Updated configuration files make it easier to install additional application to the platform (such as chat).
+
 ## 0.9
 
 * Update your composer.json file so it would use modera/foundation fat-repo instead of directly specifying all nested

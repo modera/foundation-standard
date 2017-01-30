@@ -33,7 +33,7 @@
 
         "modera/composer-symfony-web-asset-installer-plugin": "~1.0",
         "modera/foundation": "~2.0",
-        "modera/mjr": "~0.2.0",
+        "modera/mjr": "~0.3.0",
         "modera/theme": "~0.1.0"
     },
     "require-dev": {
@@ -79,7 +79,8 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
         ]
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "config": {
         "bin-dir": "bin",
         "platform": {
