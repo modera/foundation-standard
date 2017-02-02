@@ -1,5 +1,11 @@
 # Upgrade guide
 
+## 0.11 (not released yet)
+
+* If you are using nginx configs provided in `.mcloud` or `.whaler` directory please update gzip section as illustrated
+in this commit, it will reduce amount of data transferrered through the network for about 80%. Once updated do not forget
+to restart nginx.
+
 ## 0.10
 
 * Update composer.json so "modera/mjr" would point to "~0.3.0" version
