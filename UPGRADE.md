@@ -4,8 +4,9 @@
 
 * [MPFE-980] If you are using nginx configs provided in `.mcloud` or `.whaler` directory please update gzip section as 
 illustrated in this [commit](https://github.com/modera/foundation-standard/commit/d521dd0701ec8784be075e00ef7778ade1707dd5), 
-it will reduce amount of data transferred through the network for about 80%. Also you can enable optimistic cache
-by adding `location` block, see this commit for more details.  Once updated do not forget to restart Nginx.
+it will reduce amount of data transferred through the network for about 80%. Also it is recommended to enable optimistic 
+cache by adding `location` block, see this [commit](https://github.com/modera/foundation-standard/commit/bb9c575c97578f63e9ceecf77c1bf632ea49397c) 
+for more details. Once updated do not forget to restart Nginx.
 
 ## 0.10
 
