@@ -6,7 +6,10 @@
 illustrated in this [commit](https://github.com/modera/foundation-standard/commit/d521dd0701ec8784be075e00ef7778ade1707dd5), 
 it will reduce amount of data transferred through the network for about 80%. Also it is recommended to enable optimistic 
 cache by adding `location` block, see this [commit](https://github.com/modera/foundation-standard/commit/36b8068c477ed9b1e2ca826b7b3fb8aab5f6a412) 
-for more details. Once updated do not forget to restart Nginx.
+for more details. Once updated do not forget to restart Nginx. Beware that you need to increase a version number in `/modera-version.txt` 
+file whenever a new version of application is deployed (when production environment is used). See 
+from `VersionResolving\StandardVersionResolver` MJRCacheAwareClassLoaderBundle for more details. If the version number is not
+increased then browser will continue using ExtJS classes that could have been possibly cached once user opened a section.
 
 ## 0.10
 
