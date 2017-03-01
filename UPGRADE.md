@@ -2,6 +2,10 @@
 
 ## 0.11 (not released yet)
 
+* bugfix [MPFE-984] Run this query `ALTER TABLE modera_translations_translationtoken CONVERT TO CHARACTER SET utf8 COLLATE utf8_bin;` 
+  in MySQL database, this will make `modera:translations:import` command work properly in cases when tokens characters' case has 
+  been changed, by default MySQL considered "foo" and "FOO" column values to be identical, by converting the collation to utf8_bin we
+  are telling MySQL to consider those to be different values.
 * [MPFE-980] If you are using nginx configs provided in `.mcloud` or `.whaler` directory please update gzip section as 
 illustrated in this [commit](https://github.com/modera/foundation-standard/commit/d521dd0701ec8784be075e00ef7778ade1707dd5), 
 it will reduce amount of data transferred through the network for about 80%. Also it is recommended to enable optimistic 
