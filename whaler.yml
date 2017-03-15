@@ -17,6 +17,11 @@ services:
     php:
         wait: 30m
         image: modera/php5-fpm:1.0
+        env:
+            SYMFONY__db_host: mysql
+            SYMFONY__db_port: 3306
+            SYMFONY__db_user: root
+            SYMFONY__db_password: 123123
 #        volumes_from:
 #            - container:composer
         volumes:

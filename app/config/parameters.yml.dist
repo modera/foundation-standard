@@ -1,10 +1,10 @@
 parameters:
     database_driver:   pdo_mysql
-    database_host:     mysql
-    database_port:     3306
+    database_host:     %db_host%
+    database_port:     %db_port%
     database_name:     symfony
-    database_user:     root
-    database_password: 123123
+    database_user:     %db_user%
+    database_password: %db_password%
 
     mailer_transport:  smtp
     mailer_host:       postfix
