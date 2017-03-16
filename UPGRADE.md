@@ -2,6 +2,8 @@
 
 ## 0.11 (not released yet)
 
+* [MPFE-993] Database connection credentials now are specified using environment variables, update your `app/config/parameters.yml`,
+for a way how these can be defined refer to `whaler.yml` or `mcloud.yml` files.
 * bugfix [MPFE-984] Run this query `ALTER TABLE modera_translations_translationtoken CONVERT TO CHARACTER SET utf8 COLLATE utf8_bin;` 
   in MySQL database, this will make `modera:translations:import` command work properly in cases when tokens characters' case has 
   been changed, by default MySQL considered "foo" and "FOO" column values to be identical, by converting the collation to utf8_bin we
