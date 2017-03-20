@@ -1,0 +1,15 @@
+default:
+    extensions:
+        Modera\Component\SeleniumTools\Behat\ActorsExtension:
+            harnesses:
+                default:
+                    actors:
+                        admin:
+                            base_url: "%BEHAT_BACKEND_BASE_URL%"
+                        john.doe:
+                            base_url: "%BEHAT_BACKEND_BASE_URL%"
+    suites:
+        default:
+            contexts:
+                - Modera\Component\SeleniumTools\Behat\Context\MJRContext
+                - Modera\Component\SeleniumTools\Behat\Context\ExtJsGridContext
