@@ -1,8 +1,15 @@
 default:
     extensions:
         Modera\Component\SeleniumTools\Behat\ActorsExtension:
+            drivers:
+                default:
+                    browser: chrome
+                    host: "%BEHAT_SELENIUM_HOST%"
+            video_recorder:
+                host: "%BEHAT_VR_HOST%"
             harnesses:
                 default:
+                    driver: default
                     actors:
                         admin:
                             base_url: "%BEHAT_BACKEND_BASE_URL%"

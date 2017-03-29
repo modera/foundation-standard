@@ -32,7 +32,7 @@
         "sergeil/extjsintegration-bundle": "~1.0",
 
         "modera/composer-symfony-web-asset-installer-plugin": "~1.0",
-        "modera/foundation": "~2.0",
+        "modera/foundation": "dev-master",
         "modera/mjr": "~0.3.0",
         "modera/theme": "~0.1.0"
     },
@@ -40,7 +40,9 @@
         "sensio/generator-bundle": "~3.0",
         "symfony/phpunit-bridge": "~2.7",
         "phpunit/phpunit": "3.7.*",
-        "phake/phake": "2.*"
+        "phake/phake": "2.*",
+        "behat/behat": "^3.0",
+        "modera/selenium-tools": "dev-master"
     },
     "scripts": {
         "pre-install-cmd": "Modera\\ModuleBundle\\Composer\\ScriptHandler::enableMaintenance",
@@ -82,10 +84,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "bin-dir": "bin",
-        "platform": {
-            "php": "5.4.0"
-        }
+        "bin-dir": "bin"
     },
     "extra": {
         "symfony-app-dir": "app",
