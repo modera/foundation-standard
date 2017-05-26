@@ -16,7 +16,7 @@ services:
 
     php:
         wait: 30m
-        image: modera/php5-fpm:1.0
+        image: modera/php:5
         env:
             SYMFONY__db_host: mysql
             SYMFONY__db_port: 3306
