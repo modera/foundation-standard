@@ -45,40 +45,38 @@
         "modera/selenium-tools": "dev-master"
     },
     "scripts": {
-        "pre-install-cmd": "Modera\\ModuleBundle\\Composer\\ScriptHandler::enableMaintenance",
-        "pre-update-cmd": "Modera\\ModuleBundle\\Composer\\ScriptHandler::enableMaintenance",
+        "modera:register-bundles": "Modera\\ModuleBundle\\Composer\\ScriptHandler::registerBundles",
+        "modera:enable-maintenance": "Modera\\ModuleBundle\\Composer\\ScriptHandler::enableMaintenance",
+        "modera:disable-maintenance": "Modera\\ModuleBundle\\Composer\\ScriptHandler::disableMaintenance",
+        "modera:scripts": [
+            "Modera\\ModuleBundle\\Composer\\ScriptHandler::initDatabase",
+            "Modera\\ModuleBundle\\Composer\\ScriptHandler::eventDispatcher",
+            "Modera\\SecurityBundle\\Composer\\ScriptHandler::installPermissions",
+            "Modera\\ConfigBundle\\Composer\\ScriptHandler::installConfigEntries",
+            "Modera\\LanguagesBundle\\Composer\\ScriptHandler::configSync",
+            "@modera:disable-maintenance"
+        ],
+        "symfony:scripts": [
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+            "@modera:register-bundles",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+        ],
+        "pre-install-cmd": "@modera:enable-maintenance",
+        "pre-update-cmd": "@modera:enable-maintenance",
         "post-package-install": "Modera\\ModuleBundle\\Composer\\ScriptHandler::packageEventDispatcher",
         "post-package-update": "Modera\\ModuleBundle\\Composer\\ScriptHandler::packageEventDispatcher",
         "pre-package-uninstall": "Modera\\ModuleBundle\\Composer\\ScriptHandler::packageEventDispatcher",
         "post-install-cmd": [
-            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
-            "Modera\\ModuleBundle\\Composer\\ScriptHandler::registerBundles",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget",
-            "Modera\\ModuleBundle\\Composer\\ScriptHandler::initDatabase",
-            "Modera\\ModuleBundle\\Composer\\ScriptHandler::eventDispatcher",
-            "Modera\\SecurityBundle\\Composer\\ScriptHandler::installPermissions",
-            "Modera\\ConfigBundle\\Composer\\ScriptHandler::installConfigEntries",
-            "Modera\\LanguagesBundle\\Composer\\ScriptHandler::configSync",
-            "Modera\\ModuleBundle\\Composer\\ScriptHandler::disableMaintenance"
+            "@symfony:scripts",
+            "@modera:scripts"
         ],
         "post-update-cmd": [
-            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
-            "Modera\\ModuleBundle\\Composer\\ScriptHandler::registerBundles",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Modera\\ModuleBundle\\Composer\\ScriptHandler::initDatabase",
-            "Modera\\ModuleBundle\\Composer\\ScriptHandler::eventDispatcher",
-            "Modera\\SecurityBundle\\Composer\\ScriptHandler::installPermissions",
-            "Modera\\ConfigBundle\\Composer\\ScriptHandler::installConfigEntries",
-            "Modera\\LanguagesBundle\\Composer\\ScriptHandler::configSync",
-            "Modera\\ModuleBundle\\Composer\\ScriptHandler::disableMaintenance",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+            "@symfony:scripts",
+            "@modera:scripts"
         ]
     },
     "minimum-stability": "dev",
