@@ -24,7 +24,7 @@ composer install --no-interaction --working-dir=/var/www/
 
 for env in `printenv | grep 'SYMFONY__'`; do
     IFS== read name value <<< "$env"
-    /.cravler/php5-fpm-set-env.sh "$name"
+    /.cravler/php-fpm-set-env.sh "$name"
 done
 
 echo ""
