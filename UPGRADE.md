@@ -1,7 +1,10 @@
 # Upgrade guide
 
-## 0.11 (not released yet)
+## 0.11 (18.06.2017)
 
+* Update composer.json so "modera/mjr" would point to "~0.5.0" version
+* Update composer.json so "modera/theme" would point to "~0.2.0" version
+* Update composer.json so "modera/foundation" would point to "^2.55.0" version
 * [MPFE-993] Database connection credentials now are specified using environment variables, update your `app/config/parameters.yml`,
 for a way how these can be defined refer to `whaler.yml` or `mcloud.yml` files.
 * bugfix [MPFE-984] Run this query `ALTER TABLE modera_translations_translationtoken CONVERT TO CHARACTER SET utf8 COLLATE utf8_bin;` 
