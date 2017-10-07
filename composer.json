@@ -32,7 +32,7 @@
         "sergeil/extjsintegration-bundle": "~1.0",
 
         "modera/composer-symfony-web-asset-installer-plugin": "~1.0",
-        "modera/foundation": "^2.55.0",
+        "modera/foundation": "^2.56.0",
         "modera/mjr": "~0.5.0",
         "modera/theme": "~0.2.0"
     },

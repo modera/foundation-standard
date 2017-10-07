@@ -1,5 +1,9 @@
 # Upgrade guide
 
+## 0.12 (07.10.2017)
+
+* Update composer.json so "modera/foundation" would point to "^2.56.0" version
+
 ## 0.11 (18.06.2017)
 
 * Update composer.json so "modera/mjr" would point to "~0.5.0" version
