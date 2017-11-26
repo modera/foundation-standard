@@ -34,10 +34,9 @@
         "sergeil/aux-bundle": "~1.0",
         "sergeil/expander-bundle": "~1.0",
         "amazonwebservices/aws-sdk-for-php": "1.6.2",
-        "sergeil/extjsintegration-bundle": "~1.0",
+        "sergeil/extjsintegration-bundle": "^2.0",
 
         "modera/composer-symfony-web-asset-installer-plugin": "~1.0",
-        "modera/module": "dev-master",
         "modera/foundation": "dev-sf3",
         "modera/mjr": "~0.5.0",
         "modera/theme": "~0.2.0"
