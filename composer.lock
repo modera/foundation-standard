@@ -1101,17 +1101,17 @@
         },
         {
             "name": "guzzle/common",
-            "version": "v3.0.7",
+            "version": "v3.9.2",
             "target-dir": "Guzzle/Common",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Guzzle3/common.git",
-                "reference": "b7c6ec11fb5f141c31fea22844aac2343db853f4"
+                "reference": "2e36af7cf2ce3ea1f2d7c2831843b883a8e7b7dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Guzzle3/common/zipball/b7c6ec11fb5f141c31fea22844aac2343db853f4",
-                "reference": "b7c6ec11fb5f141c31fea22844aac2343db853f4",
+                "url": "https://api.github.com/repos/Guzzle3/common/zipball/2e36af7cf2ce3ea1f2d7c2831843b883a8e7b7dc",
+                "reference": "2e36af7cf2ce3ea1f2d7c2831843b883a8e7b7dc",
                 "shasum": ""
             },
             "require": {
@@ -1121,7 +1121,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.7-dev"
                 }
             },
             "autoload": {
@@ -1142,34 +1142,36 @@
                 "exception"
             ],
             "abandoned": "guzzle/guzzle",
-            "time": "2012-12-19T23:06:35+00:00"
+            "time": "2014-08-11T04:32:36+00:00"
         },
         {
             "name": "guzzle/http",
-            "version": "v3.0.7",
+            "version": "v3.9.2",
             "target-dir": "Guzzle/Http",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Guzzle3/http.git",
-                "reference": "eea92ef701a69b48d1e37fc9dd79058d41aeec93"
+                "reference": "1e8dd1e2ba9dc42332396f39fbfab950b2301dc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Guzzle3/http/zipball/eea92ef701a69b48d1e37fc9dd79058d41aeec93",
-                "reference": "eea92ef701a69b48d1e37fc9dd79058d41aeec93",
+                "url": "https://api.github.com/repos/Guzzle3/http/zipball/1e8dd1e2ba9dc42332396f39fbfab950b2301dc5",
+                "reference": "1e8dd1e2ba9dc42332396f39fbfab950b2301dc5",
                 "shasum": ""
             },
             "require": {
-                "ext-curl": "*",
                 "guzzle/common": "self.version",
                 "guzzle/parser": "self.version",
                 "guzzle/stream": "self.version",
                 "php": ">=5.3.2"
             },
+            "suggest": {
+                "ext-curl": "*"
+            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.7-dev"
                 }
             },
             "autoload": {
@@ -1198,21 +1200,21 @@
                 "http client"
             ],
             "abandoned": "guzzle/guzzle",
-            "time": "2012-12-14T00:49:17+00:00"
+            "time": "2014-08-11T04:32:36+00:00"
         },
         {
             "name": "guzzle/parser",
-            "version": "v3.0.7",
+            "version": "v3.9.2",
             "target-dir": "Guzzle/Parser",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Guzzle3/parser.git",
-                "reference": "8a1f6829d75274de16232cb327597db3067a2074"
+                "reference": "6874d171318a8e93eb6d224cf85e4678490b625c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Guzzle3/parser/zipball/8a1f6829d75274de16232cb327597db3067a2074",
-                "reference": "8a1f6829d75274de16232cb327597db3067a2074",
+                "url": "https://api.github.com/repos/Guzzle3/parser/zipball/6874d171318a8e93eb6d224cf85e4678490b625c",
+                "reference": "6874d171318a8e93eb6d224cf85e4678490b625c",
                 "shasum": ""
             },
             "require": {
@@ -1221,7 +1223,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.7-dev"
                 }
             },
             "autoload": {
@@ -1243,21 +1245,21 @@
                 "url"
             ],
             "abandoned": "guzzle/guzzle",
-            "time": "2012-12-07T16:45:11+00:00"
+            "time": "2014-02-05T18:29:46+00:00"
         },
         {
             "name": "guzzle/plugin",
-            "version": "v3.0.7",
+            "version": "v3.9.2",
             "target-dir": "Guzzle/Plugin",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Guzzle3/plugin.git",
-                "reference": "fab9f052ffd6bdfa0c9777a99d5d551647c07ba0"
+                "reference": "1ae0bf66ba48657bb00daaf85fa67b7a66b2d266"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Guzzle3/plugin/zipball/fab9f052ffd6bdfa0c9777a99d5d551647c07ba0",
-                "reference": "fab9f052ffd6bdfa0c9777a99d5d551647c07ba0",
+                "url": "https://api.github.com/repos/Guzzle3/plugin/zipball/1ae0bf66ba48657bb00daaf85fa67b7a66b2d266",
+                "reference": "1ae0bf66ba48657bb00daaf85fa67b7a66b2d266",
                 "shasum": ""
             },
             "require": {
@@ -1270,6 +1272,7 @@
                 "guzzle/plugin-cache": "self.version",
                 "guzzle/plugin-cookie": "self.version",
                 "guzzle/plugin-curlauth": "self.version",
+                "guzzle/plugin-error-response": "self.version",
                 "guzzle/plugin-history": "self.version",
                 "guzzle/plugin-log": "self.version",
                 "guzzle/plugin-md5": "self.version",
@@ -1277,13 +1280,13 @@
                 "guzzle/plugin-oauth": "self.version"
             },
             "suggest": {
-                "guzzle/cache": "v3.0.7",
-                "guzzle/log": "v3.0.7"
+                "guzzle/cache": "v3.9.2",
+                "guzzle/log": "v3.9.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.7-dev"
                 }
             },
             "autoload": {
@@ -1312,31 +1315,34 @@
                 "plugin"
             ],
             "abandoned": "guzzle/guzzle",
-            "time": "2012-12-07T16:45:11+00:00"
+            "time": "2014-04-16T17:46:30+00:00"
         },
         {
             "name": "guzzle/stream",
-            "version": "v3.0.7",
+            "version": "v3.9.2",
             "target-dir": "Guzzle/Stream",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Guzzle3/stream.git",
-                "reference": "c499757c760159188a9573362b8086ef25e6734e"
+                "reference": "60c7fed02e98d2c518dae8f97874c8f4622100f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Guzzle3/stream/zipball/c499757c760159188a9573362b8086ef25e6734e",
-                "reference": "c499757c760159188a9573362b8086ef25e6734e",
+                "url": "https://api.github.com/repos/Guzzle3/stream/zipball/60c7fed02e98d2c518dae8f97874c8f4622100f0",
+                "reference": "60c7fed02e98d2c518dae8f97874c8f4622100f0",
                 "shasum": ""
             },
             "require": {
                 "guzzle/common": "self.version",
                 "php": ">=5.3.2"
             },
+            "suggest": {
+                "guzzle/http": "To convert Guzzle request objects to PHP streams"
+            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.7-dev"
                 }
             },
             "autoload": {
@@ -1363,7 +1369,7 @@
                 "stream"
             ],
             "abandoned": "guzzle/guzzle",
-            "time": "2012-12-07T16:45:11+00:00"
+            "time": "2014-05-01T21:36:02+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1952,12 +1958,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/modera/foundation.git",
-                "reference": "0de3c15df2ae26f49fb068864729569521aed7c4"
+                "reference": "8ef4ba402bc765efec7899813c016c169681d03a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modera/foundation/zipball/0de3c15df2ae26f49fb068864729569521aed7c4",
-                "reference": "0de3c15df2ae26f49fb068864729569521aed7c4",
+                "url": "https://api.github.com/repos/modera/foundation/zipball/8ef4ba402bc765efec7899813c016c169681d03a",
+                "reference": "8ef4ba402bc765efec7899813c016c169681d03a",
                 "shasum": ""
             },
             "require": {
@@ -2033,7 +2039,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2017-11-26T15:26:07+00:00"
+            "time": "2017-11-26T17:32:37+00:00"
         },
         {
             "name": "modera/mjr",
@@ -2567,21 +2573,21 @@
         },
         {
             "name": "react/http",
-            "version": "v0.3.0",
+            "version": "0.3.x-dev",
             "target-dir": "React/Http",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/http.git",
-                "reference": "9e131ab600a636bbe93d3553761ad4f29ebcbc9b"
+                "reference": "cf04457ef433cb128fd089b4b71abd4a6085bc7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/http/zipball/9e131ab600a636bbe93d3553761ad4f29ebcbc9b",
-                "reference": "9e131ab600a636bbe93d3553761ad4f29ebcbc9b",
+                "url": "https://api.github.com/repos/reactphp/http/zipball/cf04457ef433cb128fd089b4b71abd4a6085bc7e",
+                "reference": "cf04457ef433cb128fd089b4b71abd4a6085bc7e",
                 "shasum": ""
             },
             "require": {
-                "guzzle/parser": "3.0.*",
+                "guzzle/parser": "~2.8|~3.0",
                 "php": ">=5.3.3",
                 "react/socket": "0.3.*"
             },
@@ -2604,7 +2610,7 @@
             "keywords": [
                 "http"
             ],
-            "time": "2013-02-24T19:01:50+00:00"
+            "time": "2014-06-08T16:29:55+00:00"
         },
         {
             "name": "react/socket",
