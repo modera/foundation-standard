@@ -48,12 +48,12 @@
         "modera:register-bundles": "Modera\\ModuleBundle\\Composer\\ScriptHandler::registerBundles",
         "modera:enable-maintenance": "Modera\\ModuleBundle\\Composer\\ScriptHandler::enableMaintenance",
         "modera:disable-maintenance": "Modera\\ModuleBundle\\Composer\\ScriptHandler::disableMaintenance",
+        "modera:languages-config-sync": "Modera\\LanguagesBundle\\Composer\\ScriptHandler::configSync",
         "modera:scripts": [
             "Modera\\ModuleBundle\\Composer\\ScriptHandler::initDatabase",
             "Modera\\ModuleBundle\\Composer\\ScriptHandler::eventDispatcher",
             "Modera\\SecurityBundle\\Composer\\ScriptHandler::installPermissions",
             "Modera\\ConfigBundle\\Composer\\ScriptHandler::installConfigEntries",
-            "Modera\\LanguagesBundle\\Composer\\ScriptHandler::configSync",
             "@modera:disable-maintenance"
         ],
         "symfony:scripts": [
