@@ -1,6 +1,6 @@
 # Modera Foundation
 
-RAD platform for developing applications using Symfony2, Doctrine, ExtJS ([MJR](https://mjr.dev.modera.org/)).
+RAD platform for developing applications using Symfony, Doctrine, ExtJS ([MJR](https://mjr.modera.org/)).
 
 ![Settings](app/Resources/screenshots/login.png)
 
@@ -8,19 +8,20 @@ RAD platform for developing applications using Symfony2, Doctrine, ExtJS ([MJR](
 
 If you are working under Debian-like operating system (like Ubuntu):
 
-* Install [mcloud](https://mcloud.io)
+* Install [whaler](https://github.com/whaler/whaler)
+* Install [whaler-haproxy-plugin](https://github.com/whaler/whaler-haproxy-plugin)
 * Optional. If you want to make sure that you won't reach github API call limit for anonymous users when composer is
-working you can add [GitHub personal access token](https://github.com/settings/applications):
+working you can add [GitHub personal access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line):
 
 ``` bash
-$ mcloud set COMPOSER_GITHUB_OAUTH YOUR-TOKEN-HASH-GOES-HERE
+$ whaler vars:set COMPOSER_GITHUB_OAUTH YOUR-TOKEN-HASH-GOES-HERE
 ```
 
 * Go to directory where you cloned this repository and execute these commands:
 
 ``` bash
-$ mcloud start --init
-$ mcloud run php. "app/console modera:security:create-user"
+$ whaler start --init
+$ whaler run php. 'app/console modera:security:create-user'
 ```
 
 ## Composer installation
@@ -33,19 +34,18 @@ $ composer.phar create-project modera/foundation project_dir
 after that
 
 * Download `http://cdn.sencha.com/ext/gpl/ext-4.2.1-gpl.zip` and extract it to `web/extjs` directory
-* Download `http://mjr.dev.modera.org/releases/mjr.tar.gz` and extract it to `web/modera/mjr` directory
-* Download `http://mjr.dev.modera.org/releases/mjr-theme.tar.gz` and extract it to `web/modera/theme` directory
+* Download `http://mjr.modera.org/releases/mjr.tar.gz` and extract it to `web/modera/mjr` directory
+* Download `http://mjr.modera.org/releases/mjr-theme.tar.gz` and extract it to `web/modera/theme` directory
 
 #### P.S Don't forget check folders permissions, in case you may get an error on some files
-
 
 ## Manual installation
 
 If you happen to run some other operating system then you will need to follow these steps:
 
 * Download `http://cdn.sencha.com/ext/gpl/ext-4.2.1-gpl.zip` and extract it to `web/extjs` directory
-* Download `http://mjr.dev.modera.org/releases/mjr.tar.gz` and extract it to `web/modera/mjr` directory
-* Download `http://mjr.dev.modera.org/releases/mjr-theme.tar.gz` and extract it to `web/modera/theme` directory
+* Download `http://mjr.modera.org/releases/mjr.tar.gz` and extract it to `web/modera/mjr` directory
+* Download `http://mjr.modera.org/releases/mjr-theme.tar.gz` and extract it to `web/modera/theme` directory
 * Install a composer, please read instructions at https://getcomposer.org/download/
 * If you are running unix-like operating system, then you need to make app/cache and app/logs directories
    writable by both you and a web-server you are going to run Modera Foundation from. If your system supports
@@ -95,8 +95,11 @@ $ app/console modera:security:create-user
 ```
 
 ## Problems solving
-####1. Unable to find required configuration property home_section
+
+#### 1. Unable to find required configuration property home_section
+
 to solve this problem just run:
+
 ```
 $ app/console modera:config:install-config-entries
 ```

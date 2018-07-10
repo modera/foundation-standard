@@ -1,7 +1,7 @@
 
 # NB! If you want use shared composer volume:
-# 1. Create composer container: docker create -v $HOME/.composer:/.composer --name composer busybox:1.25 /bin/true
-# 2. Uncomment "volumes_from" part from "php" servece
+# 1. Create volume: docker volume create composer
+# 2. Uncomment "composer" parts
 
 services:
     mysql:
@@ -22,10 +22,9 @@ services:
             SYMFONY__db_port: 3306
             SYMFONY__db_user: root
             SYMFONY__db_password: 123123
-#        volumes_from:
-#            - container:composer
         volumes:
             .: /var/www
+#            composer: /.composer
         cmd: .whaler/php/run.sh
 
     nginx:
@@ -36,3 +35,7 @@ services:
             .: /var/www
             .whaler/nginx/nginx.conf: /etc/nginx/nginx.conf
         cmd: nginx
+
+volumes:
+#    composer:
+#        external: true
