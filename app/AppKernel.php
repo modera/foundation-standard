@@ -17,7 +17,6 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
 
-            new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
             new Sli\AuxBundle\SliAuxBundle(),
             new Sli\ExpanderBundle\SliExpanderBundle($this),
             new Knp\Bundle\GaufretteBundle\KnpGaufretteBundle(),

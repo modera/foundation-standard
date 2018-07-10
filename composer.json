@@ -18,28 +18,27 @@
         }
     ],
     "require": {
-        "php": ">=5.5.9",
-        "doctrine/doctrine-bundle": "^1.6",
+        "php": ">=5.6",
         "doctrine/orm": "^2.5",
+        "doctrine/doctrine-bundle": "^1.6",
         "incenteev/composer-parameter-handler": "^2.0",
         "sensio/distribution-bundle": "^5.0.19",
         "sensio/framework-extra-bundle": "^5.0.0",
+        "symfony/swiftmailer-bundle": "^2.6.4",
         "symfony/monolog-bundle": "^3.1.0",
         "symfony/polyfill-apcu": "^1.0",
-        "symfony/swiftmailer-bundle": "^2.6.4",
         "symfony/symfony": "3.4.*",
         "twig/twig": "^1.0||^2.0",
 
-        "doctrine/doctrine-fixtures-bundle": "~2.2",
         "sergeil/aux-bundle": "~1.0",
         "sergeil/expander-bundle": "~1.0",
-        "amazonwebservices/aws-sdk-for-php": "1.6.2",
         "sergeil/extjsintegration-bundle": "^2.0",
+        "amazonwebservices/aws-sdk-for-php": "1.6.2",
 
         "modera/composer-symfony-web-asset-installer-plugin": "~1.0",
         "modera/foundation": "dev-sf3",
-        "modera/mjr": "~0.5.0",
-        "modera/theme": "~0.2.0"
+        "modera/theme": "~0.2.0",
+        "modera/mjr": "~0.5.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
@@ -52,15 +51,15 @@
         "modera:register-bundles": "Modera\\ModuleBundle\\Composer\\ScriptHandler::registerBundles",
         "modera:enable-maintenance": "Modera\\ModuleBundle\\Composer\\ScriptHandler::enableMaintenance",
         "modera:disable-maintenance": "Modera\\ModuleBundle\\Composer\\ScriptHandler::disableMaintenance",
-        "modera-scripts": [
+        "modera:languages-config-sync": "Modera\\LanguagesBundle\\Composer\\ScriptHandler::configSync",
+        "modera:scripts": [
             "Modera\\ModuleBundle\\Composer\\ScriptHandler::initDatabase",
             "Modera\\ModuleBundle\\Composer\\ScriptHandler::eventDispatcher",
             "Modera\\SecurityBundle\\Composer\\ScriptHandler::installPermissions",
             "Modera\\ConfigBundle\\Composer\\ScriptHandler::installConfigEntries",
-            "Modera\\LanguagesBundle\\Composer\\ScriptHandler::configSync",
             "@modera:disable-maintenance"
         ],
-        "symfony-scripts": [
+        "symfony:scripts": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "@modera:register-bundles",
@@ -75,12 +74,12 @@
         "post-package-update": "Modera\\ModuleBundle\\Composer\\ScriptHandler::packageEventDispatcher",
         "pre-package-uninstall": "Modera\\ModuleBundle\\Composer\\ScriptHandler::packageEventDispatcher",
         "post-install-cmd": [
-            "@symfony-scripts",
-            "@modera-scripts"
+            "@symfony:scripts",
+            "@modera:scripts"
         ],
         "post-update-cmd": [
-            "@symfony-scripts",
-            "@modera-scripts"
+            "@symfony:scripts",
+            "@modera:scripts"
         ]
     },
     "minimum-stability": "dev",
@@ -102,7 +101,7 @@
             "file": "app/config/parameters.yml"
         },
         "branch-alias": {
-            "dev-master": "2.0-dev"
+            "dev-master": "3.0-dev"
         }
     }
 }
