@@ -13,8 +13,8 @@ done
 
 . /var/www/.extjs/install.sh
 
-rm -rf /var/www/app/cache/*
-rm -rf /var/www/app/logs/*
+rm -rf /var/www/var/cache/*
+rm -rf /var/www/var/logs/*
 
 echo "--------------------------------------------------"
 echo "    Installing PHP packages"
@@ -33,4 +33,4 @@ echo "##########################################################################
 
 @whaler wait 3s
 echo ""
-php5-fpm -R
+php-fpm -R
