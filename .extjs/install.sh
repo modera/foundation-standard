@@ -14,7 +14,7 @@ if [[
         echo "    Downloading ExtJS 4.2.1"
         echo "--------------------------------------------------"
 
-        wget --no-check-certificate https://extjs.dev.modera.org/ext-4.2.1-gpl.tar.gz -O "$MY_PATH/ext-4.2.1-gpl.tar.gz"
+        wget --no-check-certificate https://extjs.modera.org/ext-4.2.1-gpl.tar.gz -O "$MY_PATH/ext-4.2.1-gpl.tar.gz"
 
     fi
 
