@@ -11,7 +11,8 @@ while ! echo exit | nc -z mysql 3306; do
     sleep 3;
 done
 
-. /var/www/.extjs/install.sh
+# If you want to have a local copy of ExtJs, you can uncomment the following line:
+#/var/www/.extjs/install.sh
 
 rm -rf /var/www/var/cache/*
 rm -rf /var/www/var/logs/*

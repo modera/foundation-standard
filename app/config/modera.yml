@@ -11,15 +11,10 @@ modera_file_uploader:
     url: /backend/uploader-gateway
 
 modera_mjr_integration:
-    runtime_path: "/modera/mjr"
+    # If you want to have a local copy of ExtJs, you can uncomment the following line:
+    #extjs_path: "/extjs"
     viewport_class: "MF.theme.authenticationaware.Viewport"
     main_config_provider: "modera_dynamically_configurable_mjr.mjr.main_config"
-    # If you don't have a local copy of ExtJs 4.2 at hand you can use a CDN instead
-    # by uncommenting the following line:
-    # extjs_path: https://cdnjs.cloudflare.com/ajax/libs/extjs/4.2.1/
-
-modera_mjr_theme_integration:
-    theme_path: "/modera/theme"
 
 modera_mjr_security_integration:
     login_url: _security_check
