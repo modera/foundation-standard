@@ -16,7 +16,7 @@ services:
 
     php:
         wait: 30m
-        image: modera/php:5
+        image: modera/php:7.1
         env:
             SYMFONY__db_host: mysql
             SYMFONY__db_port: 3306
@@ -30,7 +30,7 @@ services:
     nginx:
         web: 80
 #        ssl: 8443 send-proxy
-        image: nginx:1.7.7
+        image: nginx:1.15
         volumes:
             .: /var/www
             .whaler/nginx/nginx.conf: /etc/nginx/nginx.conf
