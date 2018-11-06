@@ -4,7 +4,7 @@ Feature: Session expiration
   A modal dialog window must be shown which prevents user from performing other actions.
 
   Scenario: Switching sections when session has already expired
-    When I login as "admin" with password "1234"
+    When I login as "admin" with password "BehatTest1"
     Then I am successfully authenticated
     And I am on a dashboard section
     And it is programatically emulated that my session is expired
