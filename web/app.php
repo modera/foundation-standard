@@ -1,20 +1,21 @@
 <?php
 
-use Symfony\Component\Debug\Debug;
 use Symfony\Component\HttpFoundation\Request;
-use Modera\DynamicallyConfigurableAppBundle\KernelConfig;
+use Symfony\Component\Debug\Debug;
 
 require __DIR__.'/../vendor/autoload.php';
 if (PHP_VERSION_ID < 70000) {
     include_once __DIR__.'/../var/bootstrap.php.cache';
 }
 
-$mode = KernelConfig::read();
-if ($mode['debug']) {
+$mode = AppKernel::config();
+
+$debug = $mode['debug'] && $mode['env'] !== 'prod';
+if ($debug) {
     Debug::enable();
 }
 
-$kernel = new AppKernel($mode['env'], $mode['debug']);
+$kernel = new AppKernel($mode['env'], $debug);
 if (PHP_VERSION_ID < 70000) {
     $kernel->loadClassCache();
 }

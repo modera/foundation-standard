@@ -12,12 +12,18 @@ use Symfony\Component\Debug\Debug;
 
 set_time_limit(0);
 
-require __DIR__.'/../vendor/autoload.php';
+require dirname(__DIR__) . '/vendor/autoload.php';
 
 $input = new ArgvInput();
-$env = $input->getParameterOption(['--env', '-e'], getenv('SYMFONY_ENV') ?: 'dev');
-$debug = getenv('SYMFONY_DEBUG') !== '0' && !$input->hasParameterOption(['--no-debug', '']) && $env !== 'prod';
 
+$mode = AppKernel::config();
+
+$env = $mode['env'];
+if ($input->hasParameterOption(['--env', '-e'], true)) {
+    $env = $input->getParameterOption(['--env', '-e'], $mode['env'], true);
+}
+
+$debug = $mode['debug'] && !$input->hasParameterOption('--no-debug', true) && $env !== 'prod';
 if ($debug) {
     Debug::enable();
 }
