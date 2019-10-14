@@ -1,8 +1,11 @@
 #!/bin/bash
 
 echo ""
-echo "#################################################################################################################"
+echo "##################################################"
+echo ""
 echo "Running APP: $(date +"%d.%m.%Y %r")"
+echo ""
+echo "##################################################"
 echo ""
 
 echo "Waiting while mysql starts"
@@ -10,6 +13,7 @@ while ! echo exit | nc -z mysql 3306; do
     echo ".";
     sleep 3;
 done
+echo ""
 
 # If you want to have a local copy of ExtJs, you can uncomment the following line:
 #/var/www/.extjs/install.sh
@@ -29,9 +33,11 @@ for env in `printenv | grep 'SYMFONY__'`; do
 done
 
 echo ""
+echo "##################################################"
+echo ""
 echo "APP Started: $(date +"%d.%m.%Y %r")"
-echo "#################################################################################################################"
+echo ""
+echo "##################################################"
 
 @whaler wait 3s
-echo ""
 php-fpm -R

@@ -2,8 +2,8 @@ root:
     path: /
     defaults:
         _controller: FrameworkBundle:Redirect:urlRedirect
-        path:   %modera_mjr_integration.routes_prefix%
+        path: '%modera_mjr_integration.routes_prefix%'
         permanent: true
 
 _modera_routing:
-    resource: "@ModeraRoutingBundle/Resources/config/routing.yml"
+    resource: '@ModeraRoutingBundle/Resources/config/routing.yml'

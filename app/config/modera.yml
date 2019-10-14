@@ -3,9 +3,6 @@
 #    - { locale: ru }
 #    - { locale: et }
 
-modera_server_crud:
-    exception_handler: modera_server_crud.exception_handling.bypass_handler
-
 modera_file_uploader:
     is_enabled: true
     url: /backend/uploader-gateway
@@ -16,10 +13,5 @@ modera_mjr_integration:
     viewport_class: 'MF.theme.authenticationaware.Viewport'
     main_config_provider: 'modera_dynamically_configurable_mjr.mjr.main_config'
 
-modera_mjr_security_integration:
-    login_url: _security_check
-    logout_url: _security_logout
-    is_authenticated_url: modera_mjr_security_integration.index.is_authenticated
-
 modera_direct:
-    routes_prefix: %modera_mjr_integration.routes_prefix%
+    routes_prefix: '%modera_mjr_integration.routes_prefix%'

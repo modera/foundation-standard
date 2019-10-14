@@ -1,5 +1,4 @@
 /.web-server-pid
-/app/config/parameters.yml
 /build/
 /phpunit.xml
 /var/*
@@ -14,15 +13,15 @@
 !var/sessions/.gitkeep
 !var/SymfonyRequirements.php
 /vendor/
-/web/bundles/
 
+/app/kernel.json
 /app/config/parameters.yml
 /app/AppModuleBundles.php
 /app/Resources/translations/*
 /composer.phar
-.idea
-web/modera
-web/bundles
-web/uploads
-web/extjs
-modera-version.txt
+/.idea/
+/web/modera/
+/web/bundles/
+/web/uploads/
+/web/extjs/
+/modera-version.txt

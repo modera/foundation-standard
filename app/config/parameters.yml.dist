@@ -2,11 +2,11 @@
 # Set parameters here that may be different on each deployment target of the app, e.g. development, staging, production.
 # https://symfony.com/doc/current/best_practices/configuration.html#infrastructure-related-configuration
 parameters:
-    database_host: '%db_host%'
-    database_port: '%db_port%'
+    database_host: '%env(SYMFONY__DB_HOST)%'
+    database_port: '%env(SYMFONY__DB_PORT)%'
     database_name: symfony
-    database_user: '%db_user%'
-    database_password: '%db_password%'
+    database_user: '%env(SYMFONY__DB_USER)%'
+    database_password: '%env(SYMFONY__DB_PASSWORD)%'
 
     mailer_transport: smtp
     mailer_host: postfix
