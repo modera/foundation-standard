@@ -14,7 +14,9 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://mjr-archives.modera.org"
+            "url": "https://mjr-archives.modera.org",
+            "only": ["modera/*"],
+            "canonical": true
         }
     ],
     "require": {
@@ -29,8 +31,8 @@
 
         "modera/composer-symfony-web-asset-installer-plugin": "^1.0",
         "modera/foundation": "^3.1",
-        "modera/theme": "^0.4",
-        "modera/mjr": "^0.7"
+        "modera/theme": "^0.5",
+        "modera/mjr": "^0.8"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
@@ -74,7 +76,11 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true,
+            "modera/composer-symfony-web-asset-installer-plugin": true
+        }
     },
     "extra": {
         "symfony-app-dir": "app",
