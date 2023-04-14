@@ -1,0 +1,30 @@
+
+services:
+    mysql:
+        image: ${APP_NAME}_mysql
+        build: .docker/mysql
+        env:
+            MYSQL_ROOT_PASSWORD: ChangeMe
+        volumes:
+            .docker/mysql/my.cnf: /etc/my.cnf
+
+    php:
+        wait: 30m
+        image: ${APP_NAME}_php
+        build: .docker/php
+        env:
+            DATABASE_URL: mysql://root:ChangeMe@mysql:3306/symfony?serverVersion=8&charset=utf8
+        volumes:
+            /.composer: ~
+            app: /usr/src/app
+            .whaler/php/run.sh: /.php/run.sh
+
+    nginx:
+        web: 80
+#        ssl: 8443 send-proxy
+        image: ${APP_NAME}_nginx
+        build: .docker/nginx
+        volumes:
+            app: /usr/src/app
+            .whaler/nginx/conf.d: /etc/nginx/conf.d
+            #.whaler/nginx/ssl: /etc/nginx/ssl

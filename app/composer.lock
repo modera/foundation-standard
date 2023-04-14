@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "21e51ef42b4b032c777ac53e56d84ef0",
+    "content-hash": "7419438b461519fe7006a051ab75014b",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1540,6 +1540,202 @@
             "time": "2023-01-30T10:40:19+00:00"
         },
         {
+            "name": "imagine/imagine",
+            "version": "1.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-imagine/Imagine.git",
+                "reference": "a6e6da93ea0f76aba33b0e8ed1325523c0413da2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-imagine/Imagine/zipball/a6e6da93ea0f76aba33b0e8ed1325523c0413da2",
+                "reference": "a6e6da93ea0f76aba33b0e8ed1325523c0413da2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5 || ^7.5 || ^8.4 || ^9.3"
+            },
+            "suggest": {
+                "ext-exif": "to read EXIF metadata",
+                "ext-gd": "to use the GD implementation",
+                "ext-gmagick": "to use the Gmagick implementation",
+                "ext-imagick": "to use the Imagick implementation"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Imagine\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bulat Shakirzyanov",
+                    "email": "mallluhuct@gmail.com",
+                    "homepage": "http://avalanche123.com"
+                }
+            ],
+            "description": "Image processing for PHP 5.3",
+            "homepage": "http://imagine.readthedocs.org/",
+            "keywords": [
+                "drawing",
+                "graphics",
+                "image manipulation",
+                "image processing"
+            ],
+            "support": {
+                "issues": "https://github.com/php-imagine/Imagine/issues",
+                "source": "https://github.com/php-imagine/Imagine/tree/1.3.3"
+            },
+            "time": "2022-11-16T13:09:11+00:00"
+        },
+        {
+            "name": "knplabs/gaufrette",
+            "version": "v0.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KnpLabs/Gaufrette.git",
+                "reference": "ef5ec9d72c06d21febfa09b36d5c3d8e3af9cf8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KnpLabs/Gaufrette/zipball/ef5ec9d72c06d21febfa09b36d5c3d8e3af9cf8b",
+                "reference": "ef5ec9d72c06d21febfa09b36d5c3d8e3af9cf8b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "conflict": {
+                "microsoft/windowsazure": "<0.4.3"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "v1.x-dev as 1.7.0",
+                "phpspec/phpspec": "^5.1 || ^6.2",
+                "phpunit/phpunit": "~7.5"
+            },
+            "suggest": {
+                "ext-fileinfo": "This extension is used to automatically detect the content-type of a file in the AwsS3, OpenCloud, AzureBlogStorage and GoogleCloudStorage adapters",
+                "knplabs/knp-gaufrette-bundle": "to use with Symfony"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.10.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Gaufrette": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "KnpLabs Team",
+                    "homepage": "http://knplabs.com"
+                },
+                {
+                    "name": "The contributors",
+                    "homepage": "http://github.com/knplabs/Gaufrette/contributors"
+                }
+            ],
+            "description": "PHP library that provides a filesystem abstraction layer",
+            "homepage": "http://knplabs.com",
+            "keywords": [
+                "abstraction",
+                "file",
+                "filesystem",
+                "media"
+            ],
+            "support": {
+                "issues": "https://github.com/KnpLabs/Gaufrette/issues",
+                "source": "https://github.com/KnpLabs/Gaufrette/tree/v0.10.0"
+            },
+            "time": "2020-10-05T19:26:39+00:00"
+        },
+        {
+            "name": "knplabs/knp-gaufrette-bundle",
+            "version": "v0.7.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KnpLabs/KnpGaufretteBundle.git",
+                "reference": "9cf8706e9f01d4a7ee5013261a10768efdfebb0f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KnpLabs/KnpGaufretteBundle/zipball/9cf8706e9f01d4a7ee5013261a10768efdfebb0f",
+                "reference": "9cf8706e9f01d4a7ee5013261a10768efdfebb0f",
+                "shasum": ""
+            },
+            "require": {
+                "knplabs/gaufrette": "^0.10",
+                "php": ">=7.1",
+                "symfony/config": "^4.4|^5.0|^6.0",
+                "symfony/dependency-injection": "^4.4|^5.0|^6.0",
+                "symfony/framework-bundle": "^4.4|^5.0|^6.0"
+            },
+            "require-dev": {
+                "symfony/console": "^4.4|^5.0|^6.0",
+                "symfony/filesystem": "^4.0|^5.0|^6.0",
+                "symfony/phpunit-bridge": "^5.4",
+                "symfony/yaml": "^4.0|^5.0|^6.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.7.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Knp\\Bundle\\GaufretteBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Antoine Hérault",
+                    "email": "antoine.herault@gmail.com"
+                },
+                {
+                    "name": "The contributors",
+                    "homepage": "https://github.com/knplabs/KnpGaufretteBundle/contributors"
+                }
+            ],
+            "description": "Allows to easily use the Gaufrette library in a Symfony project",
+            "homepage": "http://knplabs.com",
+            "keywords": [
+                "abstraction",
+                "file",
+                "filesystem",
+                "media"
+            ],
+            "support": {
+                "issues": "https://github.com/KnpLabs/KnpGaufretteBundle/issues",
+                "source": "https://github.com/KnpLabs/KnpGaufretteBundle/tree/v0.7.2"
+            },
+            "time": "2022-03-21T10:48:39+00:00"
+        },
+        {
             "name": "laminas/laminas-code",
             "version": "4.10.0",
             "source": {
@@ -1601,6 +1797,182 @@
                 }
             ],
             "time": "2023-03-08T11:55:01+00:00"
+        },
+        {
+            "name": "modera/composer-symfony-web-asset-installer-plugin",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/composer-symfony-web-asset-installer-plugin.git",
+                "reference": "0f1edbd0f8a688c1d0eaaffae60a5ea76bfff0fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/composer-symfony-web-asset-installer-plugin/zipball/0f1edbd0f8a688c1d0eaaffae60a5ea76bfff0fd",
+                "reference": "0f1edbd0f8a688c1d0eaaffae60a5ea76bfff0fd",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0"
+            },
+            "require-dev": {
+                "composer/composer": "^2.0",
+                "phake/phake": "^4.0",
+                "phpunit/phpunit": "^6.5"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Modera\\Composer\\SymfonyWebAssetInstallerPlugin\\Plugin",
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Modera\\Composer\\SymfonyWebAssetInstallerPlugin": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@modera.org",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/modera/composer-symfony-web-asset-installer-plugin/issues",
+                "source": "https://github.com/modera/composer-symfony-web-asset-installer-plugin/tree/v2.0.0"
+            },
+            "time": "2022-01-06T09:41:38+00:00"
+        },
+        {
+            "name": "modera/foundation",
+            "version": "v4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modera/foundation.git",
+                "reference": "6d11819618b8ee53de3abf27614f65e35b9d6700"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modera/foundation/zipball/6d11819618b8ee53de3abf27614f65e35b9d6700",
+                "reference": "6d11819618b8ee53de3abf27614f65e35b9d6700",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "^2.0",
+                "doctrine/orm": "^2.5",
+                "imagine/imagine": "^1.2",
+                "knplabs/knp-gaufrette-bundle": "^0.7",
+                "php": ">=7.4",
+                "sergeil/expander-bundle": "^1.2",
+                "sergeil/extjsintegration-bundle": "^2.3|^3.0",
+                "symfony/framework-bundle": "^4.4|^5.0",
+                "symfony/intl": "^4.4|^5.0",
+                "symfony/security-bundle": "^4.4|^5.0",
+                "symfony/validator": "^4.4|^5.0",
+                "twig/twig": "^2.12|^3.0"
+            },
+            "conflict": {
+                "doctrine/orm": ">=3.0",
+                "doctrine/persistence": "<1.3",
+                "symfony/mailer": "<4.4"
+            },
+            "replace": {
+                "modera/activity-logger-bundle": "self.version",
+                "modera/backend-config-utils-bundle": "self.version",
+                "modera/backend-dashboard-bundle": "self.version",
+                "modera/backend-languages-bundle": "self.version",
+                "modera/backend-security-bundle": "self.version",
+                "modera/backend-tools-activity-log-bundle": "self.version",
+                "modera/backend-tools-bundle": "self.version",
+                "modera/backend-tools-settings-bundle": "self.version",
+                "modera/backend-translations-tool-bundle": "self.version",
+                "modera/config-bundle": "self.version",
+                "modera/direct-bundle": "self.version",
+                "modera/dynamically-configurable-app-bundle": "self.version",
+                "modera/dynamically-configurable-mjr-bundle": "self.version",
+                "modera/file-repository-bundle": "self.version",
+                "modera/file-uploader-bundle": "self.version",
+                "modera/foundation-bundle": "self.version",
+                "modera/languages-bundle": "self.version",
+                "modera/mjr-cache-aware-class-loader": "self.version",
+                "modera/mjr-integration-bundle": "self.version",
+                "modera/mjr-security-integration-bundle": "self.version",
+                "modera/mjr-theme-integration-bundle": "self.version",
+                "modera/module-bundle": "self.version",
+                "modera/routing-bundle": "self.version",
+                "modera/security-bundle": "self.version",
+                "modera/server-crud-bundle": "self.version",
+                "modera/translations-bundle": "self.version"
+            },
+            "require-dev": {
+                "fig/link-util": "^1.0",
+                "mikey179/vfsstream": "^1.6",
+                "modera/tests-runner": "0.x-dev",
+                "phake/phake": "^4.0",
+                "phpunit/phpunit": "^6.5",
+                "sergeil/aux-bundle": "^1.1",
+                "symfony/expression-language": "^4.4|^5.0",
+                "symfony/mailer": "^4.4|^5.0",
+                "symfony/symfony": "^4.4",
+                "symfony/twig-bundle": "^4.4|^5.0"
+            },
+            "suggest": {
+                "symfony/mailer": "^4.4|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.x-dev"
+                },
+                "modera-monorepo": {
+                    "require-dev": {
+                        "modera/tests-runner": "0.x-dev"
+                    },
+                    "include": [
+                        "src/Modera/*/composer.json"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "": "src/"
+                },
+                "exclude-from-classmap": [
+                    "src/Modera/*/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/modera/foundation/issues",
+                "source": "https://github.com/modera/foundation/tree/v4.0.0"
+            },
+            "time": "2023-04-14T06:22:29+00:00"
+        },
+        {
+            "name": "modera/mjr",
+            "version": "0.9.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://mjr-archives.modera.org/mjr-v0.9.0.tar.gz",
+                "reference": "77c0592deac71e0f0896b3dfdbe09b8082093b76"
+            },
+            "type": "symfony-web-asset"
+        },
+        {
+            "name": "modera/theme",
+            "version": "0.5.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://mjr-archives.modera.org/theme-v0.5.0.tar.gz",
+                "reference": "6619c8067f3f2a3d58c62acb5f954c1a43bb4b10"
+            },
+            "type": "symfony-web-asset"
         },
         {
             "name": "monolog/monolog",
@@ -2181,6 +2553,181 @@
             },
             "abandoned": "Symfony",
             "time": "2020-08-25T19:10:18+00:00"
+        },
+        {
+            "name": "sergeil/aux-bundle",
+            "version": "v1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sergeil/SliAuxBundle.git",
+                "reference": "3bffa824e796dc1daa9bf85a813dcde4cb1eb9d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sergeil/SliAuxBundle/zipball/3bffa824e796dc1daa9bf85a813dcde4cb1eb9d2",
+                "reference": "3bffa824e796dc1daa9bf85a813dcde4cb1eb9d2",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/orm": "^2.2",
+                "php": ">=5.6",
+                "symfony/framework-bundle": "^2.8|^3.4|^4.0|^5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sli\\AuxBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@gmail.com",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "description": "Contains base/utility classes for Sli/* bundles.",
+            "homepage": "https://github.com/sergeil/SliAuxBundle",
+            "keywords": [
+                "utils"
+            ],
+            "support": {
+                "issues": "https://github.com/sergeil/SliAuxBundle/issues",
+                "source": "https://github.com/sergeil/SliAuxBundle/tree/v1.1.3"
+            },
+            "time": "2022-01-09T07:39:20+00:00"
+        },
+        {
+            "name": "sergeil/expander-bundle",
+            "version": "v1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sergeil/ExpanderBundle.git",
+                "reference": "0788d4d856421237d451a830dfa270bab1d8384e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sergeil/ExpanderBundle/zipball/0788d4d856421237d451a830dfa270bab1d8384e",
+                "reference": "0788d4d856421237d451a830dfa270bab1d8384e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "symfony/framework-bundle": "^2.8|^3.4|^4.0|^5.0"
+            },
+            "require-dev": {
+                "doctrine/common": "^2.4",
+                "phake/phake": "^2.0",
+                "phpunit/phpunit": "^5.5",
+                "symfony/console": "^2.8|^3.4|^4.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sli\\ExpanderBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@gmail.com",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "description": "Provides an easy way how to leverage native DIC tags based mechanism for creating extension-points.",
+            "homepage": "https://github.com/sergeil/ExpanderBundle",
+            "keywords": [
+                "extensibility"
+            ],
+            "support": {
+                "issues": "https://github.com/sergeil/ExpanderBundle/issues",
+                "source": "https://github.com/sergeil/ExpanderBundle/tree/v1.2.1"
+            },
+            "time": "2022-01-09T07:35:19+00:00"
+        },
+        {
+            "name": "sergeil/extjsintegration-bundle",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sergeil/SliExtJsIntegrationBundle.git",
+                "reference": "7033b8d8ba77ad569f948ddd01ffe5ff880f7e08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sergeil/SliExtJsIntegrationBundle/zipball/7033b8d8ba77ad569f948ddd01ffe5ff880f7e08",
+                "reference": "7033b8d8ba77ad569f948ddd01ffe5ff880f7e08",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1",
+                "sergeil/aux-bundle": "^1.1",
+                "sergeil/expander-bundle": "^1.2"
+            },
+            "conflict": {
+                "doctrine/persistence": "<1.3"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "^2.0",
+                "phpunit/phpunit": "^5.7",
+                "symfony/symfony": "^4.4"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sli\\ExtJsIntegrationBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Lissovski",
+                    "email": "sergei.lissovski@gmail.com",
+                    "homepage": "http://sergei.lissovski.org/"
+                }
+            ],
+            "description": "Utilities for easier integration of ExtJs on server-side.",
+            "homepage": "http://github.com/sergeil/SliExtJsIntegrationBundle",
+            "keywords": [
+                "extjs"
+            ],
+            "support": {
+                "issues": "https://github.com/sergeil/SliExtJsIntegrationBundle/issues",
+                "source": "https://github.com/sergeil/SliExtJsIntegrationBundle/tree/v3.0.0"
+            },
+            "time": "2022-01-31T18:52:00+00:00"
         },
         {
             "name": "symfony/asset",

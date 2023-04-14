@@ -1,6 +1,12 @@
+services:
+    Modera\BackendLanguagesBundle\Ext\LocalesProvider:
+        arguments: [['en_EE', 'ru_EE']]
+        tags: ['modera_backend_languages.locales_provider']
+
 framework:
-    default_locale: en
+    default_locale: en_EE
     translator:
         default_path: '%kernel.project_dir%/translations'
         fallbacks:
+            - en_EE
             - en

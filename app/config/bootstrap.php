@@ -1,12 +1,19 @@
 <?php
 
 use Symfony\Component\Dotenv\Dotenv;
+use Modera\DynamicallyConfigurableAppBundle\KernelConfig;
 
 require dirname(__DIR__).'/vendor/autoload.php';
 
 if (!class_exists(Dotenv::class)) {
     throw new LogicException('Please run "composer require symfony/dotenv" to load the ".env" files configuring the application.');
 }
+
+$kernelConfig = KernelConfig::read();
+(new Dotenv(false))->populate(array(
+    'APP_ENV' => $kernelConfig['env'],
+    'APP_DEBUG' => $kernelConfig['debug'] ? '1' : '0',
+));
 
 // Load cached env vars if the .env.local.php file exists
 // Run "composer dump-env prod" to create it (requires symfony/flex >=1.2)
