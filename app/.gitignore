@@ -14,7 +14,7 @@
 .phpunit.result.cache
 ###< phpunit/phpunit ###
 
-###> symfony/phpunit-bridge ###
-.phpunit.result.cache
-/phpunit.xml
-###< symfony/phpunit-bridge ###
+###> modera/foundation ###
+/public/modera/
+/src/kernel.json
+###< modera/foundation ###

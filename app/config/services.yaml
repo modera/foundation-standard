@@ -20,5 +20,11 @@ services:
             - '../src/Entity/'
             - '../src/Kernel.php'
 
+    App\Contribution\ClassLoaderMappingsProvider:
+        tags: [ 'modera_mjr_integration.class_loader_mappings_provider' ]
+
+    App\Contribution\MenuItemsProvider:
+        tags: [ 'modera_mjr_integration.menu.menu_items_provider' ]
+
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
